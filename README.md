@@ -9,6 +9,8 @@ FlowLayout is a layout framework that enables you to make quick prototypes and a
 - 100% Programmatic 👌
 - Constraint animation 📐
 - Works on all iPhone models 📱
+- View based (no ViewController) 🖼
+- Vanilla swift 🍦🔸
 
 ### Requires 
 - the Constraint extension (Included)
