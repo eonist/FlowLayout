@@ -14,10 +14,11 @@ class HeaderButton:CustomButton{
 extension HeaderButton{
     typealias ClickCallBack = ()->Void
     static var defaultClickCallBack = { Swift.print("no call back attached")}
-    
+    /**
+     * Selector handler
+     */
     @objc func buttonTouched(sender:UIButton) {
-//        Swift.print("buttonTouched")
-        clickCallBack()
+        clickCallBack()/*Calls whichever method that is attached to the call-back variable*/
     }
 }
 extension HeaderButton{
@@ -27,7 +28,7 @@ extension HeaderButton{
 
 extension HeaderButton{
     /**
-     * 
+     * Sets the button to active mode
      */
     func setActive(isActive:Bool){
         if isActive {

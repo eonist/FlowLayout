@@ -13,7 +13,7 @@ class HorView:UIView,UICollectionViewDataSource,UICollectionViewDelegate{
         self.backgroundColor = UIColor.blue//debug
         _ = header
         _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
-//        updateCollectionView() /* updates the collection view with new data etc */
+        //updateCollectionView() /* updates the collection view with new data etc */
     }
     /**
      * Boilerplate
