@@ -2,8 +2,8 @@ import UIKit
 /**
  * A BrowserPage is contained within a BrowserView
  */
-class HorCell:UICollectionViewCell/*,HorCellKind*/{
-    class var id:String {return "\(HorCell.self)"}
+class HorCell:UICollectionViewCell {
+    class var id:String {return "\(HorCell.self)"}/*Stores the deque cell id, overrideable in subclasses*/
     lazy var collectionView:UICollectionView = self.createCollectionView()
     var items:[Int] = [0,1,2,3,4,5,7,8,9]
     var count:Int {return items.count}/*override this in subclasses*/
@@ -12,10 +12,9 @@ class HorCell:UICollectionViewCell/*,HorCellKind*/{
     override init(frame: CGRect) {
         items = [0,1,2,3,4,5,7,8,9]
         super.init(frame: frame)
-        self.backgroundColor = .purple//
-//        self.layoutMargins = UIEdgeInsetsMake(0,0,0,0)
+        self.backgroundColor = .purple
         _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
-//        updateCollectionView()/* updates the collection view with data */
+        //updateCollectionView()/*Updates the collection view with data */
     }
     /**
      * Boilerplate
@@ -65,7 +64,7 @@ class HorCell:UICollectionViewCell/*,HorCellKind*/{
         return collectionView
     }
     /**
-     * NOTE: override with extension
+     * NOTE: overrideable with subclass
      * NOTE: flowLayout.scrollDirection is vertical by default
      */
     func createLayout() -> UICollectionViewFlowLayout{
@@ -76,13 +75,13 @@ class HorCell:UICollectionViewCell/*,HorCellKind*/{
         layout.minimumLineSpacing = margin//vertical spacing
         let size:CGSize = {
             let screenWidth:CGFloat = UIScreen.main.bounds.size.width
-            Swift.print("screenWidth:  \(screenWidth)")
-            Swift.print("self.view.frame.width:  \(self.frame.width)")
+            //Swift.print("screenWidth:  \(screenWidth)")
+            //Swift.print("self.view.frame.width:  \(self.frame.width)")
             let width:CGFloat = (screenWidth - (margin*3)) / 2
             let height:CGFloat = width//width +  (width * 0.33)
             return CGSize(width: width, height: height)
         }()
-        layout.itemSize = size//CGSize(width: 70, height: 70)
+        layout.itemSize = size
         return layout
     }
 }

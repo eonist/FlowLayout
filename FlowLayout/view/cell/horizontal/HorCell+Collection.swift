@@ -1,5 +1,4 @@
 import UIKit
-
 /**
  * CollectionView related
  */
@@ -8,16 +7,14 @@ extension HorCell:UICollectionViewDataSource,UICollectionViewDelegate,UICollecti
      * Num of items
      */
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        Swift.print("collectionView \(self.count)")
+        //Swift.print("collectionView \(self.count)")
         return self.count
     }
     /**
      * Respawns cells
      */
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        Swift.print("collectionView cellForItemAt: \(indexPath)")
+        //Swift.print("collectionView cellForItemAt: \(indexPath)")
         return dequeCell(cellForItemAt: indexPath)
     }
- 
 }
-

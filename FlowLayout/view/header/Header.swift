@@ -12,13 +12,16 @@ class Header:UIView {
         super.init(frame: frame)
         let bg = UIView()
         bg.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-//        bg.backgroundColor = .red//debug I suppose
-//        self.backgroundColor = .cyan
+        //bg.backgroundColor = .red/*debug I suppose*/
+        //self.backgroundColor = .cyan
         _ = createGraphicFix()
         _ = headerTitle
         _ = buttonContainer
         _ = slider
     }
+    /**
+     * Boilerplate
+     */
     required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

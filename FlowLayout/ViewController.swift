@@ -1,8 +1,9 @@
 import UIKit
 
 /**
- * Rename to TabbedSlideShow...
- * Description: FlowLayout (Unidirectional layout framework) (Great for prototyping UX ideas and apps)
+ * FlowLayout
+ * DESCRIPTION: FlowLayout (Bi-directional layout framework) (Great for prototyping UX ideas and apps)
+ * DEFINITION: bidirectional: functioning in two directions.
  * TODO: ⚠️️ set the view, don't add to it, also set it as RootVC, like in weather, and reaname to VC 👈
  * TODO: ⚠️️ ReUse cell: https://tech.busuu.com/dealing-with-different-kinds-of-cells-in-swift-part-2-of-3-3fe73b0c50c6
  * TODO: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
