@@ -6,18 +6,29 @@
 <img width="416" alt="img" src="https://rawgit.com/stylekit/img/master/short.gif">
 
 ### Description
-FlowLayout is a layout framework that enables you to make quick prototypes and apps with a bi-directional swipe UX flow. The primary goal is to give my self and other developers a starter-kit when making a new app. 
+The idea is to give aspiring app developers a dead simple "vanilla" swift library to start with. Just add some end point calls to instagram and you could literally have a minimal insta client in a day.
 
 ### Features
 - 100% Programmatic 👌
 - [3.53 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆 
 - Dual UICollectionView setup ↕️ ↔️ 
+- Responsive header (Compact/Normal) 📏 
+- Pull-to-refresh (vertical/horizontal) 🔄 
 - Constraint animation 📐
 - Works on all iPhone/iPad models 📱
 - View based (no ViewController) 🖼
 - Vanilla swift 🍦🔸
 - 0% syntactic sugar 🍭
 - Mostly off the shelf components 🤯
+
+### Pull to refresh:
+<img width="378" alt="img" src="https://rawgit.com/stylekit/img/master/Photo 04-08-2018, 13 29 23 copy.jpg">
+
+### Compact mode:
+<img width="378" alt="img" src="https://rawgit.com/stylekit/img/master/Photo 04-08-2018, 13 30 00 copy.jpg">
+
+### Swipe to new pages:
+<img width="378" alt="img" src="https://rawgit.com/stylekit/img/master/Photo 04-08-2018, 13 29 43 copy.jpg">
 
 ### Requires 
 - the Constraint extension (Included)
@@ -26,20 +37,16 @@ FlowLayout is a layout framework that enables you to make quick prototypes and a
 - Clone and run
 - Cocoa pod coming soon
 
-### Todo
-- Add stockimages 
-- Fix compact mode so that the offset is inherited in the next view
-- Make a new IRL video with the new fixes
-- Add ItemView 
-- Add some Labels under the images
-
-
 ### Credits
 - Incredible gif via [Gifski](https://github.com/sindresorhus/gifski-app) 
 - The awesome people from [Swift-lang](https://slofile.com/slack/swift-lang) on Slack 
 
+### Todo
+- Add stockimages 
+- Fix compact mode so that the offset is inherited in the next view
+- Make a new IRL video with the new fixes
+- Keep improving the structure and clarity
+
 ### Press
-
 - Producthunt: [https://www.producthunt.com/posts/flowlayout](https://www.producthunt.com/posts/flowlayout) 
-
 - [MediaKit.zip](https://www.dropbox.com/s/5s59k5e0o6z5y0g/mediakit.zip?dl=0)   via dropbox
