@@ -10,7 +10,7 @@ FlowLayout is a layout framework that enables you to make quick prototypes and a
 
 ### Features
 - 100% Programmatic 👌
-- 3.53 GPA on Codebeat 🏆 
+- [3.53 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆 
 - Dual UICollectionView setup ↕️ ↔️ 
 - Constraint animation 📐
 - Works on all iPhone/iPad models 📱
