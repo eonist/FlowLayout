@@ -1,7 +1,7 @@
 
 # FlowLayout
 
-[![version badge](https://img.shields.io/badge/Version-1.0-blue.svg?longCache=true)](https://img.shields.io/badge/SDK-0.1-blue.svg?longCache=true) [![codebeat badge](https://codebeat.co/badges/260a8988-ffb0-4964-a917-b0a51ae8f0fa)](https://codebeat.co/projects/github-com-eonist-flowlayout-master) ![Lang](https://img.shields.io/badge/Language-Swift%204.2-orange.svg) ![platform](https://img.shields.io/badge/Platform-iOS_11.4-blue.svg)
+![Lang](https://img.shields.io/badge/Language-Swift%204.2-orange.svg) [![version badge](https://img.shields.io/badge/Version-1.0-blue.svg?longCache=true)](https://img.shields.io/badge/SDK-0.1-blue.svg?longCache=true)   ![platform](https://img.shields.io/badge/Platform-iOS_11.4-blue.svg) [![codebeat badge](https://codebeat.co/badges/260a8988-ffb0-4964-a917-b0a51ae8f0fa)](https://codebeat.co/projects/github-com-eonist-flowlayout-master)
 
 <img width="416" alt="img" src="https://rawgit.com/stylekit/img/master/short.gif">
 
@@ -50,6 +50,7 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 ### Press
 - Producthunt: [https://www.producthunt.com/posts/flowlayout](https://www.producthunt.com/posts/flowlayout) 
 - [MediaKit.zip](https://www.dropbox.com/s/5s59k5e0o6z5y0g/mediakit.zip?dl=0)   via dropbox
+- Blog post about FlowLayout [eon.codes/blog](http://eon.codes/blog/2018/08/05/Flow-Layout/) 
 
 ### License
 [MIT](https://en.wikipedia.org/wiki/MIT_License) 
