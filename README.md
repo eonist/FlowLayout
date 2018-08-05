@@ -50,6 +50,7 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 ### Press
 - Producthunt: [https://www.producthunt.com/posts/flowlayout](https://www.producthunt.com/posts/flowlayout) 
 - [MediaKit.zip](https://www.dropbox.com/s/5s59k5e0o6z5y0g/mediakit.zip?dl=0)   via dropbox
+- Blog post about FlowLayout [eon.codes/blog](http://eon.codes/blog/2018/08/05/Flow-Layout/) 
 
 ### License
 [MIT](https://en.wikipedia.org/wiki/MIT_License) 
