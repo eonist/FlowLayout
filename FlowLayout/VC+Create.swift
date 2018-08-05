@@ -22,16 +22,3 @@ extension ViewController{
         return flowView
     }
 }
-
-
-//let screenSize:CGSize = {
-//    let size = UIScreen.main.bounds.size
-//    return CGSize(width:size.width, height:size.height - Footer.footerHeight)
-//}()
-//page.activateConstraint { view in
-//    let size = Constraint.size(page, size: screenSize)
-//    let pos = Constraint.anchor(page, to: self.view, align: .topLeft, alignTo: .topLeft)
-//    page.size = size
-//    page.anchor = pos
-//    return [pos.x,pos.y,size.w,size.h]
-//}

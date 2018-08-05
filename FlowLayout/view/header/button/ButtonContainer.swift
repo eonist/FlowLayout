@@ -5,7 +5,7 @@ import UIKit
  */
 class ButtonContainer:UIStackView {
     static let height:CGFloat = 60
-    lazy var buttons:[HeaderButton2] = self.createButtons()
+    lazy var buttons:[HeaderButton] = self.createButtons()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,11 +28,11 @@ extension ButtonContainer {
     /**
      * Creates buttons
      */
-    func createButtons() -> [HeaderButton2]{
+    func createButtons() -> [HeaderButton]{
         let titles:[String] = HorView.CellType.types.map{$0.rawValue}
         let boxW:CGFloat = UIScreen.main.bounds.size.width / CGFloat(titles.count) /*75p on iphone 8*/
-        let buttons:[HeaderButton2] = titles.map{ title in
-            let button = HeaderButton2.init(title: title)
+        let buttons:[HeaderButton] = titles.map{ title in
+            let button = HeaderButton.init(title: title)
 //            button.backgroundColor = UIColorParser.random
             button.addTarget(self, action: #selector(onTouchInside), for: .touchUpInside)
             self.addArrangedSubview(button)
@@ -59,7 +59,7 @@ extension ButtonContainer {
     @objc func onTouchInside(sender:UIButton) {
         Swift.print("It Works!!! \(sender)")
         /*The bellow converts button to index*/
-        if let headerBtn = sender as? HeaderButton2, let headerTitle = headerBtn.currentTitle, let cellType = HorView.CellType(rawValue: headerTitle) {
+        if let headerBtn = sender as? HeaderButton, let headerTitle = headerBtn.currentTitle, let cellType = HorView.CellType(rawValue: headerTitle) {
             let idx:Int = cellType.hashValue//0,1,2
             ((self.superview as? Header)?.superview as? HorView)?.setIdx(idx: idx)
             

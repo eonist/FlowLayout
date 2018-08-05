@@ -1,40 +1,41 @@
 import UIKit
 
-class HeaderButton:UIView{
-    lazy var label:UILabel = createLabel()
-    var title:String
-    init(title:String) {
-        self.title = title
-        super.init(frame: .zero)
-        self.backgroundColor = UIColorParser.random
-        _ = label
+class HeaderButton:CustomButton{
+    var clickCallBack:ClickCallBack = HeaderButton.defaultClickCallBack//TODO: ⚠️️ move to exitbtn
+    override init(title: String) {
+        super.init(title: title)
+        self.addTarget(self, action: #selector(buttonTouched), for: .touchUpInside)
     }
-    /**
-     * Boilerplate
-     */
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
 
 extension HeaderButton{
+    typealias ClickCallBack = ()->Void
+    static var defaultClickCallBack = { Swift.print("no call back attached")}
+    
+    @objc func buttonTouched(sender:UIButton) {
+//        Swift.print("buttonTouched")
+        clickCallBack()
+    }
+}
+extension HeaderButton{
+    static let width:CGFloat = 60
+    static let height:CGFloat = 20
+}
+
+extension HeaderButton{
     /**
-     * Create Day Label
+     * 
      */
-    func createLabel() -> UILabel{
-        let label = UILabel()//add day label
-        label.text = title
-        label.font = .boldSystemFont(ofSize: 12)//dayLabel.font.withSize(12)
-        label.textAlignment = .center
-        //dayLabel.backgroundColor = .yellow
-        label.textColor = .black//UIColor(hex:"EBCF4B")
-        self.addSubview(label)
-        label.activateConstraint{ view in
-            let anchor = Constraint.anchor(label, to: self, align:.topCenter, alignTo: .topCenter)
-            let height = Constraint.height(label, height: 30)
-            let width = Constraint.width(label, to: self)
-            return [anchor.x,anchor.y,width,height]
+    func setActive(isActive:Bool){
+        if isActive {
+            self.setTitleColor(.white, for: .normal)
+            self.titleLabel?.font = .boldSystemFont(ofSize: 16)//
+        }else {
+            self.titleLabel?.font = .systemFont(ofSize: 16)//.boldSystemFont(ofSize: 14)//
+            self.setTitleColor(UIColor.black, for: .normal)
         }
-        return label
     }
 }
