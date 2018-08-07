@@ -1,5 +1,9 @@
 import UIKit
-
+/**
+ * Scrolling
+ * NOTE: Pagining in iOS is snapping to whole pages
+ * REF: Horizontal CollectionView: https://github.com/maximbilan/UICollectionViewHorizontalPaging
+ */
 extension HorView{
     /**
      * TODO: ⚠️️ Might want to make a bool flag to avoid calling if the page was the same as the last

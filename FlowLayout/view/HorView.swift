@@ -22,3 +22,4 @@ class HorView:UIView,UICollectionViewDataSource,UICollectionViewDelegate{
         fatalError("init(coder:) has not been implemented")
     }
 }
+

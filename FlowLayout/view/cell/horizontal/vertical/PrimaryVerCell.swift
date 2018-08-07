@@ -4,7 +4,7 @@ class PrimaryVerCell:VerCell{
     override class var id : String {return "\(PrimaryCell.self)"}
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.clear//
+        self.backgroundColor = UIColor.clear
         addCirce()
     }
     required init?(coder aDecoder: NSCoder) {
