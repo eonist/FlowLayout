@@ -60,7 +60,7 @@ extension ButtonContainer {
         Swift.print("It Works!!! \(sender)")
         /*The bellow converts button to index*/
         if let headerBtn = sender as? HeaderButton, let headerTitle = headerBtn.currentTitle, let cellType = HorView.CellType(rawValue: headerTitle) {
-            let idx:Int = cellType.hashValue//0,1,2
+            let idx:Int = cellType.idx//0,1,2
             ((self.superview as? Header)?.superview as? HorView)?.setIdx(idx: idx)
             
 //            setIdx(idx: 0)

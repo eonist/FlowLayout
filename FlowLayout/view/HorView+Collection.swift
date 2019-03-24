@@ -14,18 +14,20 @@ extension HorView{
      */
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 //        guard let cell:FlowCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as? FlowCell else {fatalError("err")}
-        if indexPath.row == HorView.CellType.primary.hashValue {
+        if indexPath.row == HorView.CellType.primary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCell.id, for: indexPath as IndexPath) as? PrimaryCell else { fatalError("err") }
-            cell.data = PrimaryCellData.init(thumbURLS: ["a","b","c","d","a","b","c","d","a","b","c"])
+            let imageURLStr:String = "https://rawgit.com/stylekit/img/master/" + "pic_1_thumb.png"
+            let urls:[String] = Array(repeating: "🎉", count: 11)//["a","b","c","d","a","b","c","d","a","b","c"]
+            cell.data = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
             return cell
-        } else if indexPath.row == HorView.CellType.secondary.hashValue {
+        } else if indexPath.row == HorView.CellType.secondary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryCell.id, for: indexPath as IndexPath) as? SecondaryCell else { fatalError("err") }
             return cell
-        } else if indexPath.row == HorView.CellType.tierary.hashValue {
+        } else if indexPath.row == HorView.CellType.tierary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TertiaryCell.id, for: indexPath as IndexPath) as? TertiaryCell else { fatalError("err") }
             return cell
         } else {
-            fatalError("err")
+            fatalError("err: \(indexPath.row)")
         }
     }
     /**

@@ -1,13 +1,12 @@
 import UIKit
-
-class PrimaryCell:BaseHorCell<PrimaryCellData>{//rename to PrimaryHorCell
-    override class var id : String {return "\(PrimaryCell.self)"}
-//    var _items:[Int]
-//    override var items: [Int]
-    
+/**
+ * TODO: ⚠️️ Rename to PrimaryHorCell
+ */
+class PrimaryCell:BaseHorCell<PrimaryCellData>{
+    override class var id : String {return "\(PrimaryCell.self)"}/*Used for dequeing cells*/
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .lightGray//UIColorParser.random
+        self.backgroundColor = .lightGray
     }
     /**
      * When you set the data diferent UI's are updated
@@ -33,12 +32,14 @@ class PrimaryCell:BaseHorCell<PrimaryCellData>{//rename to PrimaryHorCell
     }
     /**
      * deQue cells for CollectionView
+     * TODO: ⚠️️ remove this method, its superflouse, rather just override the caller
      */
     override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
         if let thumbURL:String = data?.thumbURLS[indexPath.row] {
             Swift.print("thumbURL:  \(thumbURL)")
             //cell.thumbImage = UIImage(url:thumbURL)
+//            cell.imgView.setImage(webPath: thumbURL)
         }
         return cell
     }
