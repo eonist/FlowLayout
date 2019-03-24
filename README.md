@@ -10,10 +10,10 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 
 ### Features
 - 100% Programmatic 👌
-- [3.57 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆 
-- Dual UICollectionView setup ↕️ ↔️ 
-- Responsive header (Compact/Normal) 📏 
-- Pull-to-refresh (vertical/horizontal) 🔄 
+- [3.57 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆
+- Dual UICollectionView setup ↕️ ↔️
+- Responsive header (Compact/Normal) 📏
+- Pull-to-refresh (vertical/horizontal) 🔄
 - Constraint animation 📐
 - Works on all iPhone/iPad models 📱
 - View based (no ViewController) 🖼
@@ -30,27 +30,28 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 ### Swipe to new pages:
 <img width="378" alt="img" src="https://rawgit.com/stylekit/img/master/Photo 04-08-2018, 13 29 43 copy.jpg">
 
-### Requires 
+### Requires
 - the Constraint extension (Included)
 
-### Install 
-- Clone and run
-- Cocoa pod coming soon
+### Install
+- Manual: open `FlowLayout.xcodeproj`
+- Carthage: `github "eonist/FlowLayout" "master"`
+- CocoaPod (coming soon)
 
 ### Credits
-- Incredible gif via [Gifski](https://github.com/sindresorhus/gifski-app) 
-- The awesome people from [Swift-lang](https://slofile.com/slack/swift-lang) on Slack 
+- Incredible gif via [Gifski](https://github.com/sindresorhus/gifski-app)
+- The awesome people from [Swift-lang](https://slofile.com/slack/swift-lang) on Slack
 
 ### Todo
-- Add stockimages 
+- Add stockimages
 - Fix compact mode so that the offset is inherited in the next view
 - Make a new IRL video with the new fixes
 - Keep improving the structure and clarity
 
 ### Press
-- Producthunt: [https://www.producthunt.com/posts/flowlayout](https://www.producthunt.com/posts/flowlayout) 
+- Producthunt: [https://www.producthunt.com/posts/flowlayout](https://www.producthunt.com/posts/flowlayout)
 - [MediaKit.zip](https://www.dropbox.com/s/5s59k5e0o6z5y0g/mediakit.zip?dl=0)   via dropbox
-- Blog post about FlowLayout [eon.codes/blog](http://eon.codes/blog/2018/08/05/Flow-Layout/) 
+- Blog post about FlowLayout [eon.codes/blog](http://eon.codes/blog/2018/08/05/Flow-Layout/)
 
 ### License
-[MIT](https://en.wikipedia.org/wiki/MIT_License) 
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
