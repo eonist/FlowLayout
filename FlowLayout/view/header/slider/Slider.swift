@@ -1,7 +1,6 @@
 import UIKit
-
+import Spatial
 class Slider:UIView{
-    
     lazy var sliderBar:SliderBar = createSliderBar()
     let segmentCount:Int
     let idx:Int
@@ -33,7 +32,7 @@ extension Slider{
         let sliderBar:SliderBar = SliderBar.init(frame: CGRect.init(origin: frame.origin, size: size))
         addSubview(sliderBar)
         /*Constraints*/
-        sliderBar.activateConstraintKind { view in
+        sliderBar.applyAnchorAndSize { view in
             let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
             let size = Constraint.size(view, size: size)
             return (anchor:anchor, size:size)
@@ -79,16 +78,13 @@ extension Slider{
  */
 extension Slider{
     /**
-     * PARAM: to: the amount to offset in the X dir
-     * PARAM: onComplete: called when the animation completes
+     * - Parameter: to: the amount to offset in the X dir
+     * - Parameter: onComplete: called when the animation completes
      */
     func animate(to:CGFloat, onComplete:@escaping () -> Void = {}){
-        
         UIView.animate({/*animate*/
             self.setProgress(to: to)
             self.layoutIfNeeded()
         }, onComplete:onComplete)
     }
 }
-
-

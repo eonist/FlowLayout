@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F116EBD7211046B40091439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBD6211046B40091439E /* AppDelegate.swift */; };
-		F116EBD9211046B40091439E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBD8211046B40091439E /* ViewController.swift */; };
-		F116EBDC211046B40091439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F116EBDA211046B40091439E /* Main.storyboard */; };
 		F116EBDE211046B70091439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F116EBDD211046B70091439E /* Assets.xcassets */; };
 		F116EBE1211046B70091439E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F116EBDF211046B70091439E /* LaunchScreen.storyboard */; };
 		F116EBED211047B10091439E /* VerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBEB211047B10091439E /* VerCell.swift */; };
@@ -21,9 +19,6 @@
 		F116EBFD211067E10091439E /* HorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBFC211067E10091439E /* HorCell.swift */; };
 		F116EC0021107EC40091439E /* HorCell+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBFF21107EC40091439E /* HorCell+Collection.swift */; };
 		F116EC042110805F0091439E /* HorCell+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC032110805F0091439E /* HorCell+Update.swift */; };
-		F116EC1621118C0D0091439E /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1321118C0D0091439E /* Constraint.swift */; };
-		F116EC1721118C0D0091439E /* ConstraintKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1421118C0D0091439E /* ConstraintKind.swift */; };
-		F116EC1821118C0D0091439E /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1521118C0D0091439E /* Alignment.swift */; };
 		F116EC1A2111A4150091439E /* PrimaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC192111A4150091439E /* PrimaryCell.swift */; };
 		F116EC1D2111A42B0091439E /* SecondaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1C2111A42B0091439E /* SecondaryCell.swift */; };
 		F116EC1F2111A4E90091439E /* TertiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1E2111A4E90091439E /* TertiaryCell.swift */; };
@@ -35,7 +30,7 @@
 		F116EC332112CCB00091439E /* HeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC322112CCB00091439E /* HeaderButton.swift */; };
 		F116EC352112CDC90091439E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC342112CDC90091439E /* CustomButton.swift */; };
 		F116EC372112D3DD0091439E /* Header+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC362112D3DD0091439E /* Header+Extension.swift */; };
-		F116EC3C2112E4A40091439E /* VC+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC3B2112E4A40091439E /* VC+Create.swift */; };
+		F116EC3C2112E4A40091439E /* MainVC+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC3B2112E4A40091439E /* MainVC+Create.swift */; };
 		F116EC3E2112ECA60091439E /* ButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC3D2112ECA60091439E /* ButtonContainer.swift */; };
 		F116EC40211325170091439E /* PrimaryVerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC3F211325170091439E /* PrimaryVerCell.swift */; };
 		F116EC42211335050091439E /* HorCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC41211335050091439E /* HorCell+Helper.swift */; };
@@ -51,6 +46,7 @@
 		F12441EE2247FA8C00D808D8 /* SecondaryCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441ED2247FA8C00D808D8 /* SecondaryCell+Create.swift */; };
 		F12441F02247FB4A00D808D8 /* HorCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441EF2247FB4A00D808D8 /* HorCell+Create.swift */; };
 		F12441F32247FC6000D808D8 /* ImageCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441F22247FC6000D808D8 /* ImageCell+Create.swift */; };
+		F12441F52248001700D808D8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441F42248001700D808D8 /* MainVC.swift */; };
 		F1994E20211487BC0047270A /* HorCell+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1994E1F211487BC0047270A /* HorCell+Scroll.swift */; };
 		F1D573CC21161AFB0036A8A1 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D573CB21161AFB0036A8A1 /* ImageCell.swift */; };
 		F1D573CF211629FE0036A8A1 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */; };
@@ -75,8 +71,6 @@
 /* Begin PBXFileReference section */
 		F116EBD3211046B40091439E /* FlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F116EBD6211046B40091439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F116EBD8211046B40091439E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F116EBDB211046B40091439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F116EBDD211046B70091439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F116EBE0211046B70091439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F116EBE2211046B70091439E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,9 +83,6 @@
 		F116EBFC211067E10091439E /* HorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorCell.swift; sourceTree = "<group>"; };
 		F116EBFF21107EC40091439E /* HorCell+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Collection.swift"; sourceTree = "<group>"; };
 		F116EC032110805F0091439E /* HorCell+Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Update.swift"; sourceTree = "<group>"; };
-		F116EC1321118C0D0091439E /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
-		F116EC1421118C0D0091439E /* ConstraintKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintKind.swift; sourceTree = "<group>"; };
-		F116EC1521118C0D0091439E /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
 		F116EC192111A4150091439E /* PrimaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryCell.swift; sourceTree = "<group>"; };
 		F116EC1C2111A42B0091439E /* SecondaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryCell.swift; sourceTree = "<group>"; };
 		F116EC1E2111A4E90091439E /* TertiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TertiaryCell.swift; sourceTree = "<group>"; };
@@ -103,7 +94,7 @@
 		F116EC322112CCB00091439E /* HeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderButton.swift; sourceTree = "<group>"; };
 		F116EC342112CDC90091439E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F116EC362112D3DD0091439E /* Header+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Extension.swift"; sourceTree = "<group>"; };
-		F116EC3B2112E4A40091439E /* VC+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Create.swift"; sourceTree = "<group>"; };
+		F116EC3B2112E4A40091439E /* MainVC+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+Create.swift"; sourceTree = "<group>"; };
 		F116EC3D2112ECA60091439E /* ButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContainer.swift; sourceTree = "<group>"; };
 		F116EC3F211325170091439E /* PrimaryVerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryVerCell.swift; sourceTree = "<group>"; };
 		F116EC41211335050091439E /* HorCell+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Helper.swift"; sourceTree = "<group>"; };
@@ -117,6 +108,7 @@
 		F12441ED2247FA8C00D808D8 /* SecondaryCell+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondaryCell+Create.swift"; sourceTree = "<group>"; };
 		F12441EF2247FB4A00D808D8 /* HorCell+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Create.swift"; sourceTree = "<group>"; };
 		F12441F22247FC6000D808D8 /* ImageCell+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageCell+Create.swift"; sourceTree = "<group>"; };
+		F12441F42248001700D808D8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -159,10 +151,9 @@
 			children = (
 				F116EBF821104F780091439E /* common */,
 				F116EBD6211046B40091439E /* AppDelegate.swift */,
-				F116EBD8211046B40091439E /* ViewController.swift */,
-				F116EC3B2112E4A40091439E /* VC+Create.swift */,
+				F12441F42248001700D808D8 /* MainVC.swift */,
+				F116EC3B2112E4A40091439E /* MainVC+Create.swift */,
 				F116EBE8211047800091439E /* view */,
-				F116EBDA211046B40091439E /* Main.storyboard */,
 				F116EBDD211046B70091439E /* Assets.xcassets */,
 				F116EBDF211046B70091439E /* LaunchScreen.storyboard */,
 				F116EBE2211046B70091439E /* Info.plist */,
@@ -192,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				F1D573CD211629EB0036A8A1 /* image */,
-				F116EC1221118BF70091439E /* constraint */,
 				F116EBF921104FCB0091439E /* UIColorParser.swift */,
 			);
 			path = common;
@@ -216,16 +206,6 @@
 				F116EBEB211047B10091439E /* VerCell.swift */,
 			);
 			path = vertical;
-			sourceTree = "<group>";
-		};
-		F116EC1221118BF70091439E /* constraint */ = {
-			isa = PBXGroup;
-			children = (
-				F116EC1521118C0D0091439E /* Alignment.swift */,
-				F116EC1321118C0D0091439E /* Constraint.swift */,
-				F116EC1421118C0D0091439E /* ConstraintKind.swift */,
-			);
-			path = constraint;
 			sourceTree = "<group>";
 		};
 		F116EC1B2111A41A0091439E /* custom */ = {
@@ -403,7 +383,6 @@
 			files = (
 				F116EBE1211046B70091439E /* LaunchScreen.storyboard in Resources */,
 				F116EBDE211046B70091439E /* Assets.xcassets in Resources */,
-				F116EBDC211046B40091439E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,15 +397,13 @@
 				F116EC352112CDC90091439E /* CustomButton.swift in Sources */,
 				F116EC42211335050091439E /* HorCell+Helper.swift in Sources */,
 				F116EBED211047B10091439E /* VerCell.swift in Sources */,
-				F116EC1621118C0D0091439E /* Constraint.swift in Sources */,
-				F116EBD9211046B40091439E /* ViewController.swift in Sources */,
-				F116EC1721118C0D0091439E /* ConstraintKind.swift in Sources */,
 				F116EBF521104C410091439E /* HorView+Create.swift in Sources */,
 				F1D573CF211629FE0036A8A1 /* UIImageView+Extension.swift in Sources */,
 				F116EC1F2111A4E90091439E /* TertiaryCell.swift in Sources */,
-				F116EC3C2112E4A40091439E /* VC+Create.swift in Sources */,
+				F116EC3C2112E4A40091439E /* MainVC+Create.swift in Sources */,
 				F116EBF121104B9E0091439E /* HorView+Collection.swift in Sources */,
 				F116EBFD211067E10091439E /* HorCell.swift in Sources */,
+				F12441F52248001700D808D8 /* MainVC.swift in Sources */,
 				F116EC5021145D000091439E /* BaseHorCell.swift in Sources */,
 				F116EC242111B52B0091439E /* Header.swift in Sources */,
 				F12441F02247FB4A00D808D8 /* HorCell+Create.swift in Sources */,
@@ -437,7 +414,6 @@
 				F116EC48211437A60091439E /* CellDataKind.swift in Sources */,
 				F12441EE2247FA8C00D808D8 /* SecondaryCell+Create.swift in Sources */,
 				F116EBFA21104FCB0091439E /* UIColorParser.swift in Sources */,
-				F116EC1821118C0D0091439E /* Alignment.swift in Sources */,
 				F116EBEF211048800091439E /* HorView.swift in Sources */,
 				F116EC2B2111F4DE0091439E /* HorView+Accessor.swift in Sources */,
 				F116EC332112CCB00091439E /* HeaderButton.swift in Sources */,
@@ -461,14 +437,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F116EBDA211046B40091439E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F116EBDB211046B40091439E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F116EBDF211046B70091439E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

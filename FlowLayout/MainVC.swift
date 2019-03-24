@@ -8,25 +8,32 @@ import UIKit
  * - TODO: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
  * - TODO: mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
  */
-class ViewController: UIViewController {
+class MainVC :UIViewController{
    lazy var flowView:HorView = createFlowView()
+   override var prefersStatusBarHidden:Bool {return true}/*hides statusbar*/
    override func viewDidLoad() {
       super.viewDidLoad()
+      view = MainView()
+      view.backgroundColor = .white
       _ = flowView
    }
-   override var prefersStatusBarHidden:Bool {return true}/*hides statusbar*/
 }
+class MainView:UIView{}
 
-//Clean up comments 👈
+//Clean up comments ✅
 //add with ✅
 //Add Spatial ✅
-//make it a programmatic APP
+//make it a programmatic APP ✅
 //add disable to boilerplate stubs
+//convert to swift 4.2 👈
+//Make flowlayout a lib that is loaded into an app 👈
 //Make it carthage compatible
-//Make things open and public
+//Make things open and public 👈
 //Organize better
-//make it subclassable
+//make it subclassable 👈
+//use spatial to align things 👈
+//Add topology to readme.md
 //Add theme example
-//add Prefs button
+//add and make Prefs button
 //add better master / detail framework (see legacy project)
 //add correct y-offset between vertical views when toggeling (maybe just force y= 0?)

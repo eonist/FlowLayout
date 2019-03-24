@@ -1,4 +1,5 @@
 import UIKit
+import Spatial
 /**
  * Create
  */
@@ -14,7 +15,7 @@ extension Header {
         label.backgroundColor = .blue
         label.textColor = .white//UIColor(hex:"EBCF4B")
         self.addSubview(label)
-        label.activateConstraint{ label in
+        label.activateConstraints{ label in
             let anchor = Constraint.anchor(label, to: self, align:.topLeft, alignTo: .topLeft)
             let height = Constraint.height(label, height: Header.titleHeight)
             let width = Constraint.width(label, to: self)
@@ -29,7 +30,7 @@ extension Header {
         let buttonContainer:ButtonContainer = ButtonContainer.init(frame:.zero)
         addSubview(buttonContainer)
         let size:CGSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: ButtonContainer.height)
-        buttonContainer.activateConstraint{ view in
+        buttonContainer.activateConstraints{ view in
             let anchor = Constraint.anchor(view, to: headerTitle, align: .topLeft, alignTo: .bottomLeft)
             let size = Constraint.size(view, size: CGSize.init(width: size.width, height: size.height))
             return [anchor.x,anchor.y,size.w,size.h]
@@ -44,7 +45,7 @@ extension Header {
         let size:CGSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: Slider.height)
         let slider = Slider.init(idx: 0, segmentCount:segmentCount , frame: CGRect.init(origin: .zero, size: size))
         self.addSubview(slider)
-        slider.activateConstraint{ view in
+        slider.activateConstraints{ view in
             let anchor = Constraint.anchor(view, to: self, align: .bottomLeft, alignTo: .bottomLeft)
             let size = Constraint.size(view, size: CGSize.init(width: size.width, height: size.height))
             return [anchor.x,anchor.y,size.w,size.h]
@@ -58,7 +59,7 @@ extension Header {
         let fix = UIView.init(frame: .zero)
         fix.backgroundColor = .blue
         self.addSubview(fix)
-        fix.activateConstraint { view in
+        fix.activateConstraints { view in
             let anchor = Constraint.anchor(view, to: self, align: .bottomLeft, alignTo: .topLeft)
             let size = Constraint.size(view, size: CGSize.init(width: UIScreen.main.bounds.width, height: 500))
             return [anchor.x,anchor.y,size.w,size.h]

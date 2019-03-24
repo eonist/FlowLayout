@@ -1,4 +1,5 @@
 import UIKit
+import Spatial
 
 //create an activateConstraint with where clause ✅
 class SliderBar:UIView,ConstraintKind{

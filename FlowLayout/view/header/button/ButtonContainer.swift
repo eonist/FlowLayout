@@ -1,11 +1,11 @@
 import UIKit
+import Spatial
 /**
  * Header
  */
 class ButtonContainer:UIStackView {
     static let height:CGFloat = 60
     lazy var buttons:[HeaderButton] = self.createButtons()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         let bg = UIView()
@@ -22,7 +22,9 @@ class ButtonContainer:UIStackView {
         fatalError("init(coder:) has not been implemented")
     }
 }
-
+/**
+ * Create
+ */
 extension ButtonContainer {
     /**
      * Creates buttons
@@ -35,7 +37,7 @@ extension ButtonContainer {
 //            button.backgroundColor = UIColorParser.random
             button.addTarget(self, action: #selector(onTouchInside), for: .touchUpInside)
             self.addArrangedSubview(button)
-            button.activateConstraint{ view in /*Constraints*/
+            button.activateConstraints{ view in /*Constraints*/
                 let size = Constraint.size(view, size: CGSize(width:boxW,height:ButtonContainer.height))
                 //let y = Constraint.anchor(view, to: self, align: .top, alignTo: .top)
                 return [size.w,size.h/*,y*/ ]

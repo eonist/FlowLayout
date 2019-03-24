@@ -1,9 +1,9 @@
 import UIKit
-
+import Spatial
 /**
  * Create
  */
-extension ViewController{
+extension MainVC{
     /**
      * Create the FlowView
      */
@@ -14,7 +14,7 @@ extension ViewController{
             let size = UIScreen.main.bounds.size
             return CGSize(width:size.width, height:size.height)
         }()
-        flowView.activateConstraint { view in
+        flowView.activateConstraints { view in
             let size = Constraint.size(view, size: screenSize)
             let pos = Constraint.anchor(view, to: self.view, align: .topLeft, alignTo: .topLeft)
             return [pos.x,pos.y,size.w,size.h]

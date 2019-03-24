@@ -1,5 +1,6 @@
 import UIKit
 import With
+import Spatial
 /**
  * A BrowserPage is contained within a BrowserView
  * - Note: This class is later subclassed as a generic class, and as such overriding things in extension doesn't work
@@ -58,7 +59,7 @@ class HorCell:UICollectionViewCell {
          $0.backgroundColor = .clear/*The HorCell it self also has a bg so we set this to clear*/
          self.addSubview($0)
          /*⚠️️ We have to use a constraint or else the double UICollection setup starts to behave strangly ⚠️️*/
-         $0.activateConstraint{ view in/*The view needs to use constraints or else AutoLayout wont work with dual UICollectionView*/
+         $0.activateConstraints{ view in/*The view needs to use constraints or else AutoLayout wont work with dual UICollectionView*/
             let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
             let size = Constraint.size(view, size: CGSize.init(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/*-Header.height*/ ))
             return [anchor.x,anchor.y,size.w,size.h]

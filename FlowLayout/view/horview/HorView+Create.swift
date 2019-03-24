@@ -1,6 +1,8 @@
 import UIKit
+import Spatial
+import With
 /**
- *
+ * HorView
  */
 extension HorView{
     /**
@@ -9,7 +11,7 @@ extension HorView{
     func createHeader() -> Header{
         let header = Header.sharedInstance/*Header has title,buttons,slider*/
         addSubview(header)
-        header.activateConstraint{ view in/*constraints*/
+        header.activateConstraints{ view in/*constraints*/
             let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
             let size = Constraint.size(view, size: CGSize(width:UIScreen.main.bounds.width,height:Header.height))
             return [anchor.x,anchor.y,size.w,size.h]
@@ -36,7 +38,7 @@ extension HorView{
             collectionView.showsHorizontalScrollIndicator = false/*Hides scrollbar*/
             //self.addSubview(collectionView)
             self.insertSubview(collectionView, belowSubview: header)
-            collectionView.activateConstraint{ view in
+            collectionView.activateConstraints{ view in
                 let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
                 let size = Constraint.size(view, size: CGSize.init(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height /*- Header.height*/))
                 return [anchor.x,anchor.y,size.w,size.h]
@@ -49,10 +51,10 @@ extension HorView{
      * Returns layout
      */
     func createLayout() -> UICollectionViewFlowLayout{
-        let flowLayout = UICollectionViewFlowLayout()
-        flowLayout.itemSize = UIScreen.main.bounds.size/*The size of each collection item*/
-        flowLayout.scrollDirection = .horizontal/*Enables horizontal scrolling direction*/
-        flowLayout.minimumLineSpacing = 0/*Removes the line-spacing between cells*/
-        return flowLayout
+      return with(.init()) {
+        $0.itemSize = UIScreen.main.bounds.size/*The size of each collection item*/
+        $0.scrollDirection = .horizontal/*Enables horizontal scrolling direction*/
+        $0.minimumLineSpacing = 0/*Removes the line-spacing between cells*/
+      }
     }
 }
