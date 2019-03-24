@@ -8,8 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       win.makeKeyAndVisible()/*Important since we have no Main storyboard anymore*/
       return win
    }()
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+   func applicationDidFinishLaunching(_ application: UIApplication) {
       _ = window
-      return true
    }
 }

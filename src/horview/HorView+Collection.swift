@@ -6,13 +6,13 @@ extension HorView{
     /**
      * Num of items
      */
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.count
     }
     /**
      * Respawns cells
      */
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 //        guard let cell:FlowCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as? FlowCell else {fatalError("err")}
         if indexPath.row == HorView.CellType.primary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCell.id, for: indexPath as IndexPath) as? PrimaryCell else { fatalError("err") }

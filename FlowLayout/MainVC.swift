@@ -1,4 +1,5 @@
 import UIKit
+import FlowLayout_iOS
 /**
  * FlowLayout
  * - Description: FlowLayout (Bi-directional layout framework) (Great for prototyping UX ideas and apps)
@@ -25,12 +26,11 @@ class MainView:UIView{}
 //Add Spatial ✅
 //make it a programmatic APP ✅
 //add disable to boilerplate stubs
-//convert to swift 4.2 👈
-//Make flowlayout a lib that is loaded into an app 👈
-//Make it carthage compatible
-//Make things open and public 👈
+//convert to swift 4.2 ✅
+//Make flowlayout a lib that is loaded into an app ✅
+//Make it carthage compatible ✅
 //Organize better
-//make it subclassable 👈
+//add custom subclasses 👈
 //use spatial to align things ✅
 //use spatial shorthand 👈
 //Add topology to readme.md
