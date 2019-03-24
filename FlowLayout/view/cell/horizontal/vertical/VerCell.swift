@@ -8,6 +8,9 @@ class VerCell:UICollectionViewCell {
         super.init(frame: frame)
         self.backgroundColor = UIColorParser.random//UIColorParser.random
     }
+   /**
+    * Boilerplate
+    */
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
