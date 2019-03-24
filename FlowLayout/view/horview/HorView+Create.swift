@@ -32,8 +32,8 @@ extension HorView{
             collectionView.register(SecondaryCell.self, forCellWithReuseIdentifier: SecondaryCell.id)
             collectionView.register(TertiaryCell.self, forCellWithReuseIdentifier: TertiaryCell.id) 
             collectionView.backgroundColor = .clear
-            collectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
-            collectionView.scrollIndicatorInsets = UIEdgeInsetsMake(0, 0, 0, 0)
+            collectionView.contentInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
+            collectionView.scrollIndicatorInsets = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
             collectionView.isPagingEnabled = true/*Makes each cell snap to whole integers*/
             collectionView.showsHorizontalScrollIndicator = false/*Hides scrollbar*/
             //self.addSubview(collectionView)

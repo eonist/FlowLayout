@@ -6,7 +6,7 @@ import UIKit
  * - TODO: ⚠️️ set the view, don't add to it, also set it as RootVC, like in weather, and reaname to VC 👈
  * - TODO: ⚠️️ ReUse cell: https://tech.busuu.com/dealing-with-different-kinds-of-cells-in-swift-part-2-of-3-3fe73b0c50c6
  * - TODO: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
- * - TODO: mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
+ * - TODO: ⚠️️ mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
  */
 class MainVC :UIViewController{
    lazy var flowView:HorView = createFlowView()
@@ -31,7 +31,8 @@ class MainView:UIView{}
 //Make things open and public 👈
 //Organize better
 //make it subclassable 👈
-//use spatial to align things 👈
+//use spatial to align things ✅
+//use spatial shorthand 👈
 //Add topology to readme.md
 //Add theme example
 //add and make Prefs button

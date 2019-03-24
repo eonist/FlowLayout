@@ -53,8 +53,8 @@ class HorCell:UICollectionViewCell {
       return with(.init(frame: self.frame, collectionViewLayout: layout)) {
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
-         $0.contentInset = UIEdgeInsetsMake(Header.height, 0, 0, 0)/*offsets the content, so that sticky header works etc*/
-         $0.scrollIndicatorInsets = UIEdgeInsetsMake(Header.height, 0, 0, 0)
+         $0.contentInset = UIEdgeInsets.init(top: Header.height, left: 0, bottom: 0, right: 0)/*offsets the content, so that sticky header works etc*/
+         $0.scrollIndicatorInsets = UIEdgeInsets.init(top: Header.height, left: 0, bottom: 0, right: 0)
          self.registerCell(collectionView:$0)/*Register cell kind*/
          $0.backgroundColor = .clear/*The HorCell it self also has a bg so we set this to clear*/
          self.addSubview($0)

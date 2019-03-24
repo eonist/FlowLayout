@@ -17,6 +17,7 @@ extension HorView{
         if indexPath.row == HorView.CellType.primary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCell.id, for: indexPath as IndexPath) as? PrimaryCell else { fatalError("err") }
             let imageURLStr:String = "https://rawgit.com/stylekit/img/master/" + "pic_1_thumb.png"
+            _ = imageURLStr
             let urls:[String] = Array(repeating: "🎉", count: 11)//["a","b","c","d","a","b","c","d","a","b","c"]
             cell.data = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
             return cell
