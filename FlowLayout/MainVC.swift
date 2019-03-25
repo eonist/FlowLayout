@@ -10,7 +10,7 @@ import FlowLayout_iOS
  * - TODO: ⚠️️ mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
  */
 class MainVC :UIViewController{
-   lazy var flowView:HorView = createFlowView()
+   lazy var flowView:HorView = createCustomFlowView()//createFlowView()
    override var prefersStatusBarHidden:Bool {return true}/*hides statusbar*/
    override func viewDidLoad() {
       super.viewDidLoad()
@@ -31,6 +31,7 @@ class MainView:UIView{}
 //Make it carthage compatible ✅
 //Organize better ✅
 //add custom subclasses 👈
+//make the cell system non-generic to gain extension overide functionality 👈
 //use spatial to align things ✅
 //use spatial shorthand ✅
 //Add topology to readme.md
@@ -42,4 +43,3 @@ class MainView:UIView{}
 //do research into that other cell managment system
 //add json parsing to example
 //add themepark to example
-

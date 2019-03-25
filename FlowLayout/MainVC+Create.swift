@@ -15,4 +15,13 @@ extension MainVC{
          $0.anchorAndSize(to: view)
       }
    }
+   /**
+    *
+    */
+   func createCustomFlowView() -> CustomView{
+      return with(.init(frame: .zero)){
+         view.addSubview($0)
+         $0.anchorAndSize(to: view)
+      }
+   }
 }

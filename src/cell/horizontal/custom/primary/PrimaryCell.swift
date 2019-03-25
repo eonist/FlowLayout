@@ -2,7 +2,7 @@ import UIKit
 /**
  * TODO: ⚠️️ Rename to PrimaryHorCell
  */
-class PrimaryCell:BaseHorCell<PrimaryCellData>{
+class PrimaryCell:HorCell/*<PrimaryCellData>*/{
    override class var id:String {return "\(PrimaryCell.self)"}/*Used for dequeing cells*/
    override init(frame: CGRect) {
       super.init(frame: frame)
@@ -11,13 +11,15 @@ class PrimaryCell:BaseHorCell<PrimaryCellData>{
    /**
     * When you set the data, the diferent UI's will be updated
     */
-   override var data:PrimaryCellData? { didSet {
-      guard let data = data else {fatalError("data not avaiable")}
-      _ = data
-      updateCollectionView()/* updates the collection view with data */
+   override var cellData:CellDataKind? {
+      didSet {
+         guard let data = cellData else {fatalError("data not avaiable")}
+         _ = data
+         updateCollectionView()/* updates the collection view with data */
       }
    }
-   override var count: Int {return data?.thumbURLS.count ?? 0}
+   var primaryCellData:PrimaryCellData? {return cellData as? PrimaryCellData}
+   override var count: Int {return primaryCellData?.thumbURLS.count ?? 0}
    /**
     * Boilerplate
     */
@@ -36,7 +38,7 @@ class PrimaryCell:BaseHorCell<PrimaryCellData>{
     */
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
-      if let thumbURL:String = data?.thumbURLS[indexPath.row] {
+      if let thumbURL:String = primaryCellData?.thumbURLS[indexPath.row] {
          Swift.print("thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
          //cell.imgView.setImage(webPath: thumbURL)

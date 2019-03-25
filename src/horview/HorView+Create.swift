@@ -8,16 +8,17 @@ extension HorView{
    /**
     * Creates header
     */
-   func createHeader() -> Header{
+   open func createHeader() -> Header{
       return with(Header.sharedInstance) {/*Header has title,buttons,slider*/
          addSubview($0)
-         $0.anchorAndSize(to: self, height: Header.height )
+         $0.anchorAndSize(to:self, height:Header.height)
       }
    }
    /**
-    * Creates collectionview
+    * Creates horizontal collectionview
+    * - Note: Overriadable in subclass for customization
     */
-   func createCollectionView() -> UICollectionView{
+   open func createCollectionView() -> UICollectionView{
       let flowLayout:UICollectionViewFlowLayout = createLayout()
       return with(.init(frame: self.frame, collectionViewLayout: flowLayout)){
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
@@ -27,8 +28,8 @@ extension HorView{
          $0.register(SecondaryCell.self, forCellWithReuseIdentifier: SecondaryCell.id)
          $0.register(TertiaryCell.self, forCellWithReuseIdentifier: TertiaryCell.id)
          $0.backgroundColor = .clear
-         $0.contentInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
-         $0.scrollIndicatorInsets = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
+         $0.contentInset = .zero/*reset contentInset*/
+         $0.scrollIndicatorInsets = .zero/*reset scrollIndicator insets*/
          $0.isPagingEnabled = true/*Makes each cell snap to whole integers*/
          $0.showsHorizontalScrollIndicator = false/*Hides scrollbar*/
          //self.addSubview(collectionView)
@@ -47,4 +48,3 @@ extension HorView{
       }
    }
 }
-

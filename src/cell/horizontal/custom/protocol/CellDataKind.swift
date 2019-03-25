@@ -1,5 +1,5 @@
 import Foundation
 
-protocol CellDataKind{
-    // var title:String {get}
+protocol CellDataKind {
+   
 }

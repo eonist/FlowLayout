@@ -20,7 +20,7 @@ extension HorView{
             let imageURLStr:String = "https://rawgit.com/stylekit/img/master/" + "pic_1_thumb.png"
             _ = imageURLStr
             let urls:[String] = Array(repeating: "🎉", count: 11)//["a","b","c","d","a","b","c","d","a","b","c"]
-            cell.data = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
+            cell.cellData = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
             return cell
         } else if indexPath.row == HorView.CellType.secondary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryCell.id, for: indexPath as IndexPath) as? SecondaryCell else { fatalError("err") }
