@@ -8,7 +8,7 @@ open class HorView:UIView,UICollectionViewDataSource,UICollectionViewDelegate{
    var items:[CellType]
 //   var curPage:Int = -1
    override public init(frame: CGRect) {
-      items = [.primary, .secondary, .tierary]
+      items = [.primary, .secondary, .tertiary]
       super.init(frame: frame)
 //      self.backgroundColor = .blue//debug
       _ = header

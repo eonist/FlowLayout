@@ -27,7 +27,7 @@ extension HorView{
          } else if indexPath.row == HorView.CellType.secondary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryCell.id, for: indexPath as IndexPath) as? SecondaryCell else { fatalError("err") }
             return cell
-         } else if indexPath.row == HorView.CellType.tierary.idx {
+         } else if indexPath.row == HorView.CellType.tertiary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TertiaryCell.id, for: indexPath as IndexPath) as? TertiaryCell else { fatalError("err") }
             return cell
          } else {

@@ -70,7 +70,7 @@ extension ButtonContainer {
      */
     func setIdx(idx:Int){
         Swift.print("BtnContainer.setIdx(idx)")
-        let btnTitle:String? = HorView.CellType.fromHashValue(hashValue: idx)?.rawValue
+        let btnTitle:String? = HorView.CellType.allCases[idx].rawValue
       Swift.print("btnTitle:  \(String(describing: btnTitle))")
         buttons.forEach{//⚠️️ use filter instead
             if $0.titleLabel?.text == btnTitle {

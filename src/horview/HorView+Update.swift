@@ -10,7 +10,7 @@ extension HorView{
       //Swift.print("update collectionView 👌")
       DispatchQueue.main.async {/*jump on the main thread for UI update*/
          //Swift.print("got json from remote 👌")
-         self.items = [.primary,.secondary,.tierary]//,3,4,5,5,7,8,9,10,11,12
+         self.items = [.primary,.secondary,.tertiary]//,3,4,5,5,7,8,9,10,11,12
          self.collectionView.reloadData()//updates collectionView
       }
    }
