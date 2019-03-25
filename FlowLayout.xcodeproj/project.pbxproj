@@ -61,6 +61,7 @@
 		F124423F224834BE00D808D8 /* Header+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC362112D3DD0091439E /* Header+Const.swift */; };
 		F1244240224834BE00D808D8 /* Header+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442382248341C00D808D8 /* Header+Create.swift */; };
 		F1244241224834BE00D808D8 /* Header+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124423A2248347E00D808D8 /* Header+Setter.swift */; };
+		F12442442249031700D808D8 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442432249031700D808D8 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,7 @@
 		F12442062248314700D808D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12442382248341C00D808D8 /* Header+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Create.swift"; sourceTree = "<group>"; };
 		F124423A2248347E00D808D8 /* Header+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Setter.swift"; sourceTree = "<group>"; };
+		F12442432249031700D808D8 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -170,8 +172,9 @@
 		F116EBCA211046B40091439E = {
 			isa = PBXGroup;
 			children = (
-				F12441E22247F0F800D808D8 /* Spatial.framework */,
 				F12441E32247F0F800D808D8 /* With.framework */,
+				F12441E22247F0F800D808D8 /* Spatial.framework */,
+				F1244242224902C600D808D8 /* demo */,
 				F12441FD2248303000D808D8 /* src */,
 				F116EBD5211046B40091439E /* FlowLayout */,
 				F12442042248314700D808D8 /* FlowLayout-iOS */,
@@ -384,6 +387,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F1244242224902C600D808D8 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				F12442432249031700D808D8 /* CustomView.swift */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 		F1D573CD211629EB0036A8A1 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F116EC3C2112E4A40091439E /* MainVC+Create.swift in Sources */,
+				F12442442249031700D808D8 /* CustomView.swift in Sources */,
 				F12441F52248001700D808D8 /* MainVC.swift in Sources */,
 				F116EBD7211046B40091439E /* AppDelegate.swift in Sources */,
 			);

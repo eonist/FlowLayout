@@ -55,7 +55,7 @@ extension ButtonContainer {
      * click
      */
     @objc func onTouchInside(sender:UIButton) {
-        Swift.print("ButtonContainer.onTouchInside \(sender)")
+        Swift.print("ButtonContainer.onTouchInside ")
         /*The bellow converts button to index*/
         if let headerBtn = sender as? HeaderButton, let headerTitle = headerBtn.currentTitle, let cellType = HorView.CellType(rawValue: headerTitle) {
             let idx:Int = cellType.idx//0,1,2
