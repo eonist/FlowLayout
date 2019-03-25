@@ -10,9 +10,9 @@ extension HorCell{
     * - Note: flowLayout.scrollDirection is vertical by default
     */
    @objc open func createLayout() -> UICollectionViewFlowLayout{
-      return  with(.init()){
+      return with(.init()){
          let margin:CGFloat = 32//TODO: ⚠️️ move to const
-         $0.sectionInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+         $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
          $0.minimumInteritemSpacing = 0
          $0.minimumLineSpacing = margin/*Vertical spacing*/
          let size:CGSize = {

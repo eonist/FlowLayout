@@ -25,7 +25,6 @@ extension Header {
    func createButtonContainer() -> ButtonContainer{
       return with(.init(frame:.zero)){
          addSubview($0)
-         let size:CGSize = .init(width: UIScreen.main.bounds.size.width, height: ButtonContainer.height)
          $0.anchorAndSize(to: headerTitle, sizeTo: self, height: ButtonContainer.height, align: .topLeft, alignTo: .bottomLeft)
       }
    }

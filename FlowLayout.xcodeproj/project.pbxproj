@@ -31,7 +31,7 @@
 		F12442192248319300D808D8 /* SliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC282111DEA90091439E /* SliderBar.swift */; };
 		F124421A2248319300D808D8 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC232111B52B0091439E /* Header.swift */; };
 		F124421C2248319300D808D8 /* HorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBEE211048800091439E /* HorView.swift */; };
-		F124421D2248319300D808D8 /* HorView+Accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC2A2111F4DE0091439E /* HorView+Accessor.swift */; };
+		F124421D2248319300D808D8 /* HorView+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC2A2111F4DE0091439E /* HorView+Setter.swift */; };
 		F124421E2248319300D808D8 /* HorView+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBF021104B9E0091439E /* HorView+Collection.swift */; };
 		F124421F2248319300D808D8 /* HorView+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC4B211446640091439E /* HorView+Scroll.swift */; };
 		F12442202248319300D808D8 /* HorView+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBF221104C1C0091439E /* HorView+Update.swift */; };
@@ -43,7 +43,6 @@
 		F12442272248319300D808D8 /* SecondaryCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441EB2247F9FF00D808D8 /* SecondaryCell+Const.swift */; };
 		F12442282248319300D808D8 /* SecondaryCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441ED2247FA8C00D808D8 /* SecondaryCell+Create.swift */; };
 		F12442292248319300D808D8 /* TertiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC1E2111A4E90091439E /* TertiaryCell.swift */; };
-		F124422A2248319300D808D8 /* BaseHorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC4F21145D000091439E /* BaseHorCell.swift */; };
 		F124422B2248319300D808D8 /* HorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBFC211067E10091439E /* HorCell.swift */; };
 		F124422C2248319300D808D8 /* HorCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441EF2247FB4A00D808D8 /* HorCell+Create.swift */; };
 		F124422D2248319300D808D8 /* HorCell+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBFF21107EC40091439E /* HorCell+Collection.swift */; };
@@ -62,6 +61,10 @@
 		F1244241224834BE00D808D8 /* Header+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124423A2248347E00D808D8 /* Header+Setter.swift */; };
 		F12442442249031700D808D8 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442432249031700D808D8 /* CustomView.swift */; };
 		F124424622490C8000D808D8 /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124424522490C8000D808D8 /* CellDataKind.swift */; };
+		F124424822490FA300D808D8 /* HorCell+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124424722490FA300D808D8 /* HorCell+Core.swift */; };
+		F124424A2249100100D808D8 /* HorCell+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442492249100100D808D8 /* HorCell+Getter.swift */; };
+		F124424C2249117A00D808D8 /* PrimaryCell+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124424B2249117A00D808D8 /* PrimaryCell+Getter.swift */; };
+		F124424E2249119800D808D8 /* PrimaryCell+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124424D2249119800D808D8 /* PrimaryCell+Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +115,7 @@
 		F116EC232111B52B0091439E /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		F116EC262111DE070091439E /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		F116EC282111DEA90091439E /* SliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBar.swift; sourceTree = "<group>"; };
-		F116EC2A2111F4DE0091439E /* HorView+Accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Accessor.swift"; sourceTree = "<group>"; };
+		F116EC2A2111F4DE0091439E /* HorView+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Setter.swift"; sourceTree = "<group>"; };
 		F116EC322112CCB00091439E /* HeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderButton.swift; sourceTree = "<group>"; };
 		F116EC342112CDC90091439E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F116EC362112D3DD0091439E /* Header+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Const.swift"; sourceTree = "<group>"; };
@@ -122,7 +125,6 @@
 		F116EC41211335050091439E /* HorCell+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Helper.swift"; sourceTree = "<group>"; };
 		F116EC4921143A920091439E /* PrimaryCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryCellData.swift; sourceTree = "<group>"; };
 		F116EC4B211446640091439E /* HorView+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Scroll.swift"; sourceTree = "<group>"; };
-		F116EC4F21145D000091439E /* BaseHorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHorCell.swift; sourceTree = "<group>"; };
 		F12441E22247F0F800D808D8 /* Spatial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spatial.framework; path = Carthage/Build/iOS/Spatial.framework; sourceTree = "<group>"; };
 		F12441E32247F0F800D808D8 /* With.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = With.framework; path = Carthage/Build/iOS/With.framework; sourceTree = "<group>"; };
 		F12441EB2247F9FF00D808D8 /* SecondaryCell+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondaryCell+Const.swift"; sourceTree = "<group>"; };
@@ -140,6 +142,10 @@
 		F124423A2248347E00D808D8 /* Header+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Setter.swift"; sourceTree = "<group>"; };
 		F12442432249031700D808D8 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F124424522490C8000D808D8 /* CellDataKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
+		F124424722490FA300D808D8 /* HorCell+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Core.swift"; sourceTree = "<group>"; };
+		F12442492249100100D808D8 /* HorCell+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Getter.swift"; sourceTree = "<group>"; };
+		F124424B2249117A00D808D8 /* PrimaryCell+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimaryCell+Getter.swift"; sourceTree = "<group>"; };
+		F124424D2249119800D808D8 /* PrimaryCell+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimaryCell+Core.swift"; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -249,7 +255,6 @@
 				F12441E12247EE3D00D808D8 /* primary */,
 				F12441EA2247F9E200D808D8 /* secondary */,
 				F116EC1E2111A4E90091439E /* TertiaryCell.swift */,
-				F116EC4F21145D000091439E /* BaseHorCell.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -302,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				F116EBEE211048800091439E /* HorView.swift */,
-				F116EC2A2111F4DE0091439E /* HorView+Accessor.swift */,
+				F116EC2A2111F4DE0091439E /* HorView+Setter.swift */,
 				F116EBF021104B9E0091439E /* HorView+Collection.swift */,
 				F116EC4B211446640091439E /* HorView+Scroll.swift */,
 				F116EBF221104C1C0091439E /* HorView+Update.swift */,
@@ -316,6 +321,8 @@
 			isa = PBXGroup;
 			children = (
 				F116EC192111A4150091439E /* PrimaryCell.swift */,
+				F124424D2249119800D808D8 /* PrimaryCell+Core.swift */,
+				F124424B2249117A00D808D8 /* PrimaryCell+Getter.swift */,
 			);
 			path = primary;
 			sourceTree = "<group>";
@@ -324,6 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				F116EBFC211067E10091439E /* HorCell.swift */,
+				F124424722490FA300D808D8 /* HorCell+Core.swift */,
+				F12442492249100100D808D8 /* HorCell+Getter.swift */,
 				F12441EF2247FB4A00D808D8 /* HorCell+Create.swift */,
 				F116EBFF21107EC40091439E /* HorCell+Collection.swift */,
 				F1994E1F211487BC0047270A /* HorCell+Scroll.swift */,
@@ -532,16 +541,19 @@
 				F12442342248319300D808D8 /* VerCell.swift in Sources */,
 				F12442252248319300D808D8 /* PrimaryCell.swift in Sources */,
 				F12442352248319300D808D8 /* UIImage+Extension.swift in Sources */,
+				F124424C2249117A00D808D8 /* PrimaryCell+Getter.swift in Sources */,
 				F12442322248319300D808D8 /* ImageCell.swift in Sources */,
 				F12442332248319300D808D8 /* ImageCell+Create.swift in Sources */,
 				F12442132248319300D808D8 /* CustomButton.swift in Sources */,
 				F12442222248319300D808D8 /* HorView+Const.swift in Sources */,
+				F124424E2249119800D808D8 /* PrimaryCell+Core.swift in Sources */,
 				F12442362248319300D808D8 /* UIImageView+Extension.swift in Sources */,
 				F124422B2248319300D808D8 /* HorCell.swift in Sources */,
 				F124421A2248319300D808D8 /* Header.swift in Sources */,
 				F12442212248319300D808D8 /* HorView+Create.swift in Sources */,
 				F12442182248319300D808D8 /* Slider+Setter.swift in Sources */,
 				F124424622490C8000D808D8 /* CellDataKind.swift in Sources */,
+				F124424822490FA300D808D8 /* HorCell+Core.swift in Sources */,
 				F12442192248319300D808D8 /* SliderBar.swift in Sources */,
 				F1244240224834BE00D808D8 /* Header+Create.swift in Sources */,
 				F12442172248319300D808D8 /* Slider+Animation.swift in Sources */,
@@ -550,7 +562,6 @@
 				F12442282248319300D808D8 /* SecondaryCell+Create.swift in Sources */,
 				F124421F2248319300D808D8 /* HorView+Scroll.swift in Sources */,
 				F12442122248319300D808D8 /* HeaderButton.swift in Sources */,
-				F124422A2248319300D808D8 /* BaseHorCell.swift in Sources */,
 				F124422D2248319300D808D8 /* HorCell+Collection.swift in Sources */,
 				F124422F2248319300D808D8 /* HorCell+Update.swift in Sources */,
 				F124421E2248319300D808D8 /* HorView+Collection.swift in Sources */,
@@ -562,12 +573,13 @@
 				F12442202248319300D808D8 /* HorView+Update.swift in Sources */,
 				F12442302248319300D808D8 /* HorCell+Helper.swift in Sources */,
 				F12442372248319300D808D8 /* UIColorParser.swift in Sources */,
+				F124424A2249100100D808D8 /* HorCell+Getter.swift in Sources */,
 				F12442242248319300D808D8 /* PrimaryCellData.swift in Sources */,
 				F124422E2248319300D808D8 /* HorCell+Scroll.swift in Sources */,
 				F124422C2248319300D808D8 /* HorCell+Create.swift in Sources */,
 				F12442272248319300D808D8 /* SecondaryCell+Const.swift in Sources */,
 				F124423F224834BE00D808D8 /* Header+Const.swift in Sources */,
-				F124421D2248319300D808D8 /* HorView+Accessor.swift in Sources */,
+				F124421D2248319300D808D8 /* HorView+Setter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

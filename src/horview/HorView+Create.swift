@@ -8,17 +8,17 @@ extension HorView{
    /**
     * Creates header
     */
-   open func createHeader() -> Header{
-      return with(Header.sharedInstance) {/*Header has title,buttons,slider*/
+   @objc open func createHeader() -> Header{
+      return with(.init()) {/*Header has title,buttons,slider*/
          addSubview($0)
          $0.anchorAndSize(to:self, height:Header.height)
       }
    }
    /**
     * Creates horizontal collectionview
-    * - Note: Overriadable in subclass for customization
+    * - Note: Overridable in subclass for customization
     */
-   open func createCollectionView() -> UICollectionView{
+   @objc open func createCollectionView() -> UICollectionView{
       let flowLayout:UICollectionViewFlowLayout = createLayout()
       return with(.init(frame: self.frame, collectionViewLayout: flowLayout)){
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
@@ -34,13 +34,13 @@ extension HorView{
          $0.showsHorizontalScrollIndicator = false/*Hides scrollbar*/
          //self.addSubview(collectionView)
          self.insertSubview($0, belowSubview: header)
-         $0.anchorAndSize(to: self )
+         $0.anchorAndSize(to: self)
       }
    }
    /**
     * Returns layout
     */
-   func createLayout() -> UICollectionViewFlowLayout{
+   private func createLayout() -> UICollectionViewFlowLayout{
       return with(.init()) {
          $0.itemSize = UIScreen.main.bounds.size/*The size of each collection item*/
          $0.scrollDirection = .horizontal/*Enables horizontal scrolling direction*/

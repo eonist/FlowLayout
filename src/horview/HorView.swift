@@ -6,7 +6,7 @@ open class HorView:UIView,UICollectionViewDataSource,UICollectionViewDelegate{
    lazy var header:Header = self.createHeader()
    lazy var collectionView:UICollectionView = self.createCollectionView()
    var items:[CellType]
-   var curPage:Int = -1
+//   var curPage:Int = -1
    override public init(frame: CGRect) {
       items = [.primary, .secondary, .tierary]
       super.init(frame: frame)
