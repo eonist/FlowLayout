@@ -6,7 +6,7 @@ class CustomButton:UIButton,ConstraintKind{
     var size:(w:NSLayoutConstraint,h:NSLayoutConstraint)?
     init(title:String) {
         super.init(frame: .zero)
-        self.backgroundColor = .blue
+        self.backgroundColor = .clear
         self.titleLabel?.font = .systemFont(ofSize: 16)//.boldSystemFont(ofSize: 14)//
         self.titleLabel?.textAlignment = .center
         self.setTitleColor(.black, for: .normal)

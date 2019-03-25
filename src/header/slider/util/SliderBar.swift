@@ -6,7 +6,7 @@ class SliderBar:UIView,ConstraintKind{
     var anchor:AnchorConstraint?
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .white
+        backgroundColor = HorView.style.slider.foregroundColor
     }
     /**
      * Boilerplate

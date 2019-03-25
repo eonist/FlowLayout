@@ -15,7 +15,7 @@ class MainVC :UIViewController{
    override func viewDidLoad() {
       super.viewDidLoad()
       view = MainView()
-      view.backgroundColor = .white
+//      view.backgroundColor = .white
       _ = flowView
    }
 }
@@ -25,17 +25,21 @@ class MainView:UIView{}
 //add with ✅
 //Add Spatial ✅
 //make it a programmatic APP ✅
-//add disable to boilerplate stubs 👈
+//add disable to boilerplate stubs 
 //convert to swift 4.2 ✅
 //Make flowlayout a lib that is loaded into an app ✅
 //Make it carthage compatible ✅
 //Organize better ✅
 //use caseiteratable on enum ✅
-//add custom subclasses 👈
-   //add custom header class 👈
+//add custom subclasses
+   //add custom header class
    //add custom HorCollection, verCollection? 
-//add style tuples to things 👈
-//make the cell system non-generic to gain extension overide functionality ✅
+//add style tuples to things 👈👈
+//Organize consts in a Const file? 👈
+//Make a style tuple for FlowLayout? 👈
+//Align the header better 👈
+//Align buttons with distribute 👈
+//make the cell system non-generic to gain extension override functionality ✅
 //use spatial to align things ✅
 //use spatial shorthand ✅
 //Add topology to readme.md
@@ -46,5 +50,6 @@ class MainView:UIView{}
 //remove header as singleton ✅
 //do research into that other cell managment system
 //add json parsing to example
-//add themepark to example
+//add themepark to example 👈👈👈
 //Add deeplinking
+//add userdefaults

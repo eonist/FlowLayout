@@ -9,7 +9,7 @@ class Slider:UIView{
         self.segmentCount = segmentCount
         self.idx = idx
         super.init(frame: frame)
-        backgroundColor = .blue
+        backgroundColor = HorView.style.slider.backgroundColor
         _ = sliderBar
     }
     /**

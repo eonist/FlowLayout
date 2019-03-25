@@ -10,7 +10,7 @@ open class HorView:UIView,UICollectionViewDataSource,UICollectionViewDelegate{
    override public init(frame: CGRect) {
       items = [.primary, .secondary, .tertiary]
       super.init(frame: frame)
-//      self.backgroundColor = .blue//debug
+      self.backgroundColor = HorView.style.backgroundColor
       _ = header
       _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
       //updateCollectionView() /* updates the collection view with new data etc */

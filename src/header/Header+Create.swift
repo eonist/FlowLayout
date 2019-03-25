@@ -11,10 +11,10 @@ extension Header {
    func createHeaderTitle() -> UILabel{
       return with(.init()){
          $0.text = HorView.CellType.primary.rawValue
-         $0.font = $0.font.withSize(22)
+         $0.font = HorView.style.header.title.font
          $0.textAlignment = .center
-         $0.backgroundColor = .blue
-         $0.textColor = .white//UIColor(hex:"EBCF4B")
+         $0.backgroundColor = .clear
+         $0.textColor = HorView.style.header.title.color//UIColor(hex:"EBCF4B")
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: Header.titleHeight, align: .topLeft, alignTo: .topLeft)
       }
@@ -43,7 +43,7 @@ extension Header {
     */
    func createGraphicFix() -> UIView{
       return with(.init(frame: .zero)) {
-         $0.backgroundColor = .blue
+         $0.backgroundColor = HorView.style.header.backgroundColor
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: 500, align: .bottomLeft, alignTo: .topLeft)
       }

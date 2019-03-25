@@ -13,7 +13,7 @@ open class Header:UIView {
         let bg = UIView()
         bg.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         //bg.backgroundColor = .red/*debug I suppose*/
-        //self.backgroundColor = .cyan
+        self.backgroundColor = HorView.headerStyle.backgroundColor
         _ = createGraphicFix()
         _ = headerTitle
         _ = buttonContainer

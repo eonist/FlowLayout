@@ -16,11 +16,8 @@ class HorCell:UICollectionViewCell {
    override init(frame: CGRect) {
       items = [0,1,2,3,4,5,7,8,9]
       super.init(frame: frame)
-      self.backgroundColor = .purple
       _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
-//      Swift.print("self.collectionView.superview:  \(self.collectionView.superview)")
       //updateCollectionView()/*Updates the collection view with data */
-      
    }
    /**
     * Boilerplate
