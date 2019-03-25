@@ -8,7 +8,9 @@ import Spatial
 class HorCell:UICollectionViewCell {
    lazy var collectionView:UICollectionView = self.createCollectionView()/*Vertical collection view*/
    var items:[Int]/*Vertical items*/
-   var onTableViewScrollCallBack:ScrollCallBack = {_ in Swift.print("HorCell - no callback attached")}
+   //TODO: ⚠️️ rename to on scroll
+   var onTableViewScrollCallBack:ScrollCallBack = defaultOnScroll
+   var onItemSelect:OnItemSelect = defaultOnItemSelect
    var data:CellDataKind?/*Stores cellData*/
    /**
     * Initiate

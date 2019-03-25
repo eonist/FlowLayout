@@ -11,7 +11,7 @@ extension SecondaryCell{
    override func createLayout() -> UICollectionViewFlowLayout {
       return with(.init()){
          let margin:CGFloat = SecondaryCell.margin
-         $0.sectionInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+         $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
          $0.minimumInteritemSpacing = 0
          $0.minimumLineSpacing = margin/*vertical spacing*/
          let size:CGSize = {

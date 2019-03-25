@@ -15,7 +15,7 @@ extension HorView{
      * - TODO: ⚠️️ Use switch
      */
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        guard let cell:FlowCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as? FlowCell else {fatalError("err")}
+      //guard let cell:FlowCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as? FlowCell else {fatalError("err")}
       let cell:HorCell = {
          if indexPath.row == HorView.CellType.primary.idx {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCell.id, for: indexPath as IndexPath) as? PrimaryCell else { fatalError("err") }
@@ -34,7 +34,8 @@ extension HorView{
             fatalError("err: \(indexPath.row)")
          }
       }()
-      cell.onTableViewScrollCallBack = { yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
+      cell.onTableViewScrollCallBack = {yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
+      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath)")}
       return cell
     }
     /**

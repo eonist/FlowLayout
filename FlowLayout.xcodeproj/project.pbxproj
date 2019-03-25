@@ -48,7 +48,7 @@
 		F124422D2248319300D808D8 /* HorCell+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EBFF21107EC40091439E /* HorCell+Collection.swift */; };
 		F124422E2248319300D808D8 /* HorCell+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1994E1F211487BC0047270A /* HorCell+Scroll.swift */; };
 		F124422F2248319300D808D8 /* HorCell+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC032110805F0091439E /* HorCell+Update.swift */; };
-		F12442302248319300D808D8 /* HorCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC41211335050091439E /* HorCell+Helper.swift */; };
+		F12442302248319300D808D8 /* HorCell+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC41211335050091439E /* HorCell+Type.swift */; };
 		F12442312248319300D808D8 /* PrimaryVerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116EC3F211325170091439E /* PrimaryVerCell.swift */; };
 		F12442322248319300D808D8 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D573CB21161AFB0036A8A1 /* ImageCell.swift */; };
 		F12442332248319300D808D8 /* ImageCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12441F22247FC6000D808D8 /* ImageCell+Create.swift */; };
@@ -73,6 +73,8 @@
 		F124425C22494ABF00D808D8 /* ButtonContainer+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124425B22494ABF00D808D8 /* ButtonContainer+Interaction.swift */; };
 		F124425E22494C8500D808D8 /* ButtonContainer+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124425D22494C8500D808D8 /* ButtonContainer+Setter.swift */; };
 		F1244261224951C300D808D8 /* ButtonContainer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1244260224951C300D808D8 /* ButtonContainer+Create.swift */; };
+		F12442642249940500D808D8 /* PrimaryVerCell+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */; };
+		F1244266224994A500D808D8 /* HorCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1244265224994A500D808D8 /* HorCell+Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,7 +132,7 @@
 		F116EC3B2112E4A40091439E /* MainVC+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+Create.swift"; sourceTree = "<group>"; };
 		F116EC3D2112ECA60091439E /* ButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContainer.swift; sourceTree = "<group>"; };
 		F116EC3F211325170091439E /* PrimaryVerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryVerCell.swift; sourceTree = "<group>"; };
-		F116EC41211335050091439E /* HorCell+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Helper.swift"; sourceTree = "<group>"; };
+		F116EC41211335050091439E /* HorCell+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Type.swift"; sourceTree = "<group>"; };
 		F116EC4921143A920091439E /* PrimaryCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryCellData.swift; sourceTree = "<group>"; };
 		F116EC4B211446640091439E /* HorView+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Scroll.swift"; sourceTree = "<group>"; };
 		F12441E22247F0F800D808D8 /* Spatial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spatial.framework; path = Carthage/Build/iOS/Spatial.framework; sourceTree = "<group>"; };
@@ -162,6 +164,8 @@
 		F124425B22494ABF00D808D8 /* ButtonContainer+Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonContainer+Interaction.swift"; sourceTree = "<group>"; };
 		F124425D22494C8500D808D8 /* ButtonContainer+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonContainer+Setter.swift"; sourceTree = "<group>"; };
 		F1244260224951C300D808D8 /* ButtonContainer+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonContainer+Create.swift"; sourceTree = "<group>"; };
+		F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimaryVerCell+Core.swift"; sourceTree = "<group>"; };
+		F1244265224994A500D808D8 /* HorCell+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Const.swift"; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -257,7 +261,7 @@
 		F116EC11211098F10091439E /* vertical */ = {
 			isa = PBXGroup;
 			children = (
-				F116EC3F211325170091439E /* PrimaryVerCell.swift */,
+				F12442622249939C00D808D8 /* primary */,
 				F12441F12247FC3B00D808D8 /* imagecell */,
 				F116EBEB211047B10091439E /* VerCell.swift */,
 			);
@@ -349,12 +353,13 @@
 			children = (
 				F116EBFC211067E10091439E /* HorCell.swift */,
 				F124424722490FA300D808D8 /* HorCell+Core.swift */,
+				F1244265224994A500D808D8 /* HorCell+Const.swift */,
 				F12442492249100100D808D8 /* HorCell+Getter.swift */,
 				F12441EF2247FB4A00D808D8 /* HorCell+Create.swift */,
 				F116EBFF21107EC40091439E /* HorCell+Collection.swift */,
 				F1994E1F211487BC0047270A /* HorCell+Scroll.swift */,
 				F116EC032110805F0091439E /* HorCell+Update.swift */,
-				F116EC41211335050091439E /* HorCell+Helper.swift */,
+				F116EC41211335050091439E /* HorCell+Type.swift */,
 			);
 			path = horcell;
 			sourceTree = "<group>";
@@ -450,6 +455,15 @@
 				F116EC1E2111A4E90091439E /* TertiaryCell.swift */,
 			);
 			path = tertiary;
+			sourceTree = "<group>";
+		};
+		F12442622249939C00D808D8 /* primary */ = {
+			isa = PBXGroup;
+			children = (
+				F116EC3F211325170091439E /* PrimaryVerCell.swift */,
+				F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */,
+			);
+			path = primary;
 			sourceTree = "<group>";
 		};
 		F1D573CD211629EB0036A8A1 /* image */ = {
@@ -598,6 +612,7 @@
 				F12442222248319300D808D8 /* HorView+Const.swift in Sources */,
 				F124424E2249119800D808D8 /* PrimaryCell+Core.swift in Sources */,
 				F1244257224946ED00D808D8 /* HeaderButton+Setter.swift in Sources */,
+				F12442642249940500D808D8 /* PrimaryVerCell+Core.swift in Sources */,
 				F12442522249469D00D808D8 /* HeaderButton+Type.swift in Sources */,
 				F12442362248319300D808D8 /* UIImageView+Extension.swift in Sources */,
 				F124422B2248319300D808D8 /* HorCell.swift in Sources */,
@@ -613,6 +628,7 @@
 				F12442262248319300D808D8 /* SecondaryCell.swift in Sources */,
 				F1244241224834BE00D808D8 /* Header+Setter.swift in Sources */,
 				F12442282248319300D808D8 /* SecondaryCell+Create.swift in Sources */,
+				F1244266224994A500D808D8 /* HorCell+Const.swift in Sources */,
 				F124421F2248319300D808D8 /* HorView+Scroll.swift in Sources */,
 				F12442592249474300D808D8 /* HeaderButton+Interactive.swift in Sources */,
 				F12442122248319300D808D8 /* HeaderButton.swift in Sources */,
@@ -627,7 +643,7 @@
 				F124421C2248319300D808D8 /* HorView.swift in Sources */,
 				F12442162248319300D808D8 /* Slider+Create.swift in Sources */,
 				F12442202248319300D808D8 /* HorView+Update.swift in Sources */,
-				F12442302248319300D808D8 /* HorCell+Helper.swift in Sources */,
+				F12442302248319300D808D8 /* HorCell+Type.swift in Sources */,
 				F12442372248319300D808D8 /* UIColorParser.swift in Sources */,
 				F124424A2249100100D808D8 /* HorCell+Getter.swift in Sources */,
 				F12442242248319300D808D8 /* PrimaryCellData.swift in Sources */,

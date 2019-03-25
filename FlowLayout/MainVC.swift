@@ -44,11 +44,14 @@ class MainView:UIView{}
 //Add topology to readme.md
 //Add theme example
 //add and make Prefs button
-//add better master / detail framework (see legacy project)
+//add better master / detail framework (see legacy project) 👈👈👈
+//add click-callback on vertical cells
 //add correct y-offset between vertical views when toggeling (maybe just force y= 0?)
 //remove header as singleton ✅
 //do research into that other cell managment system
 //add json parsing to example
 //add themepark to example 👈👈👈
+//reset the correct offset between horizontal cells 👈
 //Add deeplinking
 //add userdefaults
+//make a graphic fix above header title that match the height of the sliderbar

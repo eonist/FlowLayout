@@ -11,7 +11,7 @@ extension HorCell{
     */
    @objc open func createLayout() -> UICollectionViewFlowLayout{
       return with(.init()){
-         let margin:CGFloat = 32//TODO: ⚠️️ move to const
+         let margin = HorCell.margin
          $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
          $0.minimumInteritemSpacing = 0
          $0.minimumLineSpacing = margin/*Vertical spacing*/
