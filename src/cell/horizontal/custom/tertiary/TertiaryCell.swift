@@ -4,7 +4,7 @@ class TertiaryCell:HorCell{
     override class var id : String {return "\(TertiaryCell.self)"}
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .lightGray/*Sets the background color of the view*/
+//        self.backgroundColor = .lightGray/*Sets the background color of the view*/
     }
     /**
      * Boilerplate

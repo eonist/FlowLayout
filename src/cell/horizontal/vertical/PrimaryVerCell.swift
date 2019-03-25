@@ -1,6 +1,8 @@
 import UIKit
 import With
-
+/**
+ * Primary vertical cell
+ */
 class PrimaryVerCell:VerCell{
    override class var id : String {return "\(PrimaryCell.self)"}
    override init(frame: CGRect) {
