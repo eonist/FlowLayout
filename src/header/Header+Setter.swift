@@ -9,8 +9,8 @@ extension Header {
     */
    func setIdx(idx:Int){
       Swift.print("Header.setIdx")
-      //        slider.setIdx(idx: idx)
-      //        setTitleIdx(idx: idx)
+      //slider.setIdx(idx: idx)
+      //setTitleIdx(idx: idx)
    }
    /**
     * Set index for title label

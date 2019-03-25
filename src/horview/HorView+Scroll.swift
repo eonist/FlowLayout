@@ -6,7 +6,7 @@ import UIKit
  */
 extension HorView{
     /**
-     * TODO: ⚠️️ Might want to make a bool flag to avoid calling if the page was the same as the last
+     * - TODO: ⚠️️ Might want to make a bool flag to avoid calling if the page was the same as the last
      */
     public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         //Swift.print("scrollViewDidEndDecelerating")
@@ -19,7 +19,7 @@ extension HorView{
     }
     /**
      * Called when the user scrolls in the horizontal direction
-     * IMPORTANT: ⚠️️ You want to reference the param instead of self.collectionView, as the collection view isnt ready when viewDidScroll is called. Its called on the init of the app.
+     * - IMPORTANT: ⚠️️ You want to reference the param instead of self.collectionView, as the collection view isnt ready when viewDidScroll is called. Its called on the init of the app.
      */
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        Swift.print("⚠️️ scrollViewDidScroll")

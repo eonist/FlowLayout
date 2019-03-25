@@ -16,12 +16,7 @@ extension Header {
          $0.backgroundColor = .blue
          $0.textColor = .white//UIColor(hex:"EBCF4B")
          self.addSubview($0)
-         $0.activateConstraints{ label in
-            let anchor = Constraint.anchor(label, to: self, align:.topLeft, alignTo: .topLeft)
-            let height = Constraint.height(label, height: Header.titleHeight)
-            let width = Constraint.width(label, to: self)
-            return [anchor.x,anchor.y,width,height]
-         }
+         $0.anchorAndSize(to: self, height: Header.titleHeight, align: .topLeft, alignTo: .topLeft)
       }
    }
    /**
@@ -30,12 +25,8 @@ extension Header {
    func createButtonContainer() -> ButtonContainer{
       return with(.init(frame:.zero)){
          addSubview($0)
-         let size:CGSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: ButtonContainer.height)
-         $0.activateConstraints{ view in
-            let anchor = Constraint.anchor(view, to: headerTitle, align: .topLeft, alignTo: .bottomLeft)
-            let size = Constraint.size(view, size: .init(width: size.width, height: size.height))
-            return [anchor.x,anchor.y,size.w,size.h]
-         }
+         let size:CGSize = .init(width: UIScreen.main.bounds.size.width, height: ButtonContainer.height)
+         $0.anchorAndSize(to: headerTitle, sizeTo: self, height: ButtonContainer.height, align: .topLeft, alignTo: .bottomLeft)
       }
    }
    /**
@@ -43,28 +34,19 @@ extension Header {
     */
    func createSlider() -> Slider{
       let segmentCount:Int = HorView.CellType.types.count
-      let size:CGSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: Slider.height)
-      return with(.init(idx: 0, segmentCount:segmentCount , frame: CGRect.init(origin: .zero, size: size))){
+      return with(.init(idx: 0, segmentCount:segmentCount , frame: .zero)){
          self.addSubview($0)
-         $0.activateConstraints{ view in
-            let anchor = Constraint.anchor(view, to: self, align: .bottomLeft, alignTo: .bottomLeft)
-            let size = Constraint.size(view, size: CGSize.init(width: size.width, height: size.height))
-            return [anchor.x,anchor.y,size.w,size.h]
-         }
+         $0.anchorAndSize(to: self, height: Slider.height, align: .bottomLeft, alignTo: .bottomLeft)
       }
    }
    /**
-    * Graphic fix
+    * Graphic fix (When you drag the list up and down this covers to match header color)
     */
    func createGraphicFix() -> UIView{
       return with(.init(frame: .zero)) {
          $0.backgroundColor = .blue
          self.addSubview($0)
-         $0.activateConstraints { view in
-            let anchor = Constraint.anchor(view, to: self, align: .bottomLeft, alignTo: .topLeft)
-            let size = Constraint.size(view, size: CGSize.init(width: UIScreen.main.bounds.width, height: 500))
-            return [anchor.x,anchor.y,size.w,size.h]
-         }
+         $0.anchorAndSize(to: self, height: 500, align: .bottomLeft, alignTo: .topLeft)
       }
    }
 }

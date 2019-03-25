@@ -11,6 +11,7 @@ extension HorView{
     }
     /**
      * Respawns cells
+     * - TODO: ⚠️️ Use switch
      */
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 //        guard let cell:FlowCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as? FlowCell else {fatalError("err")}

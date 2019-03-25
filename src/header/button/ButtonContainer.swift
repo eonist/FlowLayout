@@ -2,6 +2,7 @@ import UIKit
 import Spatial
 /**
  * Header
+ * TODO: Use Spatial distribute method instead of stackView
  */
 class ButtonContainer:UIStackView {
     static let height:CGFloat = 60
@@ -37,15 +38,11 @@ extension ButtonContainer {
 //            button.backgroundColor = UIColorParser.random
             button.addTarget(self, action: #selector(onTouchInside), for: .touchUpInside)
             self.addArrangedSubview(button)
-            button.activateConstraints{ view in /*Constraints*/
-                let size = Constraint.size(view, size: CGSize(width:boxW,height:ButtonContainer.height))
-                //let y = Constraint.anchor(view, to: self, align: .top, alignTo: .top)
-                return [size.w,size.h/*,y*/ ]
-            }
+            button.size( width: boxW, height: ButtonContainer.height )
             return button/*All vertically centered, 30p height each*/
         }
         buttons.first?.setTitleColor(.white, for: .normal)
-        buttons.first?.titleLabel?.font = .boldSystemFont(ofSize: 16)//
+        buttons.first?.titleLabel?.font = .boldSystemFont(ofSize: 16)
         return buttons
     }
 }
@@ -58,19 +55,18 @@ extension ButtonContainer {
      * click
      */
     @objc func onTouchInside(sender:UIButton) {
-        Swift.print("It Works!!! \(sender)")
+        Swift.print("ButtonContainer.onTouchInside \(sender)")
         /*The bellow converts button to index*/
         if let headerBtn = sender as? HeaderButton, let headerTitle = headerBtn.currentTitle, let cellType = HorView.CellType(rawValue: headerTitle) {
             let idx:Int = cellType.idx//0,1,2
             ((self.superview as? Header)?.superview as? HorView)?.setIdx(idx: idx)
-            
 //            setIdx(idx: 0)
             setActive(btn: headerBtn)
             //setIdx(idx: idx)
         }
     }
     /**
-     *
+     * Set index
      */
     func setIdx(idx:Int){
         Swift.print("BtnContainer.setIdx(idx)")
@@ -84,7 +80,7 @@ extension ButtonContainer {
     }
     
     /**
-     *
+     * Set active state
      */
     func setActive(btn:UIButton){
         Swift.print("setActive:  \(setActive)")
@@ -97,5 +93,3 @@ extension ButtonContainer {
         }
     }
 }
-
-

@@ -8,7 +8,8 @@ extension Slider{
     * Set index
     */
    func setIdx(idx:Int){
-      Swift.print("Slider.setIdx: \(idx)")
+//      Swift.print("Slider.setIdx: \(idx)")
+      let sliderBarWidth:CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
       let x:CGFloat = sliderBarWidth * CGFloat(idx)
       animate(to: x)
    }
@@ -16,7 +17,8 @@ extension Slider{
     * Set progress
     */
    func setProgress(progress:CGFloat){
-      Swift.print("setProgress: \(progress)")
+//      Swift.print("setProgress: \(progress)")
+      let sliderBarWidth:CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
       let x:CGFloat = sliderBarWidth * progress
       setProgress(to: x)
    }
@@ -24,14 +26,7 @@ extension Slider{
     *
     */
    func setProgress(to:CGFloat){
-      Swift.print("setProgress.to:  \(to)")
-      let newConstraintClosure = {/*Animate to this*/
-         guard let anchor = self.sliderBar.anchor else {fatalError("err anchor not available")}
-         NSLayoutConstraint.deactivate([anchor.x])/*Deactivate the current active constraint*/
-         let xConstraint = Constraint.anchor(self.sliderBar, to: self, align: .left, alignTo: .left, offset: to)
-         NSLayoutConstraint.activate([xConstraint/*,pos.y*/])
-         self.sliderBar.anchor?.x = xConstraint
-      }
-      newConstraintClosure()/*Set the new constraints*/
+//      Swift.print("setProgress.to:  \(to)")
+      self.sliderBar.update(offset: to, align: .left, alignTo: .left)
    }
 }

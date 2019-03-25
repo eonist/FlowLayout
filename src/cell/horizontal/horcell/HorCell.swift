@@ -44,26 +44,5 @@ class HorCell:UICollectionViewCell {
       guard let cell:VerCell = collectionView.dequeueReusableCell(withReuseIdentifier: VerCell.id, for: indexPath as IndexPath) as? VerCell else {fatalError("err")}
       return cell
    }
-   /**
-    * Creates collectionview
-    * - TODO: ⚠️️ replace UIEdgeInsetsMake with .init
-    */
-   func createCollectionView() -> UICollectionView{
-      let layout:UICollectionViewFlowLayout = createLayout()
-      return with(.init(frame: self.frame, collectionViewLayout: layout)) {
-         $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
-         $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
-         $0.contentInset = UIEdgeInsets.init(top: Header.height, left: 0, bottom: 0, right: 0)/*offsets the content, so that sticky header works etc*/
-         $0.scrollIndicatorInsets = UIEdgeInsets.init(top: Header.height, left: 0, bottom: 0, right: 0)
-         self.registerCell(collectionView:$0)/*Register cell kind*/
-         $0.backgroundColor = .clear/*The HorCell it self also has a bg so we set this to clear*/
-         self.addSubview($0)
-         /*⚠️️ We have to use a constraint or else the double UICollection setup starts to behave strangly ⚠️️*/
-         $0.activateConstraints{ view in/*The view needs to use constraints or else AutoLayout wont work with dual UICollectionView*/
-            let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
-            let size = Constraint.size(view, size: CGSize.init(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/*-Header.height*/ ))
-            return [anchor.x,anchor.y,size.w,size.h]
-         }
-      }
-   }
+   
 }

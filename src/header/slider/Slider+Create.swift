@@ -6,19 +6,14 @@ import With
  */
 extension Slider{
    static let height:CGFloat = 10
-   var sliderBarWidth:CGFloat {return self.frame.width / CGFloat(segmentCount)}
    /**
     * Creates the slider bar
     */
    func createSliderBar() -> SliderBar {
-      let size:CGSize = CGSize.init(width: sliderBarWidth, height: Slider.height)
-      return with(.init(frame: CGRect.init(origin: frame.origin, size: size))) {
+      return with(.init(frame: .zero)) {
          addSubview($0)
-         $0.applyAnchorAndSize { view in/*Constraints*/
-            let anchor = Constraint.anchor(view, to: self, align: .topLeft, alignTo: .topLeft)
-            let size = Constraint.size(view, size: size)
-            return (anchor:anchor, size:size)
-         }
+         let sliderWidthMultiplier:CGFloat = 1 / CGFloat(segmentCount)
+         $0.applyAnchorAndSize(to: self, height:Slider.height, align: .topLeft, alignTo: .topLeft, multiplier:.init(width:sliderWidthMultiplier, height:1))
       }
    }
 }
