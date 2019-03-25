@@ -75,6 +75,7 @@
 		F1244261224951C300D808D8 /* ButtonContainer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1244260224951C300D808D8 /* ButtonContainer+Create.swift */; };
 		F12442642249940500D808D8 /* PrimaryVerCell+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */; };
 		F1244266224994A500D808D8 /* HorCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1244265224994A500D808D8 /* HorCell+Const.swift */; };
+		F124426822499CAE00D808D8 /* HorView+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124426722499CAE00D808D8 /* HorView+Getter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		F1244260224951C300D808D8 /* ButtonContainer+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonContainer+Create.swift"; sourceTree = "<group>"; };
 		F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimaryVerCell+Core.swift"; sourceTree = "<group>"; };
 		F1244265224994A500D808D8 /* HorCell+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Const.swift"; sourceTree = "<group>"; };
+		F124426722499CAE00D808D8 /* HorView+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Getter.swift"; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 			children = (
 				F116EBEE211048800091439E /* HorView.swift */,
 				F116EC2A2111F4DE0091439E /* HorView+Setter.swift */,
+				F124426722499CAE00D808D8 /* HorView+Getter.swift */,
 				F116EBF021104B9E0091439E /* HorView+Collection.swift */,
 				F116EC4B211446640091439E /* HorView+Scroll.swift */,
 				F116EBF221104C1C0091439E /* HorView+Update.swift */,
@@ -624,6 +627,7 @@
 				F12442192248319300D808D8 /* SliderBar.swift in Sources */,
 				F1244240224834BE00D808D8 /* Header+Create.swift in Sources */,
 				F124425C22494ABF00D808D8 /* ButtonContainer+Interaction.swift in Sources */,
+				F124426822499CAE00D808D8 /* HorView+Getter.swift in Sources */,
 				F12442172248319300D808D8 /* Slider+Animation.swift in Sources */,
 				F12442262248319300D808D8 /* SecondaryCell.swift in Sources */,
 				F1244241224834BE00D808D8 /* Header+Setter.swift in Sources */,
