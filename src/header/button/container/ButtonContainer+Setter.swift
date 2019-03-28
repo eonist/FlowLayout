@@ -14,7 +14,6 @@ extension ButtonContainer{
          }
       }
    }
-   
    /**
     * Set active state
     */

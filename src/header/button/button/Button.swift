@@ -3,6 +3,7 @@ import Spatial
 
 import Foundation
 /**
+ * ## Examples
  * let btn:Button = .init(frame: .init(x:0,y:0,width:120,height:40))
  * view.addSubview(btn)
  * btn.tapUpInsideCallBack = { Swift.print("🎉") }
@@ -25,7 +26,7 @@ open class Button:UIView{/*We use HybridView because that is layerbacked in macO
    }
    /**
     * Initiate
-    * Setting raster ref: https://stackoverflow.com/questions/24316705/how-to-draw-a-smooth-circle-with-cashapelayer-and-uibezierpath
+    * - Note: Setting raster ref: https://stackoverflow.com/questions/24316705/how-to-draw-a-smooth-circle-with-cashapelayer-and-uibezierpath
     */
    public init(style:Style = Button.defaultStyle, frame: CGRect = .zero) {
       self.style = style

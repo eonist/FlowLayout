@@ -9,7 +9,7 @@ extension Slider{
     */
    func animate(to:CGFloat, onComplete:@escaping () -> Void = {}){
       Swift.print("animate: \(to)")
-      UIView.animate({/*animate*/
+      UIView.animate({/*Animate*/
          self.setProgress(to: to)
          self.layoutIfNeeded()
       }, onComplete:onComplete)

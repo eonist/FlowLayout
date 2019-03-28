@@ -1,6 +1,8 @@
 import UIKit
 import Spatial
-
+/**
+ * - Abstract: The topBar slider that indicates where you are horizontally
+ */
 class Slider:UIView{
     lazy var sliderBar:SliderBar = createSliderBar()
     let segmentCount:Int

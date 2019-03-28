@@ -8,7 +8,7 @@ extension Header {
     * Set index
     */
    func setIdx(idx:Int){
-      Swift.print("Header.setIdx")
+      Swift.print("Header.setIdx - ⚠️️  out of order ⚠️️ ")
       //slider.setIdx(idx: idx)
       //setTitleIdx(idx: idx)
    }
