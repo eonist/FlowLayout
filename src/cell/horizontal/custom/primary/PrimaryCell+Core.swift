@@ -1,4 +1,5 @@
 import UIKit
+import With
 /**
  * Core
  */
@@ -10,7 +11,7 @@ extension PrimaryCell{
       collectionView.register(PrimaryVerCell.self, forCellWithReuseIdentifier: PrimaryVerCell.id)
    }
    /**
-    * deQue cells for CollectionView
+    * Deques cells for CollectionView
     * - TODO: ⚠️️ remove this method, its superflouse, rather just override the caller
     */
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -21,5 +22,23 @@ extension PrimaryCell{
          //cell.imgView.setImage(webPath: thumbURL)
       }
       return cell
+   }
+   /**
+    * Alternate layout
+    */
+   func createAlternateLayout() -> UICollectionViewFlowLayout {
+      return with(.init()){
+         let margin:CGFloat = SecondaryCell.margin
+         $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
+         $0.minimumInteritemSpacing = 0
+         $0.minimumLineSpacing = margin/*vertical spacing*/
+         let itemSize:CGSize = {
+            let screenWidth:CGFloat = UIScreen.main.bounds.size.width
+            let width:CGFloat = screenWidth - (margin*2)
+            let height:CGFloat = width
+            return .init(width: width, height: height)
+         }()
+         $0.itemSize = itemSize//CGSize(width: 70, height: 70)
+      }
    }
 }

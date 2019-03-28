@@ -6,6 +6,17 @@ import With
  */
 extension Header {
    /**
+    * TopFix
+    */
+   func createTopFix() -> UIView{
+//      Swift.print("createTopFix")
+      return with(.init()){
+         self.addSubview($0)
+         $0.anchorAndSize(to: self, height: Slider.height, align: .topLeft, alignTo: .topLeft)
+         $0.backgroundColor = HorView.style.header.backgroundColor
+      }
+   }
+   /**
     * TODO: ⚠️️ Make the headerTitle it's own class
     */
    func createHeaderTitle() -> UILabel{
@@ -16,9 +27,14 @@ extension Header {
          $0.backgroundColor = .clear
          $0.textColor = HorView.style.header.title.color//UIColor(hex:"EBCF4B")
          self.addSubview($0)
-         $0.anchorAndSize(to: self, height: Header.titleHeight, align: .topLeft, alignTo: .topLeft)
+         $0.anchorAndSize(to: self.topFix, sizeTo:self, height: Header.titleHeight, align: .topLeft, alignTo: .bottomLeft)
+//         $0.anchor(horTo: syncButton, align: .left, alignTo: .right, offset: 22)
+//         $0.anchor(horTo: menuButton, align: .right, alignTo: .left, offset: -22)
+//         $0.size(height: 44)
+//         $0.anchor(verTo: self, align: .centerY, alignTo: .centerY)
       }
    }
+
    /**
     * Creates buttons
     */

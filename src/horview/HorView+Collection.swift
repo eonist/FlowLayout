@@ -3,7 +3,6 @@ import UIKit
  * CollectionView related
  */
 extension HorView{
-   
     /**
      * Num of items
      */
@@ -35,7 +34,7 @@ extension HorView{
          }
       }()
       cell.onTableViewScrollCallBack = {yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
-      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}
+//      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}
       return cell
     }
     /**

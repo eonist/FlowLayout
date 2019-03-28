@@ -1,10 +1,12 @@
 import UIKit
+import With
 /**
  * TODO: ⚠️️ Rename to PrimaryHorCell
  */
 class PrimaryCell:HorCell{
    override init(frame: CGRect) {
       super.init(frame: frame)
+      self.onItemSelect = itemSelect
 //      self.backgroundColor = .lightGray
    }
    /**
@@ -24,3 +26,4 @@ class PrimaryCell:HorCell{
       fatalError("init(coder:) has not been implemented")
    }
 }
+

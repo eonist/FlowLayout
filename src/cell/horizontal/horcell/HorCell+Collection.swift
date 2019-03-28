@@ -16,10 +16,9 @@ extension HorCell:UICollectionViewDataSource,UICollectionViewDelegate,UICollecti
       return dequeCell(cellForItemAt: indexPath)
    }
    /**
-    * On item click?
+    * On item click
     */
    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//      Swift.print("on item click \(indexPath)")
       onItemSelect(indexPath)
    }
 }
