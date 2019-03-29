@@ -84,6 +84,7 @@
 		F1BA031E224A548F00D1A209 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0319224A548F00D1A209 /* Button.swift */; };
 		F1BA0320224A565700D1A209 /* CGShapeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA031F224A565700D1A209 /* CGShapeUtil.swift */; };
 		F1BA0322224A6F6200D1A209 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0321224A6F6200D1A209 /* UIView+Extension.swift */; };
+		F1D3CDB1224E1356001DAABB /* HorView+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3CDAF224E1325001DAABB /* HorView+Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		F1BA0319224A548F00D1A209 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		F1BA031F224A565700D1A209 /* CGShapeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGShapeUtil.swift; sourceTree = "<group>"; };
 		F1BA0321224A6F6200D1A209 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F1D3CDAF224E1325001DAABB /* HorView+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Core.swift"; sourceTree = "<group>"; };
 		F1D573CB21161AFB0036A8A1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F1D573CE211629FE0036A8A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		F1D573D021162A950036A8A1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				F116EC4B211446640091439E /* HorView+Scroll.swift */,
 				F116EBF221104C1C0091439E /* HorView+Update.swift */,
 				F116EBF421104C410091439E /* HorView+Create.swift */,
+				F1D3CDAF224E1325001DAABB /* HorView+Core.swift */,
 				F116EC202111A9310091439E /* HorView+Const.swift */,
 				F124424F2249347500D808D8 /* HorView+Style.swift */,
 			);
@@ -687,6 +690,7 @@
 				F1BA0322224A6F6200D1A209 /* UIView+Extension.swift in Sources */,
 				F12442162248319300D808D8 /* Slider+Create.swift in Sources */,
 				F12442202248319300D808D8 /* HorView+Update.swift in Sources */,
+				F1D3CDB1224E1356001DAABB /* HorView+Core.swift in Sources */,
 				F12442302248319300D808D8 /* HorCell+Type.swift in Sources */,
 				F12442372248319300D808D8 /* UIColorParser.swift in Sources */,
 				F124424A2249100100D808D8 /* HorCell+Getter.swift in Sources */,

@@ -14,4 +14,14 @@ extension HorView{
          self.collectionView.reloadData()//updates collectionView
       }
    }
+   /**
+    * onButtonClick (When user clicks header buttons)
+    */
+   func onButtonClick(buttonTitle:String){
+      if let cellType = HorView.CellType(rawValue: buttonTitle) {
+         let idx:Int = cellType.idx/*0,1,2*/
+         self.setIdx(idx: idx)
+         self.header.buttonContainer.setIdx(idx: idx)
+      }
+   }
 }

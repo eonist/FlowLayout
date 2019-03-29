@@ -11,7 +11,7 @@ open class Header:UIView {
       super.init(frame: frame)
       //let bg = UIView()
       //bg.backgroundColor = .red/*debug*/
-      self.backgroundColor = HorView.headerStyle.backgroundColor
+      self.backgroundColor = HorView.style.header.backgroundColor
       _ = createGraphicFix()//TODO: ⚠️️ rename to backgroundFix
       _ = topFix
       _ = headerTitle

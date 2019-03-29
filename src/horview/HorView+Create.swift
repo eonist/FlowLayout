@@ -12,6 +12,7 @@ extension HorView{
       return with(.init()) {/*Header has title,buttons,slider*/
          addSubview($0)
          $0.anchorAndSize(to:self, height:Header.height)
+         header.buttonContainer.onButtonClick = onButtonClick
       }
    }
    /**
@@ -24,9 +25,7 @@ extension HorView{
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
          /*Register cells*/
-         $0.register(PrimaryCell.self, forCellWithReuseIdentifier: PrimaryCell.id)/*Register cell kind*/
-         $0.register(SecondaryCell.self, forCellWithReuseIdentifier: SecondaryCell.id)
-         $0.register(TertiaryCell.self, forCellWithReuseIdentifier: TertiaryCell.id)
+         registerCellTypes()
          $0.backgroundColor = .clear
          $0.contentInset = .zero/*reset contentInset*/
          $0.scrollIndicatorInsets = .zero/*reset scrollIndicator insets*/
