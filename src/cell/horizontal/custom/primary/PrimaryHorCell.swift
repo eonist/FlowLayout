@@ -3,11 +3,10 @@ import With
 /**
  * TODO: ⚠️️ Rename to PrimaryHorCell
  */
-class PrimaryCell:HorCell{
+class PrimaryHorCell:HorCell{
    override init(frame: CGRect) {
       super.init(frame: frame)
       self.onItemSelect = itemSelect
-//      self.backgroundColor = .lightGray
    }
    /**
     * When you set the data, the diferent UI's will be updated

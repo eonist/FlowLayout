@@ -3,7 +3,7 @@ import With
 /**
  * Core
  */
-extension PrimaryCell{
+extension PrimaryHorCell{
    /**
     * Register cells for CollectionView
     */
@@ -17,7 +17,7 @@ extension PrimaryCell{
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
       if let thumbURL:String = primaryCellData?.thumbURLS[indexPath.row] {
-         Swift.print("thumbURL:  \(thumbURL)")
+         Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
          //cell.imgView.setImage(webPath: thumbURL)
       }
@@ -28,7 +28,7 @@ extension PrimaryCell{
     */
    func createAlternateLayout() -> UICollectionViewFlowLayout {
       return with(.init()){
-         let margin:CGFloat = SecondaryCell.margin
+         let margin:CGFloat = SecondaryHorCell.margin
          $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
          $0.minimumInteritemSpacing = 0
          $0.minimumLineSpacing = margin/*vertical spacing*/

@@ -4,12 +4,10 @@ import Foundation
  */
 extension ButtonContainer {
    /**
-    * click
+    * Click
     */
    @objc func onTouchInside(sender:UIButton) {
-      Swift.print("ButtonContainer.onTouchInside ")
-      /*The bellow converts button to index*/
-      
+//      Swift.print("ButtonContainer.onTouchInside ")
       if let headerBtn = sender as? HeaderButton, let headerTitle = headerBtn.currentTitle {
          onButtonClick(headerTitle)
       }

@@ -13,11 +13,11 @@ extension PrimaryVerCell{
    }
    /**
     * Adds a UIView that is round
-    * TODO: ⚠️️ Use CGShapeUtil and draw a circle instead, faster and more performant
+    * - TODO: ⚠️️ Use CGShapeUtil and draw a circle instead, faster and more performant
     */
    func drawCircle() {
       let rect:CGRect = .init(origin: .zero, size: .init(width: self.frame.width, height: self.frame.width))
-      self.subviews.first?.removeFromSuperview()//remove previouse graphics if it exists
+      self.subviews.first?.removeFromSuperview()/*Remove previouse graphics if it exists*/
       with(UIView.init(frame: rect)){
          $0.layer.cornerRadius = self.frame.width/2
          $0.layer.masksToBounds = true

@@ -2,14 +2,13 @@ import UIKit
 import With
 import Spatial
 /**
- * A BrowserPage is contained within a BrowserView
+ * - Abstract A horizontal Cell that has a vertical collectionView
  * - Note: This class is later subclassed as a generic class, and as such overriding things in extension doesn't work
  */
 class HorCell:UICollectionViewCell {
    lazy var collectionView:UICollectionView = self.createCollectionView()/*Vertical collection view*/
    var items:[Int]/*Vertical items*/
-   //TODO: ⚠️️ rename to on scroll
-   var onTableViewScrollCallBack:ScrollCallBack = defaultOnScroll
+   var onScroll:ScrollCallBack = defaultOnScroll
    var onItemSelect:OnItemSelect = defaultOnItemSelect
    var data:CellDataKind?/*Stores cellData*/
    /**

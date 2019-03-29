@@ -3,7 +3,7 @@ import Foundation
  * Const
  */
 extension Button{
-   //Default closure
+   /*Default closure*/
    public static let defaultUpInside:UpInsideCallBack = {}
    public static let defaultUpOutside:UpOutsideCallBack = {}
    public static let defaultUp:UpCallBack = {}

@@ -14,14 +14,12 @@ extension ImageCell{
          $0.backgroundColor = .lightGray
          /*adds a ciruclar mask to the image-view*/
          let cornerRadius = self.contentView.frame.height/2
-         //Swift.print("cornerRadius:  \(cornerRadius)")
          $0.layer.cornerRadius = cornerRadius
          $0.clipsToBounds = true
          self.contentView.addSubview($0)
          /*adds constraints*/
          $0.translatesAutoresizingMaskIntoConstraints = false
-         $0.anchorAndSize(to: contentView )
-        
+         $0.anchorAndSize(to: contentView ) 
       }
    }
 }

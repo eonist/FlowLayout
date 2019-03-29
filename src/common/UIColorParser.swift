@@ -1,6 +1,6 @@
 import UIKit
 
-class UIColorParser{
+internal class UIColorParser{
    /**
     * Returns random color
     * ## Examples: self.backgroundColor = UIColorParser.random

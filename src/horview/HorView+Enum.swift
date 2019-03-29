@@ -1,4 +1,7 @@
 import Foundation
+/**
+ * - TODO: ⚠️️ maybe move to it's own enum file?
+ */
 extension HorView{
    /**
     * CellType

@@ -1,6 +1,6 @@
 import UIKit
 
-class CGShapeUtil {
+internal class CGShapeUtil {
    /**
     * Draw line
     * NOTE: remember to: shapeLayer.addSublayer(lineLayer)

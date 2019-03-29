@@ -24,8 +24,7 @@ extension HorView{
       return with(.init(frame: self.frame, collectionViewLayout: flowLayout)){
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
-         /*Register cells*/
-         registerCellTypes()
+         registerCellTypes()/*Register cells*/
          $0.backgroundColor = .clear
          $0.contentInset = .zero/*reset contentInset*/
          $0.scrollIndicatorInsets = .zero/*reset scrollIndicator insets*/

@@ -1,10 +1,9 @@
-
 import UIKit
 
 /**
  * Controller related
  */
-extension UIView{
+internal extension UIView{
    /**
     * Easily get Controller
     */

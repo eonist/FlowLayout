@@ -12,7 +12,6 @@ extension ButtonContainer {
       let titles:[String] = HorView.CellType.types.map{$0.rawValue}
       let buttons:[HeaderButton] = titles.map{ title in/*All vertically centered, 30p height each*/
          return with(.init(title: title)) {
-            //button.backgroundColor = UIColorParser.random
             $0.addTarget(self, action: #selector(onTouchInside), for: .touchUpInside)
             self.addSubview($0)
          }

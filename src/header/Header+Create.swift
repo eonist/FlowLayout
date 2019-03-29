@@ -9,7 +9,6 @@ extension Header {
     * TopFix
     */
    func createTopFix() -> UIView{
-//      Swift.print("createTopFix")
       return with(.init()){
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: Slider.height, align: .topLeft, alignTo: .topLeft)

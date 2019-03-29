@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIImageView{
+internal extension UIImageView{
     typealias OnError = (UIImage.IMGError?) -> Void
     static var defaultErrorHandler:OnError = { err in
         Swift.print("img error:  \(String(describing: err))")
@@ -37,4 +37,3 @@ extension UIImageView{
         }
     }
 }
-

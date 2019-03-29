@@ -7,9 +7,8 @@ extension HorView{
     * Register cell types
     */
    @objc func registerCellTypes(){
-      collectionView.register(PrimaryCell.self, forCellWithReuseIdentifier: PrimaryCell.id)/*Register cell kind*/
-      collectionView.register(SecondaryCell.self, forCellWithReuseIdentifier: SecondaryCell.id)
-      collectionView.register(TertiaryCell.self, forCellWithReuseIdentifier: TertiaryCell.id)
+      collectionView.register(PrimaryHorCell.self, forCellWithReuseIdentifier: PrimaryHorCell.id)/*Register cell kind*/
+      collectionView.register(SecondaryHorCell.self, forCellWithReuseIdentifier: SecondaryHorCell.id)
+      collectionView.register(TertiaryHorCell.self, forCellWithReuseIdentifier: TertiaryHorCell.id)
    }
 }
-

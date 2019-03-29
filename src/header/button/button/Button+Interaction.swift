@@ -23,7 +23,7 @@ extension Button{
             let touchPointInButton = touch.location(in: self)
             self.bounds.contains(touchPointInButton) ? onUpInside() : onUpOutside()
          }
-         onUp()/*not sure if this should fire before or after the inside and outside calls*/
+         onUp()/*Not sure if this should fire before or after the inside and outside calls*/
       }
    }
    /**
@@ -35,7 +35,6 @@ extension Button{
          onUp()
       }
    }
-     
 }
 /**
  * Interactions

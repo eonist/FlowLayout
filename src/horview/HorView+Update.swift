@@ -19,7 +19,7 @@ extension HorView{
     */
    func onButtonClick(buttonTitle:String){
       if let cellType = HorView.CellType(rawValue: buttonTitle) {
-         let idx:Int = cellType.idx/*0,1,2*/
+         let idx:Int = cellType.idx/*0,1,2, converts button to index*/ 
          self.setIdx(idx: idx)
          self.header.buttonContainer.setIdx(idx: idx)
       }

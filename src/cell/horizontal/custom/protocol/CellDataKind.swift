@@ -1,5 +1,5 @@
 import Foundation
-
-protocol CellDataKind {
-   
-}
+/**
+ * Base protocol for Horizontal cells
+ */
+protocol CellDataKind {}

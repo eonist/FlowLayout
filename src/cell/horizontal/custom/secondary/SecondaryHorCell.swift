@@ -1,6 +1,6 @@
 import UIKit
 
-class SecondaryCell:HorCell{
+class SecondaryHorCell:HorCell{
     override init(frame: CGRect) {
         super.init(frame: frame)
 //        self.backgroundColor = .lightGray//UIColorParser.random

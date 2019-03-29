@@ -8,7 +8,7 @@ extension ButtonContainer{
       Swift.print("BtnContainer.setIdx(idx)")
       let btnTitle:String? = HorView.CellType.allCases[idx].rawValue
       Swift.print("btnTitle:  \(String(describing: btnTitle))")
-      buttons.forEach{//⚠️️ use filter instead
+      buttons.forEach{//TODO:⚠️️ use filter instead
          if $0.titleLabel?.text == btnTitle {
             setActive(btn:$0)
          }
@@ -20,7 +20,7 @@ extension ButtonContainer{
    func setActive(btn:UIButton){
       Swift.print("setActive:  \(setActive)")
       buttons.forEach{
-         if $0 == btn {//⚠️️ use filter instead
+         if $0 == btn {//TODO:⚠️️ use filter instead
             $0.setActive(isActive: true)
          }else{
             $0.setActive(isActive: false)

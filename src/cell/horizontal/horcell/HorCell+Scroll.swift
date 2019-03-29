@@ -14,15 +14,15 @@ extension HorCell{
       let offsetY:CGFloat = (-1 * y) - Header.height/*offset y starts from 0*/
       let retVal:CGFloat = {
          if offsetY >= 0 {
-            return offsetY // Header.sharedInstance.frame.origin.y = offsetY
+            return offsetY 
          } else if offsetY <= 0 && offsetY >= -(ButtonContainer.height) {
-            return  offsetY // Header.sharedInstance.frame.origin.y = offsetY
+            return  offsetY
          } else if offsetY <= -(ButtonContainer.height){
             return -(ButtonContainer.height) //            Header.sharedInstance.frame.origin.y = -(ButtonContainer.height)
          } else {/*less than statusbarheight, reset to statusbarheight*/
-            return 0 // Header.sharedInstance.frame.origin.y = 0
+            return 0
          }
       }()
-      onTableViewScrollCallBack(retVal)
+      onScroll(retVal)
    }
 }

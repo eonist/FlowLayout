@@ -6,7 +6,7 @@ import Spatial
  */
 extension HorCell{
    /**
-    * This adds the custom look to the table
+    * This adds the custom look to the table (Overridable)
     * - Note: overrideable with subclass
     * - Note: flowLayout.scrollDirection is vertical by default
     */

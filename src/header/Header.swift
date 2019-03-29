@@ -9,8 +9,6 @@ open class Header:UIView {
    lazy var slider:Slider = self.createSlider()
    override public init(frame: CGRect) {
       super.init(frame: frame)
-      //let bg = UIView()
-      //bg.backgroundColor = .red/*debug*/
       self.backgroundColor = HorView.style.header.backgroundColor
       _ = createGraphicFix()//TODO: ⚠️️ rename to backgroundFix
       _ = topFix

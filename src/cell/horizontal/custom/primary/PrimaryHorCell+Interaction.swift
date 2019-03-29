@@ -2,7 +2,7 @@ import Foundation
 /**
  * Interaction
  */
-extension PrimaryCell{
+extension PrimaryHorCell{
    /**
     * - Abstract: Example how we can change the layout of the collectionview on interaction
     */

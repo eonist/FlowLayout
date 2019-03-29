@@ -16,23 +16,23 @@ extension HorView{
       let cell:HorCell = {
          switch indexPath.row {
          case HorView.CellType.primary.idx:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryCell.id, for: indexPath as IndexPath) as? PrimaryCell else { fatalError("err") }
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryHorCell.id, for: indexPath as IndexPath) as? PrimaryHorCell else { fatalError("err") }
             let imageURLStr:String = "https://rawgit.com/stylekit/img/master/" + "pic_1_thumb.png"
             _ = imageURLStr
             let urls:[String] = .init(repeating: "🎉", count: 11)//["a","b","c","d","a","b","c","d","a","b","c"]
             cell.data = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
             return cell
          case HorView.CellType.secondary.idx:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryCell.id, for: indexPath as IndexPath) as? SecondaryCell else { fatalError("err") }
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryHorCell.id, for: indexPath as IndexPath) as? SecondaryHorCell else { fatalError("err") }
             return cell
          case HorView.CellType.tertiary.idx:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TertiaryCell.id, for: indexPath as IndexPath) as? TertiaryCell else { fatalError("err") }
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TertiaryHorCell.id, for: indexPath as IndexPath) as? TertiaryHorCell else { fatalError("err") }
             return cell
          default:
             fatalError("err: \(indexPath.row)")
          }
       }()
-      cell.onTableViewScrollCallBack = {yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
+      cell.onScroll = {yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
 //      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}//callback for cell click
       return cell
     }
