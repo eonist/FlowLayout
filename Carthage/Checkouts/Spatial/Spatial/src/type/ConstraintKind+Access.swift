@@ -5,7 +5,7 @@ import Foundation
  * NOTE: adding a method called activateConstraints doesn't make any sense because you have only anchor and size or either
  * - TODO: ⚠️️ add anchorAndSize
  */
-public extension ConstraintKind where Self:View{
+extension ConstraintKind where Self:View{
    /**
     * One-liner for applyAnchorAndSize
     * Example: view.applyAnchorAndSize(to:self, height:100, align:.center, alignTo:.center)

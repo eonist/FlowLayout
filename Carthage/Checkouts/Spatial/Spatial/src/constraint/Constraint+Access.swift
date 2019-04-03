@@ -115,7 +115,7 @@ extension View {
 /**
  * One-liner for anchoring multiple views (Bulk)
  */
-public extension Array where Element:View{
+extension Array where Element:View{
    /**
     * Anchoring for an array of views
     * - Parameter dir: Different between vertical and horizontal
@@ -135,7 +135,7 @@ public extension Array where Element:View{
 /**
  * One-liner for sizing multiple views (Bulk)
  */
-public extension Array where Element:View{
+extension Array where Element:View{
    /**
     * Size multiple UIView instance
     * - Parameter offset: Add margin by providing a size offset
@@ -165,7 +165,7 @@ public extension Array where Element:View{
 /**
  * One-liner for sizing and anchoring multiple views (Bulk)
  */
-public extension Array where Element:View {
+extension Array where Element:View {
    /**
     * One-liner for activateAnchorsAndSizes (Align and size multiple UIView instance)
     * - Important: ⚠️️ This method is a bit beta (WIP)

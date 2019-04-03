@@ -22,7 +22,7 @@ extension View{
 /**
  * Bulk
  */
-public extension Array where Element:View{
+extension Array where Element:View{
    public typealias ConstraintsClosure = (_ views:[View]) -> AnchorConstraintsAndSizeConstraints
    public typealias AnchorConstraintsClosure = (_ views:[View]) -> [AnchorConstraint]
    public typealias SizeConstraintsClosure = (_ views:[View]) -> [SizeConstraint]

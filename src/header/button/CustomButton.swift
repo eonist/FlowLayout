@@ -7,7 +7,7 @@ class CustomButton:UIButton,ConstraintKind{
     init(title:String) {
         super.init(frame: .zero)
         self.backgroundColor = .clear
-        self.titleLabel?.font = .systemFont(ofSize: 16)
+        self.titleLabel?.font = UIFont.systemFont(ofSize: 16.0)
         self.titleLabel?.textAlignment = .center
         self.setTitleColor(.black, for: .normal)
         self.setTitle(title, for: .normal)

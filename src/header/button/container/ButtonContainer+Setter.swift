@@ -18,7 +18,7 @@ extension ButtonContainer{
     * Set active state
     */
    func setActive(btn:UIButton){
-      Swift.print("setActive:  \(setActive)")
+      Swift.print("setActive:  \(String(describing: setActive))")
       buttons.forEach{
          if $0 == btn {//TODO:⚠️️ use filter instead
             $0.setActive(isActive: true)

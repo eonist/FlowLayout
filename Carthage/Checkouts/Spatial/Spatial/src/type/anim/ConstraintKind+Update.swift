@@ -2,7 +2,7 @@ import Foundation
 /**
  * Offset horizontally or vertically
  */
-public extension ConstraintKind where Self:View{
+extension ConstraintKind where Self:View{
    /*Makes code easier to read*/
    typealias UpdateAnchorClosure = (_ superView:View,_ oldAnchor:AnchorConstraint) -> Void
    typealias UpdateSizeClosure = (_ superView:View,_ oldAnchor:SizeConstraint) -> Void

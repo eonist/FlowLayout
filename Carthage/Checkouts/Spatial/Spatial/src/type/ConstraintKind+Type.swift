@@ -3,7 +3,7 @@ import Foundation
 /**
  * Single
  */
-public extension ConstraintKind where Self:View{
+extension ConstraintKind where Self:View{
    /**
     * Cobinational types and closure signatures
     * - Note: This could be useful in a global domain, for now just access it by: ConstraintKind.UIViewConstraintKind
@@ -19,6 +19,4 @@ extension Array where Element:ConstraintKind.ViewConstraintKind{
    public typealias SizesClosure = (_ views:[View]) -> [SizeConstraint]
    public typealias AnchorClosure = (_ views:[View]) -> [AnchorConstraint]
    public typealias AxisClosure = (_ views:[View]) -> [NSLayoutConstraint]
-   
 }
-

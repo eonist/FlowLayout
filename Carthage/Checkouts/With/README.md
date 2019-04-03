@@ -1,5 +1,5 @@
 # With 💗
-![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg) ![platform](https://img.shields.io/badge/Platform-iOS-blue.svg) ![Lang](https://img.shields.io/badge/Language-Swift%204.2-orange.svg)
+![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg) ![platform](https://img.shields.io/badge/Platform-iOS-blue.svg) ![Lang](https://img.shields.io/badge/Language-Swift%205.0-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![codebeat badge](https://codebeat.co/badges/51c98d04-a860-42ff-ba93-dd89184ec302)](https://codebeat.co/projects/github-com-eonist-with-master)
 
@@ -7,7 +7,7 @@
 An extension that let's you manipulate an object with a closure
 
 ### How does it work:
-See [Example](https://github.com/eonist/With#example) 
+See [Example](https://github.com/eonist/With#example)
 
 ### How can I get it:
 - Carthage: `github "eonist/With" "master"`

@@ -2,7 +2,7 @@ import Foundation
 /**
  * Array
  */
-public extension Array where Element:View{
+extension Array where Element:View{
    /**
     * AutoLayout Sugar for UIView's (Multiple)
     * ## Examples:

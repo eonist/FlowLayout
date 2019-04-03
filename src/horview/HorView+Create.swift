@@ -12,7 +12,7 @@ extension HorView{
       return with(.init()) {/*Header has title,buttons,slider*/
          addSubview($0)
          $0.anchorAndSize(to:self, height:Header.height)
-         header.buttonContainer.onButtonClick = onButtonClick
+         $0.buttonContainer.onButtonClick = onButtonClick
       }
    }
    /**
@@ -24,7 +24,6 @@ extension HorView{
       return with(.init(frame: self.frame, collectionViewLayout: flowLayout)){
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
-         registerCellTypes()/*Register cells*/
          $0.backgroundColor = .clear
          $0.contentInset = .zero/*reset contentInset*/
          $0.scrollIndicatorInsets = .zero/*reset scrollIndicator insets*/

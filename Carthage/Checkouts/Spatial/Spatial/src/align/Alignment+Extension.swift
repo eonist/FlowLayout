@@ -2,7 +2,7 @@ import Foundation
 /**
  * Extension
  */
-public extension Alignment{
+extension Alignment{
    /**
     * - Returns the horizontal type from the dual-axis type `Alignment`
     */
