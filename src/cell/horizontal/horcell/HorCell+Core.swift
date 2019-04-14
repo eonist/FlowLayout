@@ -18,7 +18,7 @@ extension HorCell{
     */
    @objc func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 //      fatalError("Override in sub class")
-      guard let cell:VerCell = (collectionView as? UICollectionView)?.dequeueReusableCell(withReuseIdentifier: VerCell.id, for: indexPath as IndexPath) as? VerCell else {fatalError("err")}
+      guard let cell:VerCell = (collectionView).dequeueReusableCell(withReuseIdentifier: VerCell.id, for: indexPath as IndexPath) as? VerCell else {fatalError("err")}
       return cell
    }
 }

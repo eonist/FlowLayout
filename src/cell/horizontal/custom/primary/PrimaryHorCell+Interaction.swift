@@ -8,8 +8,8 @@ extension PrimaryHorCell{
     */
    func itemSelect(indexPath:IndexPath){
       Swift.print("PrimaryCell.itemSelect() - indexPath:  \(indexPath)")
-      (collectionView as? UICollectionView)?.collectionViewLayout.invalidateLayout()
-      (collectionView as? UICollectionView)?.collectionViewLayout = createAlternateLayout()
+      collectionView.collectionViewLayout.invalidateLayout()
+      collectionView.collectionViewLayout = createAlternateLayout()
       updateCollectionView()
       //      let itemSize:CGSize = {
       //         let screenWidth:CGFloat = UIScreen.main.bounds.size.width

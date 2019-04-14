@@ -29,9 +29,9 @@ extension HorCell{
     * Creates collectionview
     * - TODO: ⚠️️ replace UIEdgeInsetsMake with .init
     */
-   func createCollectionView() -> VerItemViewKind{
+   func createCollectionView() -> UICollectionView{
       let layout:UICollectionViewFlowLayout = createLayout()
-      return with(UICollectionView.init(frame: self.frame, collectionViewLayout: layout)) {
+      return with(.init(frame: self.frame, collectionViewLayout: layout)) {
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/
          $0.contentInset = .init(top: Header.height, left: 0, bottom: 0, right: 0)/*offsets the content, so that sticky header works etc*/
