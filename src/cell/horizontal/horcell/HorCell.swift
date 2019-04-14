@@ -5,12 +5,12 @@ import Spatial
  * - Abstract A horizontal Cell that has a vertical collectionView
  * - Note: This class is later subclassed as a generic class, and as such overriding things in extension doesn't work
  */
-class HorCell:UICollectionViewCell {
-   lazy var collectionView:UICollectionView = self.createCollectionView()/*Vertical collection view*/
-   var items:[Int]/*Vertical items*/
-   var onScroll:ScrollCallBack = defaultOnScroll
-   var onItemSelect:OnItemSelect = defaultOnItemSelect
-   var data:CellDataKind?/*Stores cellData*/
+class HorCell: UICollectionViewCell, HorCellKind {
+   lazy var collectionView: VerItemViewKind = self.createCollectionView()/*Vertical collection view*/
+   var items: [Int]/*Vertical items*/
+   var onScroll: ScrollCallBack = defaultOnScroll
+   var onItemSelect: OnItemSelect = defaultOnItemSelect
+   var data: CellDataKind?/*Stores cellData*/
    /**
     * Initiate
     */

@@ -77,6 +77,8 @@
 		F1244266224994A500D808D8 /* HorCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1244265224994A500D808D8 /* HorCell+Const.swift */; };
 		F124426822499CAE00D808D8 /* HorView+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124426722499CAE00D808D8 /* HorView+Getter.swift */; };
 		F1A7C4D6224D5C99009A59DE /* PrimaryHorCell+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7C4D4224D5C73009A59DE /* PrimaryHorCell+Interaction.swift */; };
+		F1AA7537226322BC00D4C272 /* HorCellKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA753522631E8F00D4C272 /* HorCellKind.swift */; };
+		F1AA75392263249200D4C272 /* VerItemViewKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA75382263249200D4C272 /* VerItemViewKind.swift */; };
 		F1BA031A224A548F00D1A209 /* Button+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0315224A548F00D1A209 /* Button+Type.swift */; };
 		F1BA031B224A548F00D1A209 /* Button+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0316224A548F00D1A209 /* Button+Const.swift */; };
 		F1BA031C224A548F00D1A209 /* Button+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0317224A548F00D1A209 /* Button+Interaction.swift */; };
@@ -179,6 +181,8 @@
 		F124426722499CAE00D808D8 /* HorView+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Getter.swift"; sourceTree = "<group>"; };
 		F1994E1F211487BC0047270A /* HorCell+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorCell+Scroll.swift"; sourceTree = "<group>"; };
 		F1A7C4D4224D5C73009A59DE /* PrimaryHorCell+Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimaryHorCell+Interaction.swift"; sourceTree = "<group>"; };
+		F1AA753522631E8F00D4C272 /* HorCellKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorCellKind.swift; sourceTree = "<group>"; };
+		F1AA75382263249200D4C272 /* VerItemViewKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerItemViewKind.swift; sourceTree = "<group>"; };
 		F1BA0315224A548F00D1A209 /* Button+Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+Type.swift"; sourceTree = "<group>"; };
 		F1BA0316224A548F00D1A209 /* Button+Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+Const.swift"; sourceTree = "<group>"; };
 		F1BA0317224A548F00D1A209 /* Button+Interaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+Interaction.swift"; sourceTree = "<group>"; };
@@ -377,6 +381,7 @@
 		F12441E92247F4DD00D808D8 /* horcell */ = {
 			isa = PBXGroup;
 			children = (
+				F1AA753422631E5D00D4C272 /* protocol */,
 				F116EBFC211067E10091439E /* HorCell.swift */,
 				F124424722490FA300D808D8 /* HorCell+Core.swift */,
 				F1244265224994A500D808D8 /* HorCell+Const.swift */,
@@ -490,6 +495,15 @@
 				F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */,
 			);
 			path = primary;
+			sourceTree = "<group>";
+		};
+		F1AA753422631E5D00D4C272 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA753522631E8F00D4C272 /* HorCellKind.swift */,
+				F1AA75382263249200D4C272 /* VerItemViewKind.swift */,
+			);
+			path = protocol;
 			sourceTree = "<group>";
 		};
 		F1BA0314224A548F00D1A209 /* button */ = {
@@ -662,8 +676,10 @@
 				F124424622490C8000D808D8 /* CellDataKind.swift in Sources */,
 				F124424822490FA300D808D8 /* HorCell+Core.swift in Sources */,
 				F12442192248319300D808D8 /* SliderBar.swift in Sources */,
+				F1AA75392263249200D4C272 /* VerItemViewKind.swift in Sources */,
 				F1244240224834BE00D808D8 /* Header+Create.swift in Sources */,
 				F124425C22494ABF00D808D8 /* ButtonContainer+Interaction.swift in Sources */,
+				F1AA7537226322BC00D4C272 /* HorCellKind.swift in Sources */,
 				F124426822499CAE00D808D8 /* HorView+Getter.swift in Sources */,
 				F12442172248319300D808D8 /* Slider+Animation.swift in Sources */,
 				F12442262248319300D808D8 /* SecondaryHorCell.swift in Sources */,

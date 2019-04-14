@@ -15,7 +15,7 @@ extension PrimaryHorCell{
     * - TODO: ⚠️️ remove this method, its superflouse, rather just override the caller
     */
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-      guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
+      guard let cell:PrimaryVerCell = (collectionView as? UICollectionView)?.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
       if let thumbURL:String = primaryCellData?.thumbURLS[indexPath.row] {
          Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
