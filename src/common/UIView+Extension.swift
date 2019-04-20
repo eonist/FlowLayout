@@ -1,5 +1,4 @@
 import UIKit
-
 /**
  * Controller related
  */
@@ -24,4 +23,3 @@ internal extension UIView{
       return controller.navigationController
    }
 }
-

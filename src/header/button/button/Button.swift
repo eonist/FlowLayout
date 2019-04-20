@@ -1,7 +1,7 @@
 
 import Spatial
-
 import Foundation
+import With
 /**
  * ## Examples
  * let btn:Button = .init(frame: .init(x:0,y:0,width:120,height:40))
@@ -12,16 +12,18 @@ import Foundation
  */
 open class Button:UIView{/*We use HybridView because that is layerbacked in macOS*/
    /*Call-backs*/
-   public var upInsideCallBack:UpInsideCallBack = defaultUpInside
-   public var upOutsideCallBack:UpOutsideCallBack = defaultUpOutside
-   public var downCallBack:DownCallBack = defaultDown
-   public var upCallBack:UpCallBack = defaultUp
+   public var upInsideCallBack: UpInsideCallBack = defaultUpInside
+   public var upOutsideCallBack: UpOutsideCallBack = defaultUpOutside
+   public var downCallBack: DownCallBack = defaultDown
+   public var upCallBack: UpCallBack = defaultUp
    /*Style*/
    internal var style:Style {/*backgroundColor,borderColor,textColor*/
-      didSet{
-         self.layer.borderColor = style.borderColor.cgColor
-         self.layer.backgroundColor = style.backgroundColor.cgColor
-         self.layer.borderWidth = style.borderWidth
+      didSet {
+         with(self.layer){
+            $0.borderColor = style.borderColor.cgColor
+            $0.backgroundColor = style.backgroundColor.cgColor
+            $0.borderWidth = style.borderWidth
+         }
       }
    }
    /**
@@ -38,6 +40,7 @@ open class Button:UIView{/*We use HybridView because that is layerbacked in macO
    /**
     * Boilerplate
     */
+   @available(*, unavailable)
    required public init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
    }

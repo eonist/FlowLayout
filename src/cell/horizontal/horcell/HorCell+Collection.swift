@@ -2,7 +2,7 @@ import UIKit
 /**
  * CollectionView related
  */
-extension HorCell:UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
+extension HorCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
    /**
     * Num of items in section
     */

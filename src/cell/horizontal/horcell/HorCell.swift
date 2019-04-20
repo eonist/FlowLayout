@@ -17,13 +17,14 @@ class HorCell: UICollectionViewCell {
    override init(frame: CGRect) {
       items = [0,1,2,3,4,5,7,8,9]/*Dummy model data*/
       super.init(frame: frame)
-      _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
+      _ = collectionView /* inits the collectionView, works with empty data, before we get data from remote */
       self.backgroundColor = HorView.style.horCollectionViewBackgroundColor
-      //updateCollectionView()/*Updates the collection view with data */
+      // updateCollectionView()/*Updates the collection view with data */
    }
    /**
     * Boilerplate
     */
+   @available(*, unavailable)
    required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
    }

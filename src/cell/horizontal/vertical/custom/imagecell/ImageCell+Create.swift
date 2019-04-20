@@ -9,7 +9,7 @@ extension ImageCell{
     * Creates ImgView
     */
    func createImgView() -> UIImageView {
-      return with(.init()){/*Create the image view*/
+      return with(.init()) {/*Create the image view*/
          $0.contentMode = .scaleAspectFill/*Fills the view*/
          $0.backgroundColor = .lightGray
          /*adds a ciruclar mask to the image-view*/
@@ -19,7 +19,7 @@ extension ImageCell{
          self.contentView.addSubview($0)
          /*adds constraints*/
          $0.translatesAutoresizingMaskIntoConstraints = false
-         $0.anchorAndSize(to: contentView ) 
+         $0.anchorAndSize(to: contentView )
       }
    }
 }

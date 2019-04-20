@@ -1,5 +1,5 @@
 import Foundation
 
-struct PrimaryCellData:CellDataKind {
-    let thumbURLS:[String]
+struct PrimaryCellData: CellDataKind {
+    let thumbURLS: [String]
 }

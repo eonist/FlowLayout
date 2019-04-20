@@ -7,6 +7,7 @@ class TopBar:UIView{
       super.init(frame: frame)
       self.backgroundColor = .orange
    }
+   @available(*, unavailable)
    required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
    }

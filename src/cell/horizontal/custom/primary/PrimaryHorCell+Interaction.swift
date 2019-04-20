@@ -6,8 +6,8 @@ extension PrimaryHorCell{
    /**
     * - Abstract: Example how we can change the layout of the collectionview on interaction
     */
-   func itemSelect(indexPath:IndexPath){
-      Swift.print("PrimaryCell.itemSelect() - indexPath:  \(indexPath)")
+   func itemSelect(indexPath: IndexPath){
+      // Swift.print("PrimaryCell.itemSelect() - indexPath:  \(indexPath)")
       collectionView.collectionViewLayout.invalidateLayout()
       collectionView.collectionViewLayout = createAlternateLayout()
       updateCollectionView()

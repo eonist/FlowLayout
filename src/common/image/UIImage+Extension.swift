@@ -17,11 +17,14 @@ internal extension UIImage{
         Utils.downloadImage(url: url, downloadComplete: onComplete)
     }
 }
+/**
+ * Helpers
+ */
 private class Utils{
     /**
      * Assign and convert data to Image
      */
-    static func downloadImage(url:URL, downloadComplete:@escaping UIImage.DownloadComplete) {
+    static func downloadImage(url: URL, downloadComplete:@escaping UIImage.DownloadComplete) {
         getDataFromUrl(url: url) { data, response, error in
             guard let data = data, error == nil else { downloadComplete(nil,.errorGettingDataFromURL); return}
             Swift.print(response?.suggestedFilename ?? url.lastPathComponent)
@@ -33,7 +36,7 @@ private class Utils{
     /**
      * Get data from URL
      */
-    private static func getDataFromUrl(url:URL, completion: @escaping URLQuery) {
+    private static func getDataFromUrl(url: URL, completion: @escaping URLQuery) {
         URLSession.shared.dataTask(with: url) { data, response, error in
             completion(data, response, error)
             }.resume()
