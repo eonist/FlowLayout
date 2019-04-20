@@ -1,3 +1,6 @@
+/**
+ * - Abstract: this class makes Spatial work for iOS and macOS
+ */
 #if os(iOS)
 import UIKit
 public typealias View = UIView

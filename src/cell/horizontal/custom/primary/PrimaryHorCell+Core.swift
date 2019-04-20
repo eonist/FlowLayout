@@ -12,7 +12,7 @@ extension PrimaryHorCell{
    }
    /**
     * Deques cells for CollectionView
-    * - TODO: ⚠️️ remove this method, its superflouse, rather just override the caller
+    * - TODO: ⚠️️ Remove this method, it's superflouse, rather just override the caller
     */
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}

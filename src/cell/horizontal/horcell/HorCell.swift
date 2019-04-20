@@ -15,7 +15,7 @@ class HorCell: UICollectionViewCell {
     * Initiate
     */
    override init(frame: CGRect) {
-      items = [0,1,2,3,4,5,7,8,9]
+      items = [0,1,2,3,4,5,7,8,9]/*Dummy model data*/
       super.init(frame: frame)
       _ = collectionView/* inits the collectionView, works with empty data, before we get data from remote */
       self.backgroundColor = HorView.style.horCollectionViewBackgroundColor

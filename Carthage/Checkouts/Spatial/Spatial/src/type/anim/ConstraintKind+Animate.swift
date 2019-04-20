@@ -2,14 +2,14 @@
 import UIKit
 /**
  * Animation
- * These are examples how you can animate with Spatial and autolayout
- * TODO: ⚠️️ Use animation classes that support earlier versions of iOS
- * TODO: ⚠️️ Use UIViewConstraintKind?
+ * - Description: These are examples how you can animate with Spatial and autolayout
+ * - Todo: ⚠️️ Use animation classes that support earlier versions of iOS
+ * - Todo: ⚠️️ Use UIViewConstraintKind?
  */
 extension ConstraintKind where Self:UIView{
    /**
     * Animates a UIView that adhers to ConstraintKind (hor)
-    * Example: btn.animate(to:100,align:left,alignTo:.left)
+    * - Example: btn.animate(to:100,align:left,alignTo:.left)
     */
    public func animate(to:CGFloat, align:HorizontalAlign, alignTo:HorizontalAlign, onComplete:@escaping AnimComplete = Self.defaultOnComplete){
       UIView.animate({

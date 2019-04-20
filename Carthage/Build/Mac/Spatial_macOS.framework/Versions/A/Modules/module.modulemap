@@ -1,0 +1,11 @@
+framework module Spatial_macOS {
+  umbrella header "Spatial_macOS.h"
+
+  export *
+  module * { export * }
+}
+
+module Spatial_macOS.Swift {
+    header "Spatial_macOS-Swift.h"
+    requires objc
+}

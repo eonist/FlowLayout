@@ -78,6 +78,8 @@
 		F1BED70B21B7B14B00A0D3D4 /* AlignType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED70A21B7B14B00A0D3D4 /* AlignType+Extension.swift */; };
 		F1C624FD21C789790082A265 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C624FC21C789790082A265 /* Extension.swift */; };
 		F1C624FF21C789830082A265 /* MainView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C624FE21C789830082A265 /* MainView+Create.swift */; };
+		F1CDF088225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CDF087225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift */; };
+		F1CDF089225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CDF087225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift */; };
 		F1D369DC2171FCDC00F498FA /* Spatial.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D369DA2171FCDC00F498FA /* Spatial.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1D369E92171FDAE00F498FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D369E82171FDAE00F498FA /* AppDelegate.swift */; };
 		F1D369F02171FDAF00F498FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D369EF2171FDAF00F498FA /* Assets.xcassets */; };
@@ -159,6 +161,7 @@
 		F1BED70A21B7B14B00A0D3D4 /* AlignType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlignType+Extension.swift"; sourceTree = "<group>"; };
 		F1C624FC21C789790082A265 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F1C624FE21C789830082A265 /* MainView+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainView+Create.swift"; sourceTree = "<group>"; };
+		F1CDF087225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConstraintKind+Bulk+Access.swift"; sourceTree = "<group>"; };
 		F1D369D72171FCDC00F498FA /* Spatial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spatial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D369DA2171FCDC00F498FA /* Spatial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spatial.h; sourceTree = "<group>"; };
 		F1D369DB2171FCDC00F498FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -352,6 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				F109EE6C21E383F000FCC696 /* ConstraintKind+Access.swift */,
+				F1CDF087225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift */,
 				F1D369FD2172039B00F498FA /* ConstraintKind+Apply.swift */,
 				F17E0E2D21DE327B00EE3027 /* ConstraintKind+Bulk.swift */,
 				F17E0E2B21DE31A800EE3027 /* ConstraintKind+Type.swift */,
@@ -619,6 +623,7 @@
 				F185A3B522319EAC00AE66B2 /* ConstraintKind+SpaceAround.swift in Sources */,
 				F185A3C222319EAC00AE66B2 /* Axis.swift in Sources */,
 				F185A3B222319EAC00AE66B2 /* ConstraintKind+Type.swift in Sources */,
+				F1CDF089225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift in Sources */,
 				F185A3B322319EAC00AE66B2 /* ConstraintKind.swift in Sources */,
 				F185A3AE22319EAC00AE66B2 /* Hybrid.swift in Sources */,
 				F185A3C122319EAC00AE66B2 /* Alignment+Extension.swift in Sources */,
@@ -652,6 +657,7 @@
 				F17E0E3821DF2A8D00EE3027 /* Constraint+Size.swift in Sources */,
 				F1BED70721B7AAFE00A0D3D4 /* Axis.swift in Sources */,
 				F109EE6B21E382D100FCC696 /* Constraint+Access.swift in Sources */,
+				F1CDF088225D22F10076EC92 /* ConstraintKind+Bulk+Access.swift in Sources */,
 				F17E0E3021DE364D00EE3027 /* Constraint+Activate+Bulk.swift in Sources */,
 				F1BED6FF21B7A99000A0D3D4 /* AlignType.swift in Sources */,
 				F17E0E3621DF29E100EE3027 /* Constraint+Anchor.swift in Sources */,

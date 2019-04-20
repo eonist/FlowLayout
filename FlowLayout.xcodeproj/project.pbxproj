@@ -283,8 +283,7 @@
 		F116EC11211098F10091439E /* vertical */ = {
 			isa = PBXGroup;
 			children = (
-				F12442622249939C00D808D8 /* primary */,
-				F12441F12247FC3B00D808D8 /* imagecell */,
+				F1AA753A22632EC600D4C272 /* custom */,
 				F116EBEB211047B10091439E /* VerCell.swift */,
 			);
 			path = vertical;
@@ -490,6 +489,15 @@
 				F12442632249940500D808D8 /* PrimaryVerCell+Core.swift */,
 			);
 			path = primary;
+			sourceTree = "<group>";
+		};
+		F1AA753A22632EC600D4C272 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				F12441F12247FC3B00D808D8 /* imagecell */,
+				F12442622249939C00D808D8 /* primary */,
+			);
+			path = custom;
 			sourceTree = "<group>";
 		};
 		F1BA0314224A548F00D1A209 /* button */ = {

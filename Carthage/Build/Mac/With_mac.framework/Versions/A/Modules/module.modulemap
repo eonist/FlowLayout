@@ -1,0 +1,11 @@
+framework module With_mac {
+  umbrella header "With_mac.h"
+
+  export *
+  module * { export * }
+}
+
+module With_mac.Swift {
+    header "With_mac-Swift.h"
+    requires objc
+}

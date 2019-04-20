@@ -25,4 +25,3 @@ class PrimaryHorCell:HorCell{
       fatalError("init(coder:) has not been implemented")
    }
 }
-

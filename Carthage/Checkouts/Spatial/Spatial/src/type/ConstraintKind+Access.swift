@@ -2,14 +2,24 @@
 import Foundation
 /**
  * Update constraints (For items that are of type ConstraintKind)
- * NOTE: adding a method called activateConstraints doesn't make any sense because you have only anchor and size or either
- * - TODO: ⚠️️ add anchorAndSize
+ * - Note: adding a method called activateConstraints doesn't make any sense because you have only anchor and size or either
+ * - Todo: ⚠️️ add anchorAndSize
  */
 extension ConstraintKind where Self:View{
    /**
     * One-liner for applyAnchorAndSize
-    * Example: view.applyAnchorAndSize(to:self, height:100, align:.center, alignTo:.center)
-    * TODO: ⚠️️ Needs the same kind of parameters as anchorAndSize uses
+    * ## Examples:
+    * view.applyAnchorAndSize(to:self, height:100, align:.center, alignTo:.center)
+    * - TODO: ⚠️️ Needs the same kind of parameters as anchorAndSize uses
+    * - Parameter to: The instance to apply to
+    * - Parameter width: the width to apply to instance
+    * - Parameter height: the height to apply to instance
+    * - Parameter align: alignment for the `to` view
+    * - Parameter alignTo: alignment for the `sizeTo` view, if one was provided
+    * - Parameter multiplier: multiplies the `size` or `sizeTo`
+    * - Parameter offset: offset for the `to` parameter
+    * - Parameter sizeOffset: offset for the `sizeTo` parameter (use negative values for inset)
+    * - Parameter useMargin: aligns to autolayout margins or not
     */
    public func applyAnchorAndSize(to:View, width:CGFloat? = nil, height:CGFloat? = nil, align:Alignment = .topLeft, alignTo:Alignment = .topLeft, multiplier:CGSize = .init(width:1,height:1), offset:CGPoint = .zero, sizeOffset:CGSize = .zero, useMargin:Bool = false) {
       self.applyAnchorAndSize { view in
@@ -20,7 +30,13 @@ extension ConstraintKind where Self:View{
    }
    /**
     * One-liner for applyAnchor
-    * Example: view.applyAnchor(to:self, align:.center, alignTo:.center)
+    * ## Examples:
+    * view.applyAnchor(to:self, align:.center, alignTo:.center)
+    * - Parameter to: The instance to apply to
+    * - Parameter align: alignment for the `to` view
+    * - Parameter alignTo: alignment for the `sizeTo` view, if one was provided
+    * - Parameter offset: offset for the `to` parameter
+    * - Parameter useMargin: aligns to autolayout margins or not
     */
    public func applyAnchor(to:View, align:Alignment = .topLeft, alignTo:Alignment = .topLeft, offset:CGPoint = .zero, useMargin:Bool = false)  {
       self.applyAnchor { view in
@@ -29,61 +45,17 @@ extension ConstraintKind where Self:View{
    }
    /**
     * One-liner for applySize
+    * ## Examples:
     * view.applySize(to:self)//multiplier,offset
+    * - Parameter to: The instance to apply to
+    * - Parameter width: the width to apply to instance
+    * - Parameter height: the height to apply to instance
+    * - Parameter multiplier: multiplies the `size` or `sizeTo`
+    * - Parameter offset: offset for the `to` parameter
     */
    public func applySize(to:View, width:CGFloat? = nil, height:CGFloat? = nil, offset:CGSize = .zero, multiplier:CGSize = .init(width:1,height:1)) {
       self.applySize { view in
          return Constraint.size(self, to:to, width: width, height: height, offset: offset, multiplier: multiplier)
-      }
-   }
-}
-/**
- * Bulk
- */
-extension Array where Element:ConstraintKind.ViewConstraintKind{
-   /**
-    * Size multiple UIView instance
-    * - Parameter offset: Add margin by providing a size offset
-    * ## Examples:
-    * [btn1,btn2,btn3].applySize(to:self, height:24, offset:.init(width:-40,height:0))
-    */
-   public func applySizes(to:View, width:CGFloat? = nil, height:CGFloat? = nil, offset:CGSize = .zero, multiplier:CGSize = .init(width:1,height:1)){
-      self.applySizes { views in
-         return views.map{
-            Constraint.size($0, to: to, width: width, height: height, offset: offset, multiplier: multiplier)
-         }
-      }
-   }
-   /**
-    * New
-    */
-   public func applySizes(width:CGFloat, height:CGFloat, multiplier:CGSize = .init(width:1,height:1)) {
-      self.applySizes { views in
-         return views.map{
-            Constraint.size($0,size:.init(width:width,height:height),multiplier:multiplier)
-         }
-      }
-   }
-   /**
-    * One-liner for applyAnchor for many views (vertical)
-    * Example: view.applyAnchor(to:self, align:.top, alignTo:.top)
-    */
-   public func applyAnchors(to:View, align:VerticalAlign = .top, alignTo:VerticalAlign = .top, offset:CGFloat = 0, useMargin:Bool = false){
-      self.applyAnchors(axis:.ver) { views in
-         return views.map{
-            Constraint.anchor($0, to: to, align: align, alignTo: alignTo, offset: offset, useMargin: useMargin)
-         }
-      }
-   }
-   /**
-    * One-liner for applyAnchor for many views (horizontal)
-    * Example: view.applyAnchor(to:self, align:.left, alignTo:.left)
-    */
-   public func applyAnchors(to:View, align:HorizontalAlign = .left, alignTo:HorizontalAlign = .left, offset:CGFloat = 0, useMargin:Bool = false){
-      self.applyAnchors(axis:.hor) { views in
-         return views.map{
-            Constraint.anchor($0, to: to, align: align, alignTo: alignTo, offset: offset, useMargin: useMargin)
-         }
       }
    }
 }
