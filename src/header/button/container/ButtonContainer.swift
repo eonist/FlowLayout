@@ -4,10 +4,10 @@ import Spatial
 /**
  * Header
  */
-class ButtonContainer:UIView {
-   static let height:CGFloat = 60
-   lazy var buttons:[HeaderButton] = self.createButtons()
-   var onButtonClick:ButtonClick = {_ in Swift.print("Callback is missing")}
+class ButtonContainer: UIView {
+   static let height: CGFloat = 60
+   lazy var buttons: [HeaderButton] = self.createButtons()
+   var onButtonClick: ButtonClick = {_ in Swift.print("Callback is missing")}
    override init(frame: CGRect) {
       super.init(frame: frame)
       let bg:UIView = .init()

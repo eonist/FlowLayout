@@ -17,7 +17,7 @@ extension HorCell{
     * - Todo: ⚠️️ Replace this method with accociate type etc. See ref link in ViewController.swift
     */
    @objc func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-      guard let cell:VerCell = collectionView.dequeueReusableCell(withReuseIdentifier: VerCell.id, for: indexPath as IndexPath) as? VerCell else {fatalError("err")}
+      guard let cell: VerCell = collectionView.dequeueReusableCell(withReuseIdentifier: VerCell.id, for: indexPath as IndexPath) as? VerCell else {fatalError("err")}
       return cell
    }
 }

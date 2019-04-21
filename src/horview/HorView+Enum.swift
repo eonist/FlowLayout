@@ -6,11 +6,14 @@ extension HorView{
    /**
     * CellType
     */
-   enum CellType:String,CaseIterable{
-      case primary = "Primary",secondary = "Secondary",tertiary = "Tertiary"
-      static let types:[CellType] = [.primary,.secondary,.tertiary]
+   enum CellType: String, CaseIterable{
+      case primary = "Primary", secondary = "Secondary", tertiary = "Tertiary"
+      static let types: [CellType] = [.primary,.secondary,.tertiary]
    }
 }
+/**
+ * Getter
+ */
 extension HorView.CellType{
    var idx:Int{
       switch self {

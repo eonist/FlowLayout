@@ -1,7 +1,7 @@
 import UIKit
 
 class HeaderButton:CustomButton{
-   var clickCallBack:ClickCallBack = HeaderButton.defaultClickCallBack
+   var clickCallBack: ClickCallBack = HeaderButton.defaultClickCallBack
    override init(title: String) {
       super.init(title: title)
       self.addTarget(self, action: #selector(buttonTouched), for: .touchUpInside)

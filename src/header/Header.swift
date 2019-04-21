@@ -3,10 +3,10 @@ import UIKit
  * Header (title,buttons,slider)
  */
 open class Header:UIView {
-   lazy var topFix:UIView = self.createTopFix()
-   lazy var headerTitle:UILabel = self.createHeaderTitle()
-   lazy var buttonContainer:ButtonContainer = self.createButtonContainer()
-   lazy var slider:Slider = self.createSlider()
+   lazy var topFix: UIView = self.createTopFix()
+   lazy var headerTitle: UILabel = self.createHeaderTitle()
+   lazy var buttonContainer: ButtonContainer = self.createButtonContainer()
+   lazy var slider: Slider = self.createSlider()
    override public init(frame: CGRect) {
       super.init(frame: frame)
       self.backgroundColor = HorView.style.header.backgroundColor

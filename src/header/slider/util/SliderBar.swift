@@ -1,7 +1,7 @@
 import UIKit
 import Spatial
 
-class SliderBar:UIView,ConstraintKind{
+class SliderBar: UIView, ConstraintKind{
     var size:SizeConstraint?
     var anchor:AnchorConstraint?
     override init(frame: CGRect) {

@@ -11,7 +11,7 @@ extension HorView{
    @objc open func createHeader() -> Header{
       return with(.init()) {/*Header has title,buttons,slider*/
          addSubview($0)
-         $0.anchorAndSize(to:self, height:Header.height)
+         $0.anchorAndSize(to:self, height: Header.height)
          $0.buttonContainer.onButtonClick = onButtonClick
       }
    }
@@ -20,7 +20,7 @@ extension HorView{
     * - Note: Overridable in subclass for customization
     */
    @objc open func createCollectionView() -> UICollectionView{
-      let flowLayout:UICollectionViewFlowLayout = createLayout()
+      let flowLayout: UICollectionViewFlowLayout = createLayout()
       return with(.init(frame: self.frame, collectionViewLayout: flowLayout)){
          $0.dataSource = self/*We must set datasource because the framework is view based not VC based*/
          $0.delegate = self/*We must set delegate because the framework is view based not VC based*/

@@ -6,7 +6,7 @@ extension HeaderButton{
    /**
     * Sets the button to active mode
     */
-   func setActive(isActive:Bool){
+   func setActive(isActive: Bool){
       if isActive {
          self.setTitleColor(HorView.style.header.button.selectedFontColor, for: .normal)
          self.titleLabel?.font = HorView.style.header.button.selectedFont

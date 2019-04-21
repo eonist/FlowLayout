@@ -3,14 +3,14 @@ import UIKit
  * Type
  */
 extension HorView{
-   typealias Style = (header:HeaderStyle, backgroundColor:UIColor, slider:SliderStyle, horCollectionViewBackgroundColor:UIColor)
-   typealias HeaderStyle = (backgroundColor:UIColor, title:HeaderTitleStyle, button:HeaderButtonStyle)
-   typealias HeaderTitleStyle = (color:UIColor, font:UIFont)
-   typealias HeaderButtonStyle = (selectedFontColor:UIColor, unSelectedFontColor:UIColor, selectedFont:UIFont, unSelectedFont:UIFont)
-   typealias SliderStyle = (backgroundColor:UIColor, foregroundColor:UIColor)
+   typealias Style = (header:HeaderStyle, backgroundColor: UIColor, slider:SliderStyle, horCollectionViewBackgroundColor: UIColor)
+   typealias HeaderStyle = (backgroundColor: UIColor, title: HeaderTitleStyle, button: HeaderButtonStyle)
+   typealias HeaderTitleStyle = (color: UIColor, font: UIFont)
+   typealias HeaderButtonStyle = (selectedFontColor: UIColor, unSelectedFontColor: UIColor, selectedFont: UIFont, unSelectedFont: UIFont)
+   typealias SliderStyle = (backgroundColor: UIColor, foregroundColor: UIColor)
 }
 /**
- * Const
+ * Constant
  */
 extension HorView{
    static let style:Style = (headerStyle,.blue,sliderStyle,.lightGray)

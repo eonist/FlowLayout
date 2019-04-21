@@ -8,23 +8,23 @@ extension Slider{
     * Set index
     */
    func setIdx(idx:Int){
-      let sliderBarWidth:CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
-      let x:CGFloat = sliderBarWidth * CGFloat(idx)
+      let sliderBarWidth: CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
+      let x: CGFloat = sliderBarWidth * CGFloat(idx)
       animate(to: x)
    }
    /**
     * Set progress
     * - Parameter progress:
     */
-   func setProgress(progress:CGFloat){
-      let sliderBarWidth:CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
-      let x:CGFloat = sliderBarWidth * progress
+   func setProgress(progress: CGFloat){
+      let sliderBarWidth: CGFloat = {return self.frame.width / CGFloat(segmentCount)}()
+      let x: CGFloat = sliderBarWidth * progress
       setProgress(to: x)
    }
    /**
     * - Parameter to: the x-position to set to
     */
-   func setProgress(to:CGFloat){
+   func setProgress(to: CGFloat){
       self.sliderBar.update(offset: to, align: .left, alignTo: .left)
    }
 }

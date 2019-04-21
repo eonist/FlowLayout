@@ -16,7 +16,7 @@ extension PrimaryHorCell{
     */
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       guard let cell:PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else {fatalError("err")}
-      if let thumbURL:String = primaryCellData?.thumbURLS[indexPath.row] {
+      if let thumbURL: String = primaryCellData?.thumbURLS[indexPath.row] {
          Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
          //cell.imgView.setImage(webPath: thumbURL)
@@ -27,15 +27,15 @@ extension PrimaryHorCell{
     * Alternate layout
     */
    func createAlternateLayout() -> UICollectionViewFlowLayout {
-      return with(.init()){
-         let margin:CGFloat = SecondaryHorCell.margin
+      return with(.init()) {
+         let margin: CGFloat = SecondaryHorCell.margin
          $0.sectionInset = .init(top: margin, left: margin, bottom: margin, right: margin)
          $0.minimumInteritemSpacing = 0
          $0.minimumLineSpacing = margin/*vertical spacing*/
-         let itemSize:CGSize = {
-            let screenWidth:CGFloat = UIScreen.main.bounds.size.width
-            let width:CGFloat = screenWidth - (margin*2)
-            let height:CGFloat = width
+         let itemSize: CGSize = {
+            let screenWidth: CGFloat = UIScreen.main.bounds.size.width
+            let width: CGFloat = screenWidth - (margin*2)
+            let height: CGFloat = width
             return .init(width: width, height: height)
          }()
          $0.itemSize = itemSize//CGSize(width: 70, height: 70)

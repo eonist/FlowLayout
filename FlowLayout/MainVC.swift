@@ -9,9 +9,9 @@ import FlowLayout_iOS
  * - TODO: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
  * - TODO: ⚠️️ mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
  */
-class MainVC :UIViewController{
-   lazy var flowView:HorView = createCustomFlowView()//createFlowView()
-   override var prefersStatusBarHidden:Bool {return true}/*hides statusbar*/
+class MainVC: UIViewController{
+   lazy var flowView: HorView = createCustomFlowView()//createFlowView()
+   override var prefersStatusBarHidden: Bool {return true}/*hides statusbar*/
    override func viewDidLoad() {
       super.viewDidLoad()
       view = MainView()

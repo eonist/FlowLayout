@@ -7,7 +7,7 @@ extension Header {
    /**
     * Set index
     */
-   func setIdx(idx:Int){
+   func setIdx(idx: Int){
       Swift.print("Header.setIdx - ⚠️️  out of order ⚠️️ ")
       //slider.setIdx(idx: idx)
       //setTitleIdx(idx: idx)
@@ -15,7 +15,7 @@ extension Header {
    /**
     * Set index for title label
     */
-   func setTitleIdx(idx:Int){
+   func setTitleIdx(idx: Int){
       let title:String = HorView.CellType.allCases[idx].rawValue //?? "undefined"
       headerTitle.text = title
    }

@@ -4,7 +4,7 @@ import With
 /**
  * Create
  */
-extension Header {
+internal extension Header {
    /**
     * TopFix
     */
