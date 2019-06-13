@@ -9,7 +9,7 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 
 ### Features
 - 100% Programmatic 👌
-- [3.77 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆
+- [3.82 GPA on Codebeat](https://codebeat.co/projects/github-com-eonist-flowlayout-master)  🏆
 - Dual UICollectionView setup ↕️ ↔️
 - Responsive header (Compact/Normal) 📏
 - Pull-to-refresh (vertical/horizontal) 🔄
