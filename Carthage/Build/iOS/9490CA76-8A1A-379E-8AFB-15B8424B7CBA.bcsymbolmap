@@ -1,0 +1,22 @@
+BCSymbolMap Version: 2.0
+__swift_FORCE_LOAD_$_swiftFoundation_$_With
+__swift_FORCE_LOAD_$_swiftDarwin_$_With
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_With
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_With
+__swift_FORCE_LOAD_$_swiftDispatch_$_With
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_With
+__swift_FORCE_LOAD_$_swiftUIKit_$_With
+__swift_FORCE_LOAD_$_swiftCoreImage_$_With
+__swift_FORCE_LOAD_$_swiftMetal_$_With
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_With
+___swift_reflection_version
+Apple LLVM version 10.0.1 (clang-1001.0.46.5)
+<swift-imported-modules>
+/Users/andrejorgensen/Documents/dev/_modules/FlowLayout/Carthage/Checkouts/With
+Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
+/Users/andrejorgensen/Documents/dev/_modules/FlowLayout/Carthage/Checkouts/With/src/With.swift
+with
+With.swift
+/Users/andrejorgensen/Documents/dev/_modules/FlowLayout/Carthage/Checkouts/With/src
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+/Users/andrejorgensen/Library/Caches/org.carthage.CarthageKit/DerivedData/10.2.1_10E1001/With/216976bcbccf3d0f4a5221ef0009b16f4060944c/Build/Intermediates.noindex/ArchiveIntermediates/With/IntermediateBuildFilesPath/WithExample.build/Release-iphoneos/With.build/DerivedSources/With_vers.c
