@@ -4,7 +4,7 @@ import Spatial
 /**
  * Create
  */
-extension ImageCell{
+extension ImageCell {
    /**
     * Creates ImgView
     */
@@ -13,7 +13,7 @@ extension ImageCell{
          $0.contentMode = .scaleAspectFill/*Fills the view*/
          $0.backgroundColor = .lightGray
          /*adds a ciruclar mask to the image-view*/
-         let cornerRadius = self.contentView.frame.height/2
+         let cornerRadius = self.contentView.frame.height / 2
          $0.layer.cornerRadius = cornerRadius
          $0.clipsToBounds = true
          self.contentView.addSubview($0)

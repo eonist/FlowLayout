@@ -1,6 +1,6 @@
 import UIKit
 
-class HeaderButton:CustomButton{
+class HeaderButton: CustomButton {
    var clickCallBack: ClickCallBack = HeaderButton.defaultClickCallBack
    override init(title: String) {
       super.init(title: title)

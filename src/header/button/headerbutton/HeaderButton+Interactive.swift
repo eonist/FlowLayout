@@ -1,6 +1,6 @@
 import Foundation
 
-extension HeaderButton{
+extension HeaderButton {
    /**
     * Selector handler
     */

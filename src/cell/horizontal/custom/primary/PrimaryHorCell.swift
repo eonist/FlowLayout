@@ -1,9 +1,9 @@
 import UIKit
 import With
 /**
- * - TODO: ⚠️️ Rename to PrimaryHorCell
+ * - Fixme: ⚠️️ Rename to PrimaryHorCell
  */
-class PrimaryHorCell: HorCell{
+class PrimaryHorCell: HorCell {
    override init(frame: CGRect) {
       super.init(frame: frame)
       self.onItemSelect = itemSelect
@@ -17,12 +17,5 @@ class PrimaryHorCell: HorCell{
          _ = data
          updateCollectionView()/* Updates the collection view with data */
       }
-   }
-   /**
-    * Boilerplate
-    */
-   @available(*, unavailable)
-   required init?(coder aDecoder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
    }
 }

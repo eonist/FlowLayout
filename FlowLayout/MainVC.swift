@@ -4,14 +4,14 @@ import FlowLayout_iOS
  * FlowLayout
  * - Description: FlowLayout (Bi-directional layout framework) (Great for prototyping UX ideas and apps)
  * - Definition: bidirectional: functioning in two directions.
- * - TODO: ⚠️️ set the view, don't add to it, also set it as RootVC, like in weather, and reaname to VC 👈
- * - TODO: ⚠️️ ReUse cell: https://tech.busuu.com/dealing-with-different-kinds-of-cells-in-swift-part-2-of-3-3fe73b0c50c6
- * - TODO: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
- * - TODO: ⚠️️ mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
+ * - Fixme: ⚠️️ set the view, don't add to it, also set it as RootVC, like in weather, and reaname to VC 👈
+ * - Fixme: ⚠️️ ReUse cell: https://tech.busuu.com/dealing-with-different-kinds-of-cells-in-swift-part-2-of-3-3fe73b0c50c6
+ * - Fixme: ⚠️️ apple video on advance collection views: https://developer.apple.com/videos/play/wwdc2014/232/
+ * - Fixme: ⚠️️ mixed sizes in Collection: https://octodev.net/custom-collectionviewlayout/
  */
-class MainVC: UIViewController{
-   lazy var flowView: HorView = createCustomFlowView()//createFlowView()
-   override var prefersStatusBarHidden: Bool {return true}/*hides statusbar*/
+class MainVC: UIViewController {
+   lazy var flowView: HorView = createCustomFlowView() // createFlowView()
+   override var prefersStatusBarHidden: Bool { return true } // hides statusbar
    override func viewDidLoad() {
       super.viewDidLoad()
       view = MainView()
@@ -29,4 +29,4 @@ class MainVC: UIViewController{
       navigationItem.title = "Main"
    }
 }
-class MainView:UIView{}
+class MainView: UIView {}

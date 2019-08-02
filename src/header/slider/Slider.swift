@@ -3,8 +3,8 @@ import Spatial
 /**
  * - Abstract: The topBar slider that indicates where you are horizontally
  */
-class Slider:UIView{
-    lazy var sliderBar:SliderBar = createSliderBar()
+class Slider: UIView {
+    lazy var sliderBar: SliderBar = createSliderBar()
     let segmentCount: Int
     let idx: Int
     init(idx: Int, segmentCount: Int, frame: CGRect) {

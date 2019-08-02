@@ -1,21 +1,22 @@
 import Foundation
 /**
- * - TODO: ⚠️️ maybe move to it's own enum file?
+ * - Fixme: ⚠️️ maybe move to it's own enum file?
  */
-extension HorView{
+extension HorView {
    /**
     * CellType
+    * - Fixme: rather do: .rawValue.capitalized
     */
-   enum CellType: String, CaseIterable{
+   enum CellType: String, CaseIterable {
       case primary = "Primary", secondary = "Secondary", tertiary = "Tertiary"
-      static let types: [CellType] = [.primary,.secondary,.tertiary]
+      static let types: [CellType] = [.primary, .secondary, .tertiary]
    }
 }
 /**
  * Getter
  */
-extension HorView.CellType{
-   var idx:Int{
+extension HorView.CellType {
+   var idx: Int {
       switch self {
       case .primary:
          return 0

@@ -2,7 +2,7 @@ import UIKit
 /**
  * Header (title,buttons,slider)
  */
-open class Header:UIView {
+open class Header: UIView {
    lazy var topFix: UIView = self.createTopFix()
    lazy var headerTitle: UILabel = self.createHeaderTitle()
    lazy var buttonContainer: ButtonContainer = self.createButtonContainer()
@@ -10,7 +10,7 @@ open class Header:UIView {
    override public init(frame: CGRect) {
       super.init(frame: frame)
       self.backgroundColor = HorView.style.header.backgroundColor
-      _ = createGraphicFix()//TODO: ⚠️️ rename to backgroundFix
+      _ = createGraphicFix()//Fixme: ⚠️️ rename to backgroundFix
       _ = topFix
       _ = headerTitle
       _ = buttonContainer
@@ -18,8 +18,9 @@ open class Header:UIView {
    }
    /**
     * Boilerplate
+    * - Fixme: ⚠️️ do the inaccessible method here
     */
-   required public init(coder: NSCoder) {
+   public required init(coder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
    }
 }

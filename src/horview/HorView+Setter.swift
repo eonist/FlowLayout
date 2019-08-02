@@ -1,20 +1,20 @@
 import Foundation
 
-extension HorView{
+extension HorView {
     /**
      * Set index
      */
-    func setIdx(idx: Int){
+    func setIdx(idx: Int) {
         header.setTitleIdx(idx: idx)
         setCollectionViewIndex(idx: idx)
     }
     /**
      * Scrolls to collectionview index
      */
-    func setCollectionViewIndex(idx: Int){
+    func setCollectionViewIndex(idx: Int) {
         let indexPath = IndexPath(row: idx, section: 0)
-        self.collectionView.scrollToItem(at:indexPath, at: .right, animated: true)
-        collectionView.setNeedsLayout()/* ⚠️️ might not be needed*/
-        collectionView.layoutIfNeeded()/* ⚠️️ might not be needed*/
+        self.collectionView.scrollToItem(at: indexPath, at: .right, animated: true)
+        collectionView.setNeedsLayout() // ⚠️️ might not be needed
+        collectionView.layoutIfNeeded() // ⚠️️ might not be needed
     }
 }

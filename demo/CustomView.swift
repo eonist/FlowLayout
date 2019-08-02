@@ -1,7 +1,7 @@
 import Foundation
 import FlowLayout_iOS
 
-class CustomView:HorView{
+class CustomView: HorView {
    override init(frame: CGRect) {
       super.init(frame: frame)
 //      self.backgroundColor = .green//debug

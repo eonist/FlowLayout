@@ -2,7 +2,7 @@ import UIKit
 /**
  * CollectionView related
  */
-extension HorView{
+extension HorView {
     /**
      * Num of items
      */
@@ -19,8 +19,8 @@ extension HorView{
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryHorCell.id, for: indexPath as IndexPath) as? PrimaryHorCell else { fatalError("err") }
             let imageURLStr: String = "https://rawgit.com/stylekit/img/master/" + "pic_1_thumb.png"
             _ = imageURLStr
-            let urls: [String] = .init(repeating: "🎉", count: 11)//["a","b","c","d","a","b","c","d","a","b","c"]
-            cell.data = PrimaryCellData.init(thumbURLS: urls)/*When you set this, the data is applied to the UI*/
+            let urls: [String] = .init(repeating: "🎉", count: 11) // ["a","b","c","d","a","b","c","d","a","b","c"]
+            cell.data = PrimaryCellData(thumbURLS: urls) // When you set this, the data is applied to the UI
             return cell
          case HorView.CellType.secondary.idx:
             guard let cell: SecondaryHorCell = collectionView.dequeueReusableCell(withReuseIdentifier: SecondaryHorCell.id, for: indexPath as IndexPath) as? SecondaryHorCell else { fatalError("err") }
@@ -32,7 +32,7 @@ extension HorView{
             fatalError("err: \(indexPath.row)")
          }
       }()
-      cell.onScroll = {yOffset in self.header.frame.origin.y = yOffset}/*Attach scoll-call-back-closure*/
+      cell.onScroll = { yOffset in self.header.frame.origin.y = yOffset } // Attach scoll-call-back-closure
 //      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}//callback for cell click
       return cell
     }

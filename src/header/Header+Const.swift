@@ -3,7 +3,7 @@ import Spatial
 /**
  * Const
  */
-internal extension Header {
-   static let height: CGFloat = 130
-   static let titleHeight: CGFloat = 60
+extension Header {
+   internal static let height: CGFloat = 130
+   internal static let titleHeight: CGFloat = 60
 }
