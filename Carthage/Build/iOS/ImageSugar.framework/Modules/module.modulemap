@@ -1,0 +1,11 @@
+framework module ImageSugar {
+  umbrella header "ImageSugar.h"
+
+  export *
+  module * { export * }
+}
+
+module ImageSugar.Swift {
+    header "ImageSugar-Swift.h"
+    requires objc
+}

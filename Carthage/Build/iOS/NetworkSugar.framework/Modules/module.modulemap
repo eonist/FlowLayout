@@ -1,0 +1,11 @@
+framework module NetworkSugar {
+  umbrella header "NetworkSugar.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkSugar.Swift {
+    header "NetworkSugar-Swift.h"
+    requires objc
+}

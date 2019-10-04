@@ -5,25 +5,14 @@ import Foundation
 extension HorView {
    /**
     * CellType
-    * - Fixme: rather do: .rawValue.capitalized
     */
    enum CellType: String, CaseIterable {
-      case primary = "Primary", secondary = "Secondary", tertiary = "Tertiary"
-      static let types: [CellType] = [.primary, .secondary, .tertiary]
+      case primary, secondary, tertiary
    }
 }
 /**
  * Getter
  */
 extension HorView.CellType {
-   var idx: Int {
-      switch self {
-      case .primary:
-         return 0
-      case .secondary:
-         return 1
-      case .tertiary:
-         return 2
-      }
-   }
+   var idx: Int? { return HorView.CellType.allCases.firstIndex(of: self) }
 }

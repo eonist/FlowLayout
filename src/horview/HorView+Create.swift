@@ -9,7 +9,7 @@ extension HorView {
     * Creates header
     */
    @objc open func createHeader() -> Header {
-      return with(.init()) { // Header has title,buttons,slider
+      return with(.init()) { // Header has title, buttons, slider
          addSubview($0)
          $0.anchorAndSize(to: self, height: Header.height)
          $0.buttonContainer.onButtonClick = onButtonClick
@@ -25,11 +25,10 @@ extension HorView {
          $0.dataSource = self // We must set datasource because the framework is view based not VC based
          $0.delegate = self // We must set delegate because the framework is view based not VC based
          $0.backgroundColor = .clear
-         $0.contentInset = .zero // reset contentInset
-         $0.scrollIndicatorInsets = .zero // reset scrollIndicator insets
+         $0.contentInset = .zero // Reset contentInset
+         $0.scrollIndicatorInsets = .zero // Reset scrollIndicator insets
          $0.isPagingEnabled = true // Makes each cell snap to whole integers
          $0.showsHorizontalScrollIndicator = false // Hides scrollbar
-         //self.addSubview(collectionView)
          self.insertSubview($0, belowSubview: header)
          $0.anchorAndSize(to: self)
       }

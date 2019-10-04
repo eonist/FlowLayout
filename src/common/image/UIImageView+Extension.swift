@@ -23,15 +23,15 @@ extension UIImageView {
      * Sets image async
      */
     internal func setImage(webPath: String, useBGThread: Bool = true, onError:@escaping OnError = defaultErrorHandler) {
-        let thread: DispatchQueue = (useBGThread ? .global(qos: .background) : .main)//create bg or main thread
+        let thread: DispatchQueue = (useBGThread ? .global(qos: .background) : .main) // Create bg or main thread
         thread.async {
             UIImage.image(webPath: webPath) { (image: UIImage?, error: UIImage.IMGError?) in
                 if let img = image {
-                    DispatchQueue.main.async {//UI stuff must happen on the main thread
-                        self.image = img//set the image
+                    DispatchQueue.main.async { // UI stuff must happen on the main thread
+                        self.image = img // set the image
                     }
                 } else {
-                    onError(error)//call the error handler
+                    onError(error) // call the error handler
                 }
             }
         }

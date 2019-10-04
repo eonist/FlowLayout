@@ -5,7 +5,7 @@ import Spatial
  */
 extension Slider {
    /**
-    * Set index
+    * Sets index
     */
    func setIdx(idx: Int) {
       let sliderBarWidth: CGFloat = { self.frame.width / CGFloat(segmentCount) }()
@@ -14,7 +14,7 @@ extension Slider {
    }
    /**
     * Set progress
-    * - Parameter progress:
+    * - Parameter progress: 0 - 1
     */
    func setProgress(progress: CGFloat) {
       let sliderBarWidth: CGFloat = { self.frame.width / CGFloat(segmentCount) }()

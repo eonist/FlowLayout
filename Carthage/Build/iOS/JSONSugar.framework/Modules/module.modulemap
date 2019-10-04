@@ -1,0 +1,11 @@
+framework module JSONSugar {
+  umbrella header "JSONSugar.h"
+
+  export *
+  module * { export * }
+}
+
+module JSONSugar.Swift {
+    header "JSONSugar-Swift.h"
+    requires objc
+}

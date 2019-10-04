@@ -1,0 +1,11 @@
+framework module FileSugar {
+  umbrella header "FileSugar.h"
+
+  export *
+  module * { export * }
+}
+
+module FileSugar.Swift {
+    header "FileSugar-Swift.h"
+    requires objc
+}

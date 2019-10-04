@@ -20,11 +20,11 @@ extension Header {
     */
    internal func createHeaderTitle() -> UILabel {
       return with(.init()) {
-         $0.text = HorView.CellType.primary.rawValue
+         $0.text = HorView.CellType.primary.rawValue.capitalized
          $0.font = HorView.style.header.title.font
          $0.textAlignment = .center
          $0.backgroundColor = .clear
-         $0.textColor = HorView.style.header.title.color//UIColor(hex:"EBCF4B")
+         $0.textColor = HorView.style.header.title.color
          self.addSubview($0)
          $0.anchorAndSize(to: self.topFix, sizeTo: self, height: Header.titleHeight, align: .topLeft, alignTo: .bottomLeft)
       }
@@ -42,7 +42,7 @@ extension Header {
     * Create slider
     */
    internal func createSlider() -> Slider {
-      let segmentCount: Int = HorView.CellType.types.count
+      let segmentCount: Int = HorView.CellType.allCases.count
       return with(.init(idx: 0, segmentCount:segmentCount, frame: .zero)) {
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: Slider.height, align: .bottomLeft, alignTo: .bottomLeft)
@@ -51,7 +51,7 @@ extension Header {
    /**
     * Graphic fix (When you drag the list up and down this covers to match header color)
     */
-   internal func createGraphicFix() -> UIView {
+   internal func createBackgroundFix() -> UIView {
       return with(.init(frame: .zero)) {
          $0.backgroundColor = HorView.style.header.backgroundColor
          self.addSubview($0)

@@ -5,8 +5,8 @@ extension HorView {
     * Calculates the current page
     */
    internal var currentPageIndex: Int {
-      let x = collectionView.contentOffset.x
-      let w = collectionView.bounds.size.width
+      let x: CGFloat = collectionView.contentOffset.x
+      let w: CGFloat = collectionView.bounds.size.width
       let currentPage: Int = .init(round(x / w))
       return currentPage
    }

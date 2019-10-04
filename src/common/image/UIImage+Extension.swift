@@ -10,7 +10,7 @@ extension UIImage {
         case errorGettingDataFromURL
     }
     /**
-     * get UIImage from webPath
+     * Get UIImage from webPath
      */
     internal static func image(webPath: String, onComplete:@escaping DownloadComplete) {
         guard let url = URL(string: webPath) else { onComplete(nil, .invalideWebPath); return }

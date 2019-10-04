@@ -10,7 +10,7 @@ open class Header: UIView {
    override public init(frame: CGRect) {
       super.init(frame: frame)
       self.backgroundColor = HorView.style.header.backgroundColor
-      _ = createGraphicFix()//Fixme: ⚠️️ rename to backgroundFix
+      _ = createBackgroundFix()
       _ = topFix
       _ = headerTitle
       _ = buttonContainer
@@ -18,8 +18,8 @@ open class Header: UIView {
    }
    /**
     * Boilerplate
-    * - Fixme: ⚠️️ do the inaccessible method here
     */
+   @available(*, unavailable)
    public required init(coder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
    }

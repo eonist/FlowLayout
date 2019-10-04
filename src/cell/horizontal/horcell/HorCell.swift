@@ -1,14 +1,15 @@
 import UIKit
 import With
 import Spatial
+import ReusableCell_iOS
 /**
  * - Abstract A horizontal Cell that has a vertical collectionView
  * - Note: This class is later subclassed as a generic class, and as such overriding things in extension doesn't work
  */
-class HorCell: UICollectionViewCell {
+class HorCell: UICollectionViewCell, ReusableCellKind {
    lazy var collectionView: UICollectionView = self.createCollectionView() // Vertical collection view
    var items: [Int] // Vertical items
-   var onScroll: ScrollCallBack = defaultOnScroll
+   var onScroll: OnScroll = defaultOnScroll
    var onItemSelect: OnItemSelect = defaultOnItemSelect
    var data: CellDataKind? // Stores cellData
    /**
