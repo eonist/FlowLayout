@@ -3,7 +3,7 @@ import UIKit
  * Header (title,buttons,slider)
  */
 open class Header: UIView {
-   lazy var topFix: UIView = self.createTopFix()
+   lazy var topFix: UIView = self.createTopFix() // to cover up a void space
    lazy var headerTitle: UILabel = self.createHeaderTitle()
    lazy var buttonContainer: ButtonContainer = self.createButtonContainer()
    lazy var slider: Slider = self.createSlider()

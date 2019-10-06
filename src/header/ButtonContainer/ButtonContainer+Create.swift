@@ -16,7 +16,7 @@ extension ButtonContainer {
             self.addSubview($0)
          }
       }
-      let widthMultiplier: CGFloat = 1 / CGFloat(titles.count) // 75p on iphone 8
+      let widthMultiplier: CGFloat = 1 / CGFloat(titles.count) // 75pix on iphone 8
       buttons.distributeAndSize(dir: .hor, height: ButtonContainer.height, align: .topLeft, alignTo: .topLeft, multiplier: .init(width: widthMultiplier, height: 1))
       buttons.first?.setTitleColor(HorView.style.header.button.selectedFontColor, for: .normal)
       buttons.first?.titleLabel?.font = HorView.style.header.button.selectedFont

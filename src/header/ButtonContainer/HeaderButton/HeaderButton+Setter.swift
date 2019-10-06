@@ -10,9 +10,9 @@ extension HeaderButton {
       if isActive {
          self.setTitleColor(HorView.style.header.button.selectedFontColor, for: .normal)
          self.titleLabel?.font = HorView.style.header.button.selectedFont
-      }else {
-         self.titleLabel?.font = HorView.style.header.button.unSelectedFont
+      } else {
          self.setTitleColor(HorView.style.header.button.unSelectedFontColor, for: .normal)
+         self.titleLabel?.font = HorView.style.header.button.unSelectedFont
       }
    }
 }

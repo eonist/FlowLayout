@@ -5,8 +5,9 @@ import UIKit
 extension Slider {
    typealias OnComplete = () -> Void
    /**
-    * - Parameter to: the amount to offset in the X dir
-    * - Parameter onComplete: called when the animation completes
+    * - Parameters:
+    *   - to: the amount to offset in the X dir
+    *   - onComplete: called when the animation completes
     */
    func animate(to: CGFloat, onComplete:@escaping OnComplete = {}) {
       Swift.print("Slider.animate: \(to)")

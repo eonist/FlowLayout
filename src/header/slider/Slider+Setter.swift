@@ -8,7 +8,7 @@ extension Slider {
     * Sets index
     */
    func setIdx(idx: Int) {
-      let sliderBarWidth: CGFloat = { self.frame.width / CGFloat(segmentCount) }()
+      let sliderBarWidth: CGFloat = self.frame.width / CGFloat(segmentCount)
       let x: CGFloat = sliderBarWidth * CGFloat(idx)
       animate(to: x)
    }

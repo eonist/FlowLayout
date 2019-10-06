@@ -6,9 +6,9 @@ import With
  */
 extension Header {
    /**
-    * TopFix
+    * TopFix (to cover up a void space)
     */
-   internal func createTopFix() -> UIView {
+   func createTopFix() -> UIView {
       return with(.init()) {
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: Slider.height, align: .topLeft, alignTo: .topLeft)
@@ -16,23 +16,19 @@ extension Header {
       }
    }
    /**
-    * - Fixme: ⚠️️ Make the headerTitle it's own class
+    * Creates header title
     */
-   internal func createHeaderTitle() -> UILabel {
+   func createHeaderTitle() -> HeaderTitle {
       return with(.init()) {
-         $0.text = HorView.CellType.primary.rawValue.capitalized
-         $0.font = HorView.style.header.title.font
-         $0.textAlignment = .center
-         $0.backgroundColor = .clear
-         $0.textColor = HorView.style.header.title.color
+         $0.setTitleText(text: HorView.CellType.primary.rawValue.capitalized)
          self.addSubview($0)
-         $0.anchorAndSize(to: self.topFix, sizeTo: self, height: Header.titleHeight, align: .topLeft, alignTo: .bottomLeft)
+         $0.anchorAndSize(to: self.topFix, sizeTo: self, height: HeaderTitle.titleHeight, align: .topLeft, alignTo: .bottomLeft)
       }
    }
    /**
     * Creates buttons
     */
-   internal func createButtonContainer() -> ButtonContainer {
+   func createButtonContainer() -> ButtonContainer {
       return with(.init(frame: .zero)) {
          addSubview($0)
          $0.anchorAndSize(to: headerTitle, sizeTo: self, height: ButtonContainer.height, align: .topLeft, alignTo: .bottomLeft)
@@ -41,7 +37,7 @@ extension Header {
    /**
     * Create slider
     */
-   internal func createSlider() -> Slider {
+   func createSlider() -> Slider {
       let segmentCount: Int = HorView.CellType.allCases.count
       return with(.init(idx: 0, segmentCount:segmentCount, frame: .zero)) {
          self.addSubview($0)
@@ -51,7 +47,7 @@ extension Header {
    /**
     * Graphic fix (When you drag the list up and down this covers to match header color)
     */
-   internal func createBackgroundFix() -> UIView {
+   func createBackgroundFix() -> UIView {
       return with(.init(frame: .zero)) {
          $0.backgroundColor = HorView.style.header.backgroundColor
          self.addSubview($0)

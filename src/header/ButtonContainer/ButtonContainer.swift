@@ -2,7 +2,7 @@ import UIKit
 import With
 import Spatial
 /**
- * Header
+ * This is the view that has the header buttons (aka primary, secondary, tierary)
  */
 class ButtonContainer: UIView {
    static let height: CGFloat = 60
