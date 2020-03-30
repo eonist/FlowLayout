@@ -4,8 +4,8 @@ import UIKit
  * - Fixme: ⚠️️ In theory it could be an Idea to extend UICollectionView directly, instead of UIView
  */
 open class HorView: UIView, UICollectionViewDataSource, UICollectionViewDelegate {
-   lazy var header: Header = self.createHeader()
-   lazy var collectionView: UICollectionView = self.createCollectionView()
+   lazy var header: Header = self.createHeader() // Adds the header
+   lazy var collectionView: UICollectionView = self.createCollectionView() // Adds the collectionView
    var items: [CellType] // Aka columns
    override public init(frame: CGRect = .zero) {
       items = [.primary, .secondary, .tertiary]

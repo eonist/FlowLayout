@@ -1,7 +1,7 @@
 import UIKit
 import ReusableCell
 /**
- * Corex
+ * Core
  */
 extension HorView {
    /**

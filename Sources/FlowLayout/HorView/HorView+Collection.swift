@@ -33,6 +33,7 @@ extension HorView {
             fatalError("err: \(indexPath.row)")
          }
       }()
+      // we add onScroll to every cell
       cell.onScroll = { yOffset in self.header.frame.origin.y = yOffset } // Attach scoll-call-back-closure
 //      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}//callback for cell click
       return cell

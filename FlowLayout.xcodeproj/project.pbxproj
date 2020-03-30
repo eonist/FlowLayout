@@ -324,8 +324,8 @@
 		F149656B24323AAC008C1847 /* HorCell */ = {
 			isa = PBXGroup;
 			children = (
-				F149656C24323AAC008C1847 /* HorCell+Update.swift */,
 				F149656D24323AAC008C1847 /* HorCell.swift */,
+				F149656C24323AAC008C1847 /* HorCell+Update.swift */,
 				F149656E24323AAC008C1847 /* HorCell+Collection.swift */,
 				F149656F24323AAC008C1847 /* HorCell+Getter.swift */,
 				F149657024323AAC008C1847 /* HorCell+Scroll.swift */,

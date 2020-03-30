@@ -14,12 +14,12 @@ extension HorView {
    }
    /**
     * Called when the user scrolls in the horizontal direction
-    * - Important: ⚠️️ You want to reference the param instead of self.collectionView, as the collection view isnt ready when viewDidScroll is called. Its called on the init of the app.
+    * - Important: ⚠️️ You want to reference the param instead of self.collectionView, as the collection view isn't ready when viewDidScroll is called. It's called on the init of the app.
     */
    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
       let x = scrollView.contentOffset.x
       let w = scrollView.bounds.size.width
       let currentProgress = x / w
-      header.slider.setProgress(progress: currentProgress)/*Moves the slider left and right*/
+      header.slider.setProgress(progress: currentProgress) // Moves the slider left and right
    }
 }
