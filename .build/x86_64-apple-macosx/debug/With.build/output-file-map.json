@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/master.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With+KeyPath.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+KeyPath.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+KeyPath.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+KeyPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+KeyPath.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With+Map.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+Map.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+Map.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+Map~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With+Map.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With.swiftdeps"
+  }
+}

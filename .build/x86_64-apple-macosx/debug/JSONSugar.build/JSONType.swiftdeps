@@ -1,0 +1,163 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONType"
+provides-nominal:
+- "9JSONSugar8JSONTypeO"
+provides-member:
+- ["9JSONSugar8JSONTypeO", ""]
+- ["9JSONSugar8JSONTypeO", "type"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JSONAsserter"
+- "JSONType"
+- !private "StringLiteralType"
+- !private "Swift"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "arr"]
+- !private ["s28CustomDebugStringConvertibleP", "dict"]
+- !private ["s28CustomDebugStringConvertibleP", "dictArr"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "str"]
+- !private ["s17CustomReflectableP", "arr"]
+- !private ["s17CustomReflectableP", "dict"]
+- !private ["s17CustomReflectableP", "dictArr"]
+- !private ["s17CustomReflectableP", "int"]
+- !private ["s17CustomReflectableP", "str"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["Se", "arr"]
+- !private ["Se", "dict"]
+- !private ["Se", "dictArr"]
+- !private ["Se", "int"]
+- !private ["Se", "str"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "arr"]
+- !private ["SE", "dict"]
+- !private ["SE", "dictArr"]
+- !private ["SE", "int"]
+- !private ["SE", "str"]
+- ["SQ", "=="]
+- !private ["SQ", "JSONAsserter"]
+- !private ["SQ", "Swift"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "arr"]
+- !private ["SQ", "dict"]
+- !private ["SQ", "dictArr"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "int"]
+- !private ["SQ", "print"]
+- !private ["SQ", "str"]
+- !private ["s23ExpressibleByNilLiteralP", "arr"]
+- !private ["s23ExpressibleByNilLiteralP", "dict"]
+- !private ["s23ExpressibleByNilLiteralP", "dictArr"]
+- !private ["s23ExpressibleByNilLiteralP", "int"]
+- !private ["s23ExpressibleByNilLiteralP", "str"]
+- ["SH", "=="]
+- !private ["SH", "JSONAsserter"]
+- !private ["SH", "Swift"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "arr"]
+- !private ["SH", "dict"]
+- !private ["SH", "dictArr"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "int"]
+- !private ["SH", "print"]
+- !private ["SH", "str"]
+- !private ["s6HasherV", "combine"]
+- !private ["9JSONSugar12JSONAsserterC", "isArr"]
+- !private ["9JSONSugar12JSONAsserterC", "isDict"]
+- !private ["9JSONSugar12JSONAsserterC", "isDictArr"]
+- !private ["9JSONSugar12JSONAsserterC", "isInt"]
+- !private ["9JSONSugar12JSONAsserterC", "isStr"]
+- ["9JSONSugar8JSONTypeO", "=="]
+- !private ["9JSONSugar8JSONTypeO", "JSONAsserter"]
+- ["9JSONSugar8JSONTypeO", "JSONType"]
+- !private ["9JSONSugar8JSONTypeO", "Swift"]
+- ["9JSONSugar8JSONTypeO", "__derived_enum_equals"]
+- ["9JSONSugar8JSONTypeO", "_rawHashValue"]
+- ["9JSONSugar8JSONTypeO", "arr"]
+- ["9JSONSugar8JSONTypeO", "deinit"]
+- ["9JSONSugar8JSONTypeO", "dict"]
+- ["9JSONSugar8JSONTypeO", "dictArr"]
+- ["9JSONSugar8JSONTypeO", "hash"]
+- ["9JSONSugar8JSONTypeO", "hashValue"]
+- ["9JSONSugar8JSONTypeO", "int"]
+- !private ["9JSONSugar8JSONTypeO", "print"]
+- ["9JSONSugar8JSONTypeO", "str"]
+- ["9JSONSugar8JSONTypeO", "type"]
+- !private ["Sq", "arr"]
+- !private ["Sq", "dict"]
+- !private ["Sq", "dictArr"]
+- !private ["Sq", "int"]
+- !private ["Sq", "str"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s21_ObjectiveCBridgeableP", "arr"]
+- !private ["s21_ObjectiveCBridgeableP", "dict"]
+- !private ["s21_ObjectiveCBridgeableP", "dictArr"]
+- !private ["s21_ObjectiveCBridgeableP", "int"]
+- !private ["s21_ObjectiveCBridgeableP", "str"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "9JSONSugar12JSONAsserterC"
+- "9JSONSugar8JSONTypeO"
+- !private "Sq"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9c7bc3113a5cb083c0103b84f3ccd65a"

@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/master.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/BaseCell.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/BaseCell.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/BaseCell.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/BaseCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/BaseCell.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/CommonCell.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/CommonCell.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/CommonCell.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/CommonCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/CommonCell.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/data/CellDataKind.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/data/CellDataKind.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/data/CellDataKind.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/data/CellDataKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/data/CellDataKind.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell+Constant.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Constant.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Constant.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Constant~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Constant.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell+Create.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Create.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Create.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Create~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell+Create.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/TextCell.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/data/TextCellData.swift": {
+    "dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/data/TextCellData.d",
+    "object": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/data/TextCellData.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/data/TextCellData~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/_modules/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/text/data/TextCellData.swiftdeps"
+  }
+}

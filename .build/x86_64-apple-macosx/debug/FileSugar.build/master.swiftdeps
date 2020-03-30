@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1ea4068da741c12d690bb74d4b156b98"
+build_time: [1585582672, 457194000]
+inputs:
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/FileAsserter.swift": [1585582009, 593270479]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/FileModifier.swift": [1585582009, 593416528]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/FileParser.swift": [1585582009, 593551947]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/FileUtils.swift": [1585582009, 593669484]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/common/String+Extension.swift": [1585582009, 593839411]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/path/FilePathAsserter.swift": [1585582009, 594039455]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/path/FilePathModifier.swift": [1585582009, 594167924]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/path/FilePathParser.swift": [1585582009, 594318726]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/stream/FileStreamReader.swift": [1585582009, 594494185]
+  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/FileSugar/Sources/FileSugar/stream/FileStreamWriter.swift": [1585582009, 594613250]

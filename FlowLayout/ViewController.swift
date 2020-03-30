@@ -1,5 +1,4 @@
 import UIKit
-import FlowLayout_iOS
 /**
  * FlowLayout
  * - Description: FlowLayout (Bi-directional layout framework) (Great for prototyping UX ideas and apps)
@@ -11,7 +10,7 @@ import FlowLayout_iOS
  */
 class ViewController: UIViewController {
    lazy var flowView: HorView = createCustomFlowView() // createFlowView()
-   override var prefersStatusBarHidden: Bool { return true } // hides statusbar
+   override var prefersStatusBarHidden: Bool { true } // hides statusbar
    override func viewDidLoad() {
       super.viewDidLoad()
       view = MainView()

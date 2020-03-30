@@ -1,0 +1,364 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "applyAnchorsAndSizes"]
+- ["Sa", "applySizes"]
+- ["Sa", "applyAnchors"]
+- ["Sa", "applyAnchors"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "AnchorConstraint"
+- !private "AnchorConstraintsAndSizeConstraints"
+- "Array"
+- !private "AssignmentPrecedence"
+- "Axis"
+- !private "BooleanLiteralType"
+- "ConstraintKind"
+- !private "NSLayoutConstraint"
+- !private "SizeConstraint"
+depends-member:
+- ["Sa", "AnchorAndSizeClosure"]
+- ["Sa", "AnchorClosure"]
+- !private ["Sa", "AnchorConstraint"]
+- !private ["Sa", "AnchorConstraintsAndSizeConstraints"]
+- ["Sa", "Axis"]
+- ["Sa", "AxisClosure"]
+- ["Sa", "ConstraintKind"]
+- !private ["Sa", "NSLayoutConstraint"]
+- !private ["Sa", "SizeConstraint"]
+- ["Sa", "SizesClosure"]
+- ["Sa", "applyAnchors"]
+- ["Sa", "applyAnchorsAndSizes"]
+- ["Sa", "applySizes"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["7Spatial4AxisO", "hor"]
+- !private ["7Spatial4AxisO", "ver"]
+- !private ["SK", "NSLayoutConstraint"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "forEach"]
+- !private ["SK", "reduce"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "anchor"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "setConstraint"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sl", "NSLayoutConstraint"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- ["7Spatial14ConstraintKindP", "ViewConstraintKind"]
+- !private ["7Spatial14ConstraintKindP", "anchor"]
+- !private ["7Spatial14ConstraintKindP", "setConstraint"]
+- !private ["7Spatial14ConstraintKindP", "size"]
+- !private ["7Spatial14ConstraintKindP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation15ContiguousBytesP", "NSLayoutConstraint"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "anchor"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "setConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s17CustomReflectableP", "NSLayoutConstraint"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "anchor"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "setConstraint"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation12DataProtocolP", "NSLayoutConstraint"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "NSLayoutConstraint"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "forEach"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["SE", "NSLayoutConstraint"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "forEach"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["s18EnumeratedSequenceV", "forEach"]
+- !private ["SQ", "NSLayoutConstraint"]
+- !private ["SQ", "activate"]
+- !private ["SQ", "anchor"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "hor"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "setConstraint"]
+- !private ["SQ", "size"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "ver"]
+- !private ["s25ExpressibleByArrayLiteralP", "NSLayoutConstraint"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "NSLayoutConstraint"]
+- !private ["SH", "activate"]
+- !private ["SH", "anchor"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "forEach"]
+- !private ["SH", "hor"]
+- !private ["SH", "reduce"]
+- !private ["SH", "setConstraint"]
+- !private ["SH", "size"]
+- !private ["SH", "subscript"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "ver"]
+- !private ["SM", "NSLayoutConstraint"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "forEach"]
+- !private ["SM", "reduce"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "NSLayoutConstraint"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So22NSAccessibilityElementP", "anchor"]
+- !private ["So22NSAccessibilityElementP", "setConstraint"]
+- !private ["So22NSAccessibilityElementP", "size"]
+- !private ["So22NSAccessibilityElementP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15NSAccessibilityP", "anchor"]
+- !private ["So15NSAccessibilityP", "setConstraint"]
+- !private ["So15NSAccessibilityP", "size"]
+- !private ["So15NSAccessibilityP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29NSAnimatablePropertyContainerP", "activate"]
+- !private ["So29NSAnimatablePropertyContainerP", "anchor"]
+- !private ["So29NSAnimatablePropertyContainerP", "setConstraint"]
+- !private ["So29NSAnimatablePropertyContainerP", "size"]
+- !private ["So29NSAnimatablePropertyContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So25NSAppearanceCustomizationP", "anchor"]
+- !private ["So25NSAppearanceCustomizationP", "setConstraint"]
+- !private ["So25NSAppearanceCustomizationP", "size"]
+- !private ["So25NSAppearanceCustomizationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "anchor"]
+- !private ["So8NSCodingP", "setConstraint"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21NSDraggingDestinationP", "anchor"]
+- !private ["So21NSDraggingDestinationP", "setConstraint"]
+- !private ["So21NSDraggingDestinationP", "size"]
+- !private ["So21NSDraggingDestinationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "anchor"]
+- !private ["So8NSObjectC", "setConstraint"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "anchor"]
+- !private ["So8NSObjectP", "setConstraint"]
+- !private ["So8NSObjectP", "size"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11NSResponderC", "anchor"]
+- !private ["So11NSResponderC", "setConstraint"]
+- !private ["So11NSResponderC", "size"]
+- !private ["So11NSResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30NSStandardKeyBindingRespondingP", "anchor"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setConstraint"]
+- !private ["So30NSStandardKeyBindingRespondingP", "size"]
+- !private ["So30NSStandardKeyBindingRespondingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18NSTouchBarProviderP", "anchor"]
+- !private ["So18NSTouchBarProviderP", "setConstraint"]
+- !private ["So18NSTouchBarProviderP", "size"]
+- !private ["So18NSTouchBarProviderP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23NSUserActivityRestoringP", "anchor"]
+- !private ["So23NSUserActivityRestoringP", "setConstraint"]
+- !private ["So23NSUserActivityRestoringP", "size"]
+- !private ["So23NSUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "anchor"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setConstraint"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "size"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6NSViewC", "anchor"]
+- !private ["So6NSViewC", "setConstraint"]
+- !private ["So6NSViewC", "size"]
+- !private ["So6NSViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sk", "NSLayoutConstraint"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "NSLayoutConstraint"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "hor"]
+- !private ["SY", "ver"]
+- !private ["ST", "NSLayoutConstraint"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "forEach"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "NSLayoutConstraint"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "NSLayoutConstraint"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "NSLayoutConstraint"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSLayoutConstraint"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "anchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setConstraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "size"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s21_ObjectiveCBridgeableP", "NSLayoutConstraint"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "anchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setConstraint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "size"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- "Sa"
+- !private "7Spatial4AxisO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "7Spatial14ConstraintKindP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "s18EnumeratedSequenceV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So22NSAccessibilityElementP"
+- !private "So15NSAccessibilityP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So8NSCodingP"
+- !private "So21NSDraggingDestinationP"
+- !private "So18NSLayoutConstraintC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So11NSResponderC"
+- !private "So30NSStandardKeyBindingRespondingP"
+- !private "So18NSTouchBarProviderP"
+- !private "So23NSUserActivityRestoringP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So6NSViewC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AppKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e2d6632204905b59c543406fb990bf4f"
