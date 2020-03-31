@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "4f12aafbc04efdaa4c00ead6bf988f43"
-build_time: [1585582672, 456267000]
-inputs:
-  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With+KeyPath.swift": [1585582010, 95566508]
-  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With+Map.swift": [1585582010, 95726084]
-  "/Users/eon/Documents/dev/_modules/FlowLayout/.build/checkouts/With/Sources/With/With.swift": [1585582010, 95937076]
