@@ -80,6 +80,8 @@
 		F14965EF24323B22008C1847 /* ImageSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F14965EE24323B22008C1847 /* ImageSugar */; };
 		F14965F224323D2B008C1847 /* CommonCell in Frameworks */ = {isa = PBXBuildFile; productRef = F14965F124323D2B008C1847 /* CommonCell */; };
 		F14965F524323D7B008C1847 /* NetworkSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F14965F424323D7B008C1847 /* NetworkSugar */; };
+		F1FB41582443556000A433E2 /* HorView+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB41572443556000A433E2 /* HorView+Event.swift */; };
+		F1FB415A2443599600A433E2 /* Slider+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB41592443599600A433E2 /* Slider+Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +169,8 @@
 		F14965A824323AAC008C1847 /* HeaderTitle+Setter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeaderTitle+Setter.swift"; sourceTree = "<group>"; };
 		F14965A924323AAC008C1847 /* HeaderTitle+Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HeaderTitle+Const.swift"; sourceTree = "<group>"; };
 		F14965AA24323AAC008C1847 /* Header+Setter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Header+Setter.swift"; sourceTree = "<group>"; };
+		F1FB41572443556000A433E2 /* HorView+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HorView+Event.swift"; sourceTree = "<group>"; };
+		F1FB41592443599600A433E2 /* Slider+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slider+Const.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +265,7 @@
 				F149655B24323AAC008C1847 /* HorView+Register.swift */,
 				F149655C24323AAC008C1847 /* HorView+Getter.swift */,
 				F149655D24323AAC008C1847 /* HorView+Scroll.swift */,
+				F1FB41572443556000A433E2 /* HorView+Event.swift */,
 				F149655E24323AAC008C1847 /* HorView+Update.swift */,
 				F149655F24323AAC008C1847 /* HorView+Setter.swift */,
 			);
@@ -410,13 +415,13 @@
 			isa = PBXGroup;
 			children = (
 				F149658C24323AAC008C1847 /* Slider */,
-				F149659324323AAC008C1847 /* Header+Create.swift */,
 				F149659424323AAC008C1847 /* ButtonContainer */,
-				F14965A224323AAC008C1847 /* Header.swift */,
 				F14965A324323AAC008C1847 /* button */,
-				F14965A524323AAC008C1847 /* Header+Const.swift */,
 				F14965A624323AAC008C1847 /* HeaderTitle */,
+				F14965A224323AAC008C1847 /* Header.swift */,
 				F14965AA24323AAC008C1847 /* Header+Setter.swift */,
+				F149659324323AAC008C1847 /* Header+Create.swift */,
+				F14965A524323AAC008C1847 /* Header+Const.swift */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -425,10 +430,11 @@
 			isa = PBXGroup;
 			children = (
 				F149658D24323AAC008C1847 /* SliderBar */,
+				F149659124323AAC008C1847 /* Slider.swift */,
 				F149658F24323AAC008C1847 /* Slider+Setter.swift */,
 				F149659024323AAC008C1847 /* Slider+Animation.swift */,
-				F149659124323AAC008C1847 /* Slider.swift */,
 				F149659224323AAC008C1847 /* Slider+Create.swift */,
+				F1FB41592443599600A433E2 /* Slider+Const.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -444,9 +450,9 @@
 		F149659424323AAC008C1847 /* ButtonContainer */ = {
 			isa = PBXGroup;
 			children = (
-				F149659524323AAC008C1847 /* ButtonContainer+Setter.swift */,
 				F149659624323AAC008C1847 /* HeaderButton */,
 				F149659D24323AAC008C1847 /* ButtonContainer.swift */,
+				F149659524323AAC008C1847 /* ButtonContainer+Setter.swift */,
 				F149659E24323AAC008C1847 /* ButtonContainer+TypeAlias.swift */,
 				F149659F24323AAC008C1847 /* ButtonContainer+Create.swift */,
 				F14965A024323AAC008C1847 /* ButtonContainer+Interaction.swift */,
@@ -458,11 +464,11 @@
 		F149659624323AAC008C1847 /* HeaderButton */ = {
 			isa = PBXGroup;
 			children = (
-				F149659724323AAC008C1847 /* HeaderButton+Const.swift */,
 				F149659824323AAC008C1847 /* CustomButton.swift */,
+				F149659B24323AAC008C1847 /* HeaderButton.swift */,
+				F149659724323AAC008C1847 /* HeaderButton+Const.swift */,
 				F149659924323AAC008C1847 /* HeaderButton+Type.swift */,
 				F149659A24323AAC008C1847 /* HeaderButton+Interactive.swift */,
-				F149659B24323AAC008C1847 /* HeaderButton.swift */,
 				F149659C24323AAC008C1847 /* HeaderButton+Setter.swift */,
 			);
 			path = HeaderButton;
@@ -617,6 +623,7 @@
 				F14965E724323AAC008C1847 /* HeaderTitle+Setter.swift in Sources */,
 				F14965B724323AAC008C1847 /* PrimaryVerCell.swift in Sources */,
 				F14965AB24323AAC008C1847 /* HorView.swift in Sources */,
+				F1FB415A2443599600A433E2 /* Slider+Const.swift in Sources */,
 				F14965BB24323AAC008C1847 /* HorCell.swift in Sources */,
 				F14965D624323AAC008C1847 /* Slider+Create.swift in Sources */,
 				F14965E024323AAC008C1847 /* ButtonContainer+TypeAlias.swift in Sources */,
@@ -637,6 +644,7 @@
 				F14965D524323AAC008C1847 /* Slider.swift in Sources */,
 				F14965AF24323AAC008C1847 /* HorView+Create.swift in Sources */,
 				F14965C424323AAC008C1847 /* SecondaryHorCell.swift in Sources */,
+				F1FB41582443556000A433E2 /* HorView+Event.swift in Sources */,
 				F14965E124323AAC008C1847 /* ButtonContainer+Create.swift in Sources */,
 				F14965B924323AAC008C1847 /* VerCell.swift in Sources */,
 				F14965B124323AAC008C1847 /* HorView+Getter.swift in Sources */,

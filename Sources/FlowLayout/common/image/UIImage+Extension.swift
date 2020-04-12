@@ -1,6 +1,7 @@
 import UIKit
 /**
  * - Fixme: ⚠️️ Add a way to also get response, maybe look into result?
+ * - Fixme: ⚠️️ remove this, use ImageKit via spm instead
  */
 extension UIImage {
     internal typealias DownloadComplete = (UIImage?, IMGError?) -> Void

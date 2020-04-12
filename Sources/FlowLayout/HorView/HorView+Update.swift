@@ -6,7 +6,7 @@ extension HorView {
    /**
     * Gets all the transactions and updates the TableView items
     * - Abstract: We call this after we receive data from a webservice
-    * - TODO: ⚠️️ Add weak self here
+    * - Fixme: ⚠️️ Add weak self here
     */
    func updateCollectionView() {
       DispatchQueue.main.async { // Jump on the main thread for UI update
@@ -16,6 +16,7 @@ extension HorView {
    }
    /**
     * onButtonClick (When user clicks header buttons)
+    * - Fixme: ⚠️️ move to +Event file
     */
    func onButtonClick(buttonTitle: String) {
       if let cellType = HorView.CellType(rawValue: buttonTitle.lowercased()) {

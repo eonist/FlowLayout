@@ -34,12 +34,11 @@ extension HorView {
          }
       }()
       // we add onScroll to every cell
-      cell.onScroll = { yOffset in self.header.frame.origin.y = yOffset } // Attach scoll-call-back-closure
+      cell.onScroll = onVerticalScroll // Attach scoll-call-back-closure
 //      cell.onItemSelect = {indexPath in Swift.print("HorView.cell.onItemSelect: \(indexPath) in cellIdx:\(self.currentPageIndex)")}//callback for cell click
       return cell
     }
 }
-
 /**
  * This method is interesting, might be able to have different sized cells in the same collectionview
  */

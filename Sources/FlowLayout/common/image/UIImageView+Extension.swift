@@ -1,5 +1,7 @@
 import UIKit
-
+/**
+ * - Fixme: ⚠️️ remove this, use ImageKit via spm instead
+ */
 extension UIImageView {
     typealias OnError = (UIImage.IMGError?) -> Void
     static var defaultErrorHandler: OnError = { err in

@@ -5,7 +5,6 @@ import Spatial
  * This is the view that has the header buttons (aka primary, secondary, tierary)
  */
 class ButtonContainer: UIView {
-   static let height: CGFloat = 60
    lazy var buttons: [HeaderButton] = self.createButtons()
    var onButtonClick: OnButtonTap = defaultOnButtonTap
    override init(frame: CGRect) {

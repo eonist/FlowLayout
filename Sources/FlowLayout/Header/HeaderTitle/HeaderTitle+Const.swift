@@ -1,5 +1,5 @@
 import QuartzCore
 
 extension HeaderTitle {
-   internal static let titleHeight: CGFloat = 60
+   internal static let height: CGFloat = 60
 }

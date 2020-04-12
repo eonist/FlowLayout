@@ -22,7 +22,7 @@ extension Header {
       with(.init()) {
          $0.setTitleText(text: HorView.CellType.primary.rawValue.capitalized)
          self.addSubview($0)
-         $0.anchorAndSize(to: self.topFix, sizeTo: self, height: HeaderTitle.titleHeight, align: .topLeft, alignTo: .bottomLeft)
+         $0.anchorAndSize(to: self.topFix, sizeTo: self, height: HeaderTitle.height, align: .topLeft, alignTo: .bottomLeft)
       }
    }
    /**

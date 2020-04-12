@@ -5,7 +5,6 @@ import With
  * Create
  */
 extension Slider {
-   static let height: CGFloat = 10
    /**
     * Creates the slider bar
     */

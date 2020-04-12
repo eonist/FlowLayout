@@ -4,5 +4,5 @@ import Spatial
  * Const
  */
 extension Header {
-   internal static let height: CGFloat = 130
+   internal static let height: CGFloat = HeaderTitle.height + ButtonContainer.height + Slider.height
 }

@@ -17,7 +17,8 @@ extension PrimaryHorCell {
    override func dequeCell(cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       guard let cell: PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else { fatalError("err") }
       if let thumbURL: String = primaryCellData?.thumbURLS[indexPath.row] {
-         Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
+         _ = thumbURL
+//         Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
          //cell.imgView.setImage(webPath: thumbURL)
       }
