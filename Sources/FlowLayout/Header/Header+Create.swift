@@ -46,6 +46,8 @@ extension Header {
    }
    /**
     * Graphic fix (When you drag the list up and down this covers to match header color)
+    * - Note: Basically you can drag down the header 500px before it shows
+    * - Note: this doesn't need to be saved as a param
     */
    func createBackgroundFix() -> UIView {
       with(.init(frame: .zero)) {

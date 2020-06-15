@@ -1,6 +1,7 @@
 import UIKit
 /**
- * Header (title,buttons,slider)
+ * Header
+ * - Note: Essentially contains: (title, buttons, slider)
  */
 open class Header: UIView {
    lazy var topFix: UIView = self.createTopFix() // to cover up a void space

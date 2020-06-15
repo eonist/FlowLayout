@@ -16,6 +16,6 @@ extension HorView {
          else if y < -HeaderTitle.height { return -HeaderTitle.height } // if y is beyond -Header.height, then only hide header-title
          else { return y } // if y is possetive, then set headerY directly
       }()
-      self.header.frame.origin.y = headerY
+      self.header.frame.origin.y = headerY // - Fixme: ⚠️️ rather use Autolayout to update this
    }
 }
