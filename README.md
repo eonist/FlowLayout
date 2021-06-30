@@ -5,8 +5,7 @@
 [![codebeat badge](https://codebeat.co/badges/260a8988-ffb0-4964-a917-b0a51ae8f0fa)](https://codebeat.co/projects/github-com-eonist-flowlayout-master)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift)
 [![codebeat badge](https://img.shields.io/badge/%235%20Producthunt-Aug--05--2018-red.svg)](https://www.producthunt.com/posts/flowlayout)
-[![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)  
-[![Tests](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml)
+[![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre) [![Tests](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml)
 
 <img width="416" alt="img" src="https://rawgit.com/stylekit/img/master/short.gif">
 
