@@ -6,9 +6,9 @@ import ReusableCell
 extension HorView {
    /**
     * Register cell types
+    * - Fixme: ⚠️️ make the [].register call
     */
    @objc func registerCellTypes() {
-//      let types: [HorCell.Type] =
       collectionView.register([PrimaryHorCell.self, SecondaryHorCell.self, TertiaryHorCell.self].map { $0 as HorCell.Type }) // Register Cells with ease
    }
 }

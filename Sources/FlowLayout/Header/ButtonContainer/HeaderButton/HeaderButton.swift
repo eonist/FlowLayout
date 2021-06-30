@@ -1,8 +1,8 @@
 import UIKit
 /**
- * 
+ *  headerButton
  */
-class HeaderButton: CustomButton {
+final class HeaderButton: CustomButton {
    var clickCallBack: OnTap = HeaderButton.defautOnTap
    override init(title: String) {
       super.init(title: title)

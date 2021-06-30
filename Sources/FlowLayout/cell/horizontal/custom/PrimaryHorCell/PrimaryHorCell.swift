@@ -3,7 +3,7 @@ import With
 /**
  * - Fixme: ⚠️️ Rename to PrimaryHorCell
  */
-class PrimaryHorCell: HorCell {
+final class PrimaryHorCell: HorCell {
    override init(frame: CGRect) {
       super.init(frame: frame)
       self.onItemSelect = itemSelect

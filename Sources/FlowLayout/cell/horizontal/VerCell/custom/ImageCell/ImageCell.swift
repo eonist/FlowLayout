@@ -14,13 +14,3 @@ class ImageCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-/**
- * Accessor
- */
-extension ImageCell {}
-    /**
-     *
-     */
-//    func setImage(){
-//        //
-//    }

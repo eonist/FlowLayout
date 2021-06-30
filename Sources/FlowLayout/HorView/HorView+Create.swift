@@ -18,6 +18,7 @@ extension HorView {
    /**
     * Creates horizontal collectionview
     * - Note: Overridable in subclass for customization
+    * - Fixme: ⚠️️ rename to createColumnView
     */
    @objc open func createCollectionView() -> UICollectionView {
       let flowLayout: UICollectionViewFlowLayout = createLayout()
@@ -33,6 +34,11 @@ extension HorView {
          $0.anchorAndSize(to: self)
       }
    }
+}
+/**
+ * Create
+ */
+extension HorView {
    /**
     * Returns layout
     */

@@ -1,10 +1,11 @@
 import UIKit
 /**
  * Browser cell for CollectionView
+ * - Fixme: ⚠️️ rename to rowcell?
  */
 class VerCell: UICollectionViewCell {
-    class var id: String { "\(VerCell.self)" } // Stores the deque cell id, overrideable in subclasses
-    override init(frame: CGRect) {
+   class var id: String { "\(VerCell.self)" } // Stores the deque cell id, overrideable in subclasses
+   override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColorParser.random
     }

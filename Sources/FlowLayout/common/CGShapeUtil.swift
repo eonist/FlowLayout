@@ -1,11 +1,11 @@
 import UIKit
 /**
- * - Fixme: ⚠️️ remove this, use GeomKit via spm instead
+ * - Fixme: ⚠️️ remove this, use GeomKit via spm instead or?
  */
 internal class CGShapeUtil {
    /**
     * Draw line
-    * NOTE: remember to: shapeLayer.addSublayer(lineLayer)
+    * - NOTE: remember to: shapeLayer.addSublayer(lineLayer)
     * It's also possible to do this with UIBezierPath
     * let path:UIBezierPath = {
     *    let aPath = UIBezierPath.init()//cgPath: linePath
@@ -28,16 +28,17 @@ internal class CGShapeUtil {
    }
    /**
     * Draws circle
-    * PARAM: progress: 0-1
+    * - PARAM: progress: 0-1
     * - Fixme: ⚠️️ write method for nsbez... that use bezierPath.appendBezierPathWithArcWithCenter as init
     */
    static func drawCircle(with circleLayer: CAShapeLayer, circle:(center: CGPoint, radius: CGFloat), style: (fill: UIColor, stroke: UIColor, strokeWidth: CGFloat), progress: CGFloat) -> CAShapeLayer {
       let origin: CGPoint = .init(x: circle.center.x - circle.radius, y: circle.center.y - circle.radius)
       let size: CGSize = .init(width: circle.radius * 2, height: circle.radius * 2)
       let rect: CGRect = .init(origin:origin, size: size)
-      //      let circlePath:BezierPath = .init(ovalIn: rect)
+      // let circlePath:BezierPath = .init(ovalIn: rect)
       let cgPath: CGPath = .init(ellipseIn: rect, transform: nil)
       //UIBezierPath(arcCenter: CGPoint(x: circle.center.x, y: circle.center.y), radius:circle.radius, startAngle: CGFloat(Double.pi * -0.5), endAngle: CGFloat(Double.pi * 1.5), clockwise: true)/*The path should be the entire circle, for the strokeEnd and strokeStart to work*/
+      //  - Fixme: ⚠️️ use with
       circleLayer.path = cgPath//circlePath.cgPath/*Setup the CAShapeLayer with the path, colors, and line width*/
       circleLayer.fillColor = style.fill.cgColor
       circleLayer.strokeColor = style.stroke.cgColor

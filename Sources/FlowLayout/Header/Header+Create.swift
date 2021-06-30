@@ -20,7 +20,7 @@ extension Header {
     */
    func createHeaderTitle() -> HeaderTitle {
       with(.init()) {
-         $0.setTitleText(text: HorView.CellType.primary.rawValue.capitalized)
+         $0.setTitleText(text: ColumnCellType.primary.rawValue.capitalized)
          self.addSubview($0)
          $0.anchorAndSize(to: self.topFix, sizeTo: self, height: HeaderTitle.height, align: .topLeft, alignTo: .bottomLeft)
       }
@@ -38,7 +38,7 @@ extension Header {
     * Create slider
     */
    func createSlider() -> Slider {
-      let segmentCount: Int = HorView.CellType.allCases.count
+      let segmentCount: Int = ColumnCellType.allCases.count
       return with(.init(idx: 0, segmentCount:segmentCount, frame: .zero)) {
          self.addSubview($0)
          $0.anchorAndSize(to: self, height: Slider.height, align: .bottomLeft, alignTo: .bottomLeft)

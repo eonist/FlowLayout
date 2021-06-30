@@ -5,6 +5,7 @@ import UIKit
 extension UIView {
    /**
     * Easily get Controller
+    * - Fixme: ⚠️️ add more doc
     */
    internal func controller() -> UIViewController? {
       if let nextViewControllerResponder = next as? UIViewController {
@@ -17,6 +18,7 @@ extension UIView {
    }
    /**
     * Easily get navController from
+    * - Fixme: ⚠️️ add more doc
     */
    internal func navigationController() -> UINavigationController? {
       guard let controller = controller() else { return nil }

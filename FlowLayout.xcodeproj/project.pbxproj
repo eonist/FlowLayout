@@ -15,7 +15,7 @@
 		F12442442249031700D808D8 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12442432249031700D808D8 /* CustomView.swift */; };
 		F14965AB24323AAC008C1847 /* HorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655624323AAC008C1847 /* HorView.swift */; };
 		F14965AC24323AAC008C1847 /* HorView+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655724323AAC008C1847 /* HorView+Collection.swift */; };
-		F14965AD24323AAC008C1847 /* HorView+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655824323AAC008C1847 /* HorView+Enum.swift */; };
+		F14965AD24323AAC008C1847 /* ColumnCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655824323AAC008C1847 /* ColumnCellType.swift */; };
 		F14965AE24323AAC008C1847 /* HorView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655924323AAC008C1847 /* HorView+Style.swift */; };
 		F14965AF24323AAC008C1847 /* HorView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655A24323AAC008C1847 /* HorView+Create.swift */; };
 		F14965B024323AAC008C1847 /* HorView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149655B24323AAC008C1847 /* HorView+Register.swift */; };
@@ -108,7 +108,7 @@
 		F12442432249031700D808D8 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F149655624323AAC008C1847 /* HorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorView.swift; sourceTree = "<group>"; };
 		F149655724323AAC008C1847 /* HorView+Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HorView+Collection.swift"; sourceTree = "<group>"; };
-		F149655824323AAC008C1847 /* HorView+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HorView+Enum.swift"; sourceTree = "<group>"; };
+		F149655824323AAC008C1847 /* ColumnCellType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnCellType.swift; sourceTree = "<group>"; };
 		F149655924323AAC008C1847 /* HorView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HorView+Style.swift"; sourceTree = "<group>"; };
 		F149655A24323AAC008C1847 /* HorView+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HorView+Create.swift"; sourceTree = "<group>"; };
 		F149655B24323AAC008C1847 /* HorView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HorView+Register.swift"; sourceTree = "<group>"; };
@@ -257,9 +257,9 @@
 		F149655524323AAC008C1847 /* HorView */ = {
 			isa = PBXGroup;
 			children = (
+				F15CB28F268D1F3D00C5C303 /* utils */,
 				F149655624323AAC008C1847 /* HorView.swift */,
 				F149655724323AAC008C1847 /* HorView+Collection.swift */,
-				F149655824323AAC008C1847 /* HorView+Enum.swift */,
 				F149655924323AAC008C1847 /* HorView+Style.swift */,
 				F149655A24323AAC008C1847 /* HorView+Create.swift */,
 				F149655B24323AAC008C1847 /* HorView+Register.swift */,
@@ -416,7 +416,6 @@
 			children = (
 				F149658C24323AAC008C1847 /* Slider */,
 				F149659424323AAC008C1847 /* ButtonContainer */,
-				F14965A324323AAC008C1847 /* button */,
 				F14965A624323AAC008C1847 /* HeaderTitle */,
 				F14965A224323AAC008C1847 /* Header.swift */,
 				F14965AA24323AAC008C1847 /* Header+Setter.swift */,
@@ -474,21 +473,6 @@
 			path = HeaderButton;
 			sourceTree = "<group>";
 		};
-		F14965A324323AAC008C1847 /* button */ = {
-			isa = PBXGroup;
-			children = (
-				F14965A424323AAC008C1847 /* closebutton */,
-			);
-			path = button;
-			sourceTree = "<group>";
-		};
-		F14965A424323AAC008C1847 /* closebutton */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = closebutton;
-			sourceTree = "<group>";
-		};
 		F14965A624323AAC008C1847 /* HeaderTitle */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +481,14 @@
 				F14965A924323AAC008C1847 /* HeaderTitle+Const.swift */,
 			);
 			path = HeaderTitle;
+			sourceTree = "<group>";
+		};
+		F15CB28F268D1F3D00C5C303 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F149655824323AAC008C1847 /* ColumnCellType.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,7 +526,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = eon;
 				TargetAttributes = {
 					F116EBD2211046B40091439E = {
@@ -638,7 +630,7 @@
 				F14965CE24323AAC008C1847 /* UIView+Extension.swift in Sources */,
 				F14965C624323AAC008C1847 /* TertiaryHorCell.swift in Sources */,
 				F14965BA24323AAC008C1847 /* HorCell+Update.swift in Sources */,
-				F14965AD24323AAC008C1847 /* HorView+Enum.swift in Sources */,
+				F14965AD24323AAC008C1847 /* ColumnCellType.swift in Sources */,
 				F14965B524323AAC008C1847 /* ImageCell+Create.swift in Sources */,
 				F14965AC24323AAC008C1847 /* HorView+Collection.swift in Sources */,
 				F14965D524323AAC008C1847 /* Slider.swift in Sources */,
@@ -716,6 +708,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -776,6 +769,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

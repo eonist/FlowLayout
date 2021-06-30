@@ -5,6 +5,7 @@ import ReusableCell
 /**
  * - Abstract A horizontal Cell that has a vertical collectionView
  * - Note: This class is later subclassed as a generic class, and as such overriding things in extension doesn't work
+ * - Fixme: ⚠️️ rename to ColumnCell?
  */
 class HorCell: UICollectionViewCell, ReusableCellKind {
    lazy var collectionView: UICollectionView = self.createCollectionView() // Vertical collection view

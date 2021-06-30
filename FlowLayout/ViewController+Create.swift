@@ -6,7 +6,7 @@ import With
  */
 extension ViewController {
    /**
-    * Create the FlowView
+    * Creates the FlowView
     */
    func createFlowView() -> HorView {
       with(.init()) {
@@ -15,7 +15,7 @@ extension ViewController {
       }
    }
    /**
-    * Create custom flow view
+    * Creates custom flow view
     */
    func createCustomFlowView() -> CustomView {
       with(.init()) {

@@ -7,9 +7,10 @@ import Spatial
 extension ButtonContainer {
    /**
     * Creates buttons
+    * - Fixme: ⚠️️ use with
     */
    func createButtons() -> [HeaderButton] {
-      let titles: [String] = HorView.CellType.allCases.map { $0.rawValue.capitalized }
+      let titles: [String] = ColumnCellType.allCases.map { $0.rawValue.capitalized }
       let buttons: [HeaderButton] = titles.map { title in // All vertically centered, 30p height each
          with(.init(title: title)) {
             $0.addTarget(self, action: #selector(onTouchInside), for: .touchUpInside)

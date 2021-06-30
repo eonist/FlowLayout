@@ -26,6 +26,7 @@ extension PrimaryHorCell {
    }
    /**
     * Alternate layout
+    * - Fixme: ⚠️️ add more doc
     */
    func createAlternateLayout() -> UICollectionViewFlowLayout {
       with(.init()) {

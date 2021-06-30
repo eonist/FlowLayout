@@ -5,8 +5,10 @@ import UIKit
  */
 open class HorView: UIView, UICollectionViewDataSource, UICollectionViewDelegate {
    lazy var header: Header = self.createHeader() // Adds the header
+   // - Fixme: ⚠️️ rename to collumnsView?
    lazy var collectionView: UICollectionView = self.createCollectionView() // Adds the collectionView
-   var items: [CellType] // Aka columns
+   // - Fixme: ⚠️️ maybe rename to columns?
+   var items: [ColumnCellType] // Aka columns
    override public init(frame: CGRect = .zero) {
       items = [.primary, .secondary, .tertiary]
       super.init(frame: frame)

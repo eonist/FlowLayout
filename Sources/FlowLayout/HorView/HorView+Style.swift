@@ -1,6 +1,7 @@
 import UIKit
 /**
  * Type
+ * - Fixme: ⚠️️ maybe move into own HorStyle scope?
  */
 extension HorView {
    typealias Style = (header: HeaderStyle, backgroundColor: UIColor, slider: SliderStyle, horCollectionViewBackgroundColor: UIColor)

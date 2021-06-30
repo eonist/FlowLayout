@@ -7,6 +7,9 @@ class Slider: UIView {
    lazy var sliderBar: SliderBar = createSliderBar()
    let segmentCount: Int
    let idx: Int
+   /**
+    * - Fixme: ⚠️️ add doc
+    */
    init(idx: Int, segmentCount: Int, frame: CGRect) {
       self.segmentCount = segmentCount
       self.idx = idx

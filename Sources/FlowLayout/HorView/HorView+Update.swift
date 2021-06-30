@@ -16,10 +16,10 @@ extension HorView {
    }
    /**
     * onButtonClick (When user clicks header buttons)
-    * - Fixme: ⚠️️ move to +Event file
+    * - Fixme: ⚠️️ Move to +Event file
     */
    func onButtonClick(buttonTitle: String) {
-      if let cellType = HorView.CellType(rawValue: buttonTitle.lowercased()) {
+      if let cellType = ColumnCellType(rawValue: buttonTitle.lowercased()) {
          guard let idx: Int = cellType.idx else { return } // 0, 1, 2 converts button to index
          self.setIdx(idx: idx)
          self.header.buttonContainer.setIdx(idx: idx)

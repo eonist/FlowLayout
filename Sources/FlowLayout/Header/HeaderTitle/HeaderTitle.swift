@@ -1,6 +1,6 @@
 import UIKit
 
-class HeaderTitle: UILabel {
+final class HeaderTitle: UILabel {
    override init(frame: CGRect) {
       super.init(frame: frame)
       self.font = HorView.style.header.title.font
