@@ -49,7 +49,15 @@ depends-member:
 - !private ["SK", "count"]
 - !private ["SK", "forEach"]
 - !private ["SK", "reduce"]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
 - !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
 - !private ["12CoreGraphics7CGFloatV", "init"]
 - !private ["So7CGPointV", "x"]
 - !private ["So7CGPointV", "y"]
@@ -182,8 +190,59 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
 - !private ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
 - !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
 - !private ["SH", "SpaceBetweenUtil"]
 - !private ["SH", ""]
 - !private ["SH", "activateConstraint"]
@@ -227,6 +286,7 @@ depends-member:
 - !private ["So25NSAppearanceCustomizationP", "anchor"]
 - !private ["So25NSAppearanceCustomizationP", "bounds"]
 - !private ["So25NSAppearanceCustomizationP", "size"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "activateConstraint"]
 - !private ["So8NSCodingP", "anchor"]
 - !private ["So8NSCodingP", "bounds"]
@@ -237,29 +297,34 @@ depends-member:
 - !private ["So21NSDraggingDestinationP", "size"]
 - !private ["So12NSEdgeInsetsV", "init"]
 - !private ["So18NSLayoutConstraintC", "constant"]
+- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "activateConstraint"]
 - !private ["So8NSObjectC", "anchor"]
 - !private ["So8NSObjectC", "bounds"]
 - !private ["So8NSObjectC", "constant"]
 - !private ["So8NSObjectC", "size"]
-- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activateConstraint"]
 - !private ["So8NSObjectP", "anchor"]
 - !private ["So8NSObjectP", "bounds"]
 - !private ["So8NSObjectP", "constant"]
 - !private ["So8NSObjectP", "size"]
+- ["So11NSResponderC", ""]
 - !private ["So11NSResponderC", "activateConstraint"]
 - !private ["So11NSResponderC", "anchor"]
 - !private ["So11NSResponderC", "bounds"]
 - !private ["So11NSResponderC", "size"]
+- !private ["So30NSStandardKeyBindingRespondingP", ""]
 - !private ["So30NSStandardKeyBindingRespondingP", "activateConstraint"]
 - !private ["So30NSStandardKeyBindingRespondingP", "anchor"]
 - !private ["So30NSStandardKeyBindingRespondingP", "bounds"]
 - !private ["So30NSStandardKeyBindingRespondingP", "size"]
+- !private ["So18NSTouchBarProviderP", ""]
 - !private ["So18NSTouchBarProviderP", "activateConstraint"]
 - !private ["So18NSTouchBarProviderP", "anchor"]
 - !private ["So18NSTouchBarProviderP", "bounds"]
 - !private ["So18NSTouchBarProviderP", "size"]
+- !private ["So23NSUserActivityRestoringP", ""]
 - !private ["So23NSUserActivityRestoringP", "activateConstraint"]
 - !private ["So23NSUserActivityRestoringP", "anchor"]
 - !private ["So23NSUserActivityRestoringP", "bounds"]
@@ -272,8 +337,11 @@ depends-member:
 - !private ["So6NSViewC", "anchor"]
 - !private ["So6NSViewC", "bounds"]
 - !private ["So6NSViewC", "size"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
 - !private ["Sj", ""]
 - !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
 - !private ["Sk", "SpaceBetweenUtil"]
 - !private ["Sk", ""]
 - !private ["Sk", "count"]
@@ -293,9 +361,13 @@ depends-member:
 - !private ["ST", "count"]
 - !private ["ST", "forEach"]
 - !private ["ST", "reduce"]
+- !private ["s13SignedNumericP", "-"]
 - !private ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", ""]
+- !private ["Sx", "_step"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "distance"]
 - !private ["Sx", "init"]
 - !private ["7Spatial13VerticalAlignO", "left"]
 - !private ["7Spatial13VerticalAlignO", "top"]
@@ -384,13 +456,13 @@ depends-nominal:
 - !private "So15NSAccessibilityP"
 - !private "So29NSAnimatablePropertyContainerP"
 - !private "So25NSAppearanceCustomizationP"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So21NSDraggingDestinationP"
 - !private "So12NSEdgeInsetsV"
 - !private "So18NSLayoutConstraintC"
-- !private "So8NSObjectC"
-- !private "So8NSObjectP"
-- !private "So11NSResponderC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSResponderC"
 - !private "So30NSStandardKeyBindingRespondingP"
 - !private "So18NSTouchBarProviderP"
 - !private "So23NSUserActivityRestoringP"
@@ -422,12 +494,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"

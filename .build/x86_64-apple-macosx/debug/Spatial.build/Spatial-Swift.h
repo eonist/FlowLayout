@@ -211,11 +211,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 /// note:
 /// Convenient UIView so you don’t have to add anchor and size your self
+/// <ul>
+///   <li>
+///     Fixme: ⚠️️ make these variables into one: var anchorAndSize: AnchorAndSize
+///   </li>
+/// </ul>
 SWIFT_CLASS("_TtC7Spatial14ConstraintView")
 @interface ConstraintView : NSView
 - (nonnull instancetype)initWithFrame:(NSRect)frameRect OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 

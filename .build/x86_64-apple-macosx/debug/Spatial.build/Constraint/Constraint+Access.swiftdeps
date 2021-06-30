@@ -39,11 +39,14 @@ depends-top-level:
 - "VerticalAlign"
 - "View"
 depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "zero"]
 - !private ["7Spatial9AlignmentO", "topCenter"]
 - !private ["7Spatial9AlignmentO", "topLeft"]
 - ["Sa", "Alignment"]
 - ["Sa", "Axis"]
 - ["Sa", "CGFloat"]
+- ["Sa", "CGPoint"]
 - ["Sa", "CGSize"]
 - !private ["Sa", "Constraint"]
 - ["Sa", "View"]
@@ -60,6 +63,8 @@ depends-member:
 - !private ["SK", "activateAnchors"]
 - !private ["SK", "activateSizes"]
 - !private ["SK", "map"]
+- !private ["SB", "zero"]
+- !private ["12CoreGraphics7CGFloatV", "zero"]
 - !private ["So7CGPointV", "zero"]
 - !private ["So6CGSizeV", "init"]
 - !private ["So6CGSizeV", "zero"]
@@ -68,6 +73,7 @@ depends-member:
 - !private ["8CloudKit21CKRecordValueProtocolP", "activateSizes"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "map"]
 - !private ["s7CVarArgP", "Constraint"]
+- !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "activateAnchor"]
 - !private ["s7CVarArgP", "activateAnchorAndSize"]
 - !private ["s7CVarArgP", "activateAnchors"]
@@ -76,11 +82,14 @@ depends-member:
 - !private ["s7CVarArgP", "activateSize"]
 - !private ["s7CVarArgP", "activateSizes"]
 - !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "zero"]
 - !private ["Sl", "Constraint"]
 - !private ["Sl", ""]
 - !private ["Sl", "activateAnchors"]
 - !private ["Sl", "activateSizes"]
 - !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["SL", "zero"]
 - !private ["7Spatial10ConstraintC", "anchor"]
 - !private ["7Spatial10ConstraintC", "distribute"]
 - !private ["7Spatial10ConstraintC", "height"]
@@ -117,6 +126,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "activateSize"]
 - !private ["s23CustomStringConvertibleP", "activateSizes"]
 - !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "zero"]
 - !private ["10Foundation12DataProtocolP", "Constraint"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "activateAnchors"]
@@ -158,9 +168,16 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "activateSizes"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "zero"]
+- !private ["SF", ""]
+- !private ["SF", "zero"]
 - !private ["SH", "Constraint"]
+- !private ["SH", ""]
 - !private ["SH", "activateAnchor"]
 - !private ["SH", "activateAnchorAndSize"]
 - !private ["SH", "activateAnchors"]
@@ -175,6 +192,7 @@ depends-member:
 - !private ["SH", "topCenter"]
 - !private ["SH", "topLeft"]
 - !private ["SH", "ver"]
+- !private ["SH", "zero"]
 - !private ["7Spatial15HorizontalAlignO", "left"]
 - !private ["SM", "Constraint"]
 - !private ["SM", ""]
@@ -193,6 +211,7 @@ depends-member:
 - ["So22NSAccessibilityElementP", "CGSize"]
 - !private ["So22NSAccessibilityElementP", "Constraint"]
 - ["So22NSAccessibilityElementP", "HorizontalAlign"]
+- !private ["So22NSAccessibilityElementP", "SizeConstraint"]
 - ["So22NSAccessibilityElementP", "VerticalAlign"]
 - ["So22NSAccessibilityElementP", "View"]
 - !private ["So22NSAccessibilityElementP", "activateAnchor"]
@@ -211,6 +230,7 @@ depends-member:
 - ["So15NSAccessibilityP", "CGSize"]
 - !private ["So15NSAccessibilityP", "Constraint"]
 - ["So15NSAccessibilityP", "HorizontalAlign"]
+- !private ["So15NSAccessibilityP", "SizeConstraint"]
 - ["So15NSAccessibilityP", "VerticalAlign"]
 - ["So15NSAccessibilityP", "View"]
 - !private ["So15NSAccessibilityP", "activateAnchor"]
@@ -229,6 +249,7 @@ depends-member:
 - ["So29NSAnimatablePropertyContainerP", "CGSize"]
 - !private ["So29NSAnimatablePropertyContainerP", "Constraint"]
 - ["So29NSAnimatablePropertyContainerP", "HorizontalAlign"]
+- !private ["So29NSAnimatablePropertyContainerP", "SizeConstraint"]
 - ["So29NSAnimatablePropertyContainerP", "VerticalAlign"]
 - ["So29NSAnimatablePropertyContainerP", "View"]
 - !private ["So29NSAnimatablePropertyContainerP", "activateAnchor"]
@@ -247,6 +268,7 @@ depends-member:
 - ["So25NSAppearanceCustomizationP", "CGSize"]
 - !private ["So25NSAppearanceCustomizationP", "Constraint"]
 - ["So25NSAppearanceCustomizationP", "HorizontalAlign"]
+- !private ["So25NSAppearanceCustomizationP", "SizeConstraint"]
 - ["So25NSAppearanceCustomizationP", "VerticalAlign"]
 - ["So25NSAppearanceCustomizationP", "View"]
 - !private ["So25NSAppearanceCustomizationP", "activateAnchor"]
@@ -265,6 +287,7 @@ depends-member:
 - ["So8NSCodingP", "CGSize"]
 - !private ["So8NSCodingP", "Constraint"]
 - ["So8NSCodingP", "HorizontalAlign"]
+- !private ["So8NSCodingP", "SizeConstraint"]
 - ["So8NSCodingP", "VerticalAlign"]
 - ["So8NSCodingP", "View"]
 - !private ["So8NSCodingP", "activateAnchor"]
@@ -283,6 +306,7 @@ depends-member:
 - ["So21NSDraggingDestinationP", "CGSize"]
 - !private ["So21NSDraggingDestinationP", "Constraint"]
 - ["So21NSDraggingDestinationP", "HorizontalAlign"]
+- !private ["So21NSDraggingDestinationP", "SizeConstraint"]
 - ["So21NSDraggingDestinationP", "VerticalAlign"]
 - ["So21NSDraggingDestinationP", "View"]
 - !private ["So21NSDraggingDestinationP", "activateAnchor"]
@@ -320,6 +344,7 @@ depends-member:
 - ["So8NSObjectP", "CGSize"]
 - !private ["So8NSObjectP", "Constraint"]
 - ["So8NSObjectP", "HorizontalAlign"]
+- !private ["So8NSObjectP", "SizeConstraint"]
 - ["So8NSObjectP", "VerticalAlign"]
 - ["So8NSObjectP", "View"]
 - !private ["So8NSObjectP", ""]
@@ -358,6 +383,7 @@ depends-member:
 - ["So30NSStandardKeyBindingRespondingP", "CGSize"]
 - !private ["So30NSStandardKeyBindingRespondingP", "Constraint"]
 - ["So30NSStandardKeyBindingRespondingP", "HorizontalAlign"]
+- !private ["So30NSStandardKeyBindingRespondingP", "SizeConstraint"]
 - ["So30NSStandardKeyBindingRespondingP", "VerticalAlign"]
 - ["So30NSStandardKeyBindingRespondingP", "View"]
 - !private ["So30NSStandardKeyBindingRespondingP", "activateAnchor"]
@@ -376,6 +402,7 @@ depends-member:
 - ["So18NSTouchBarProviderP", "CGSize"]
 - !private ["So18NSTouchBarProviderP", "Constraint"]
 - ["So18NSTouchBarProviderP", "HorizontalAlign"]
+- !private ["So18NSTouchBarProviderP", "SizeConstraint"]
 - ["So18NSTouchBarProviderP", "VerticalAlign"]
 - ["So18NSTouchBarProviderP", "View"]
 - !private ["So18NSTouchBarProviderP", "activateAnchor"]
@@ -394,6 +421,7 @@ depends-member:
 - ["So23NSUserActivityRestoringP", "CGSize"]
 - !private ["So23NSUserActivityRestoringP", "Constraint"]
 - ["So23NSUserActivityRestoringP", "HorizontalAlign"]
+- !private ["So23NSUserActivityRestoringP", "SizeConstraint"]
 - ["So23NSUserActivityRestoringP", "VerticalAlign"]
 - ["So23NSUserActivityRestoringP", "View"]
 - !private ["So23NSUserActivityRestoringP", "activateAnchor"]
@@ -412,6 +440,7 @@ depends-member:
 - ["So33NSUserInterfaceItemIdentificationP", "CGSize"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "Constraint"]
 - ["So33NSUserInterfaceItemIdentificationP", "HorizontalAlign"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "SizeConstraint"]
 - ["So33NSUserInterfaceItemIdentificationP", "VerticalAlign"]
 - ["So33NSUserInterfaceItemIdentificationP", "View"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "activateAnchor"]
@@ -442,6 +471,8 @@ depends-member:
 - ["So6NSViewC", "anchor"]
 - ["So6NSViewC", "anchorAndSize"]
 - ["So6NSViewC", "size"]
+- !private ["Sj", ""]
+- !private ["Sj", "zero"]
 - !private ["Sk", "Constraint"]
 - !private ["Sk", ""]
 - !private ["Sk", "activateAnchors"]
@@ -463,11 +494,17 @@ depends-member:
 - !private ["ST", "activateAnchors"]
 - !private ["ST", "activateSizes"]
 - !private ["ST", "map"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "zero"]
+- !private ["Sx", ""]
+- !private ["Sx", "zero"]
 - !private ["7Spatial13VerticalAlignO", "top"]
 - !private ["s14_ArrayProtocolP", "Constraint"]
 - !private ["s14_ArrayProtocolP", "activateAnchors"]
 - !private ["s14_ArrayProtocolP", "activateSizes"]
 - !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "zero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "zero"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s24_DestructorSafeContainerP", "Constraint"]
@@ -509,15 +546,19 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "activateConstraints"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "activateSize"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - !private "7Spatial9AlignmentO"
 - "Sa"
 - !private "7Spatial4AxisO"
 - !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
 - !private "So7CGPointV"
 - !private "So6CGSizeV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
 - !private "Sl"
+- !private "SL"
 - !private "7Spatial10ConstraintC"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -528,7 +569,9 @@ depends-nominal:
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
 - !private "SH"
 - !private "7Spatial15HorizontalAlignO"
 - !private "SM"
@@ -547,12 +590,17 @@ depends-nominal:
 - "So23NSUserActivityRestoringP"
 - "So33NSUserInterfaceItemIdentificationP"
 - "So6NSViewC"
+- !private "Sj"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
 - !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
 - !private "7Spatial13VerticalAlignO"
 - !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -569,12 +617,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -606,4 +658,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4b12d2e54d750afdec1b2ff8bcd281f1"
+interface-hash: "6c7b744780dc61f87502ec5399983a3c"

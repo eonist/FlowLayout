@@ -37,8 +37,12 @@ depends-top-level:
 - !private "updateSize"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sa", "forEach"]
+- !private ["SK", ""]
+- !private ["SK", "forEach"]
 - !private ["So6CGRectV", "origin"]
 - !private ["So6CGRectV", "size"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "forEach"]
 - !private ["s7CVarArgP", "Constraint"]
 - !private ["s7CVarArgP", "NSLayoutConstraint"]
 - !private ["s7CVarArgP", "Swift"]
@@ -46,11 +50,16 @@ depends-member:
 - !private ["s7CVarArgP", "activate"]
 - !private ["s7CVarArgP", "anchor"]
 - !private ["s7CVarArgP", "deactivate"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "layoutSubtreeIfNeeded"]
 - !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "subviews"]
 - !private ["s7CVarArgP", "superview"]
 - !private ["s7CVarArgP", "updateAnchor"]
 - !private ["s7CVarArgP", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["s7CVarArgP", "updateSize"]
+- !private ["Sl", ""]
+- !private ["Sl", "forEach"]
 - !private ["SL", ""]
 - !private ["7Spatial10ConstraintC", "anchor"]
 - !private ["7Spatial10ConstraintC", "size"]
@@ -77,18 +86,23 @@ depends-member:
 - ["7Spatial14ConstraintKindP", "update"]
 - !private ["7Spatial14ConstraintKindP", "updateAnchor"]
 - !private ["7Spatial14ConstraintKindP", "updateSize"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
 - !private ["s28CustomDebugStringConvertibleP", "Constraint"]
 - !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s28CustomDebugStringConvertibleP", "Swift"]
 - !private ["s28CustomDebugStringConvertibleP", "activate"]
 - !private ["s28CustomDebugStringConvertibleP", "anchor"]
 - !private ["s28CustomDebugStringConvertibleP", "deactivate"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubtreeIfNeeded"]
 - !private ["s28CustomDebugStringConvertibleP", "origin"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subviews"]
 - !private ["s28CustomDebugStringConvertibleP", "superview"]
 - !private ["s28CustomDebugStringConvertibleP", "updateAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["s28CustomDebugStringConvertibleP", "updateSize"]
+- !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "origin"]
 - !private ["s17CustomReflectableP", "size"]
 - !private ["s23CustomStringConvertibleP", "Constraint"]
@@ -98,13 +112,20 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "activate"]
 - !private ["s23CustomStringConvertibleP", "anchor"]
 - !private ["s23CustomStringConvertibleP", "deactivate"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "layoutSubtreeIfNeeded"]
 - !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "subviews"]
 - !private ["s23CustomStringConvertibleP", "superview"]
 - !private ["s23CustomStringConvertibleP", "updateAnchor"]
 - !private ["s23CustomStringConvertibleP", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["s23CustomStringConvertibleP", "updateSize"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "forEach"]
 - !private ["Se", "origin"]
 - !private ["Se", "size"]
+- !private ["SE", "forEach"]
 - !private ["SE", "origin"]
 - !private ["SE", "size"]
 - !private ["SQ", "Constraint"]
@@ -114,12 +135,17 @@ depends-member:
 - !private ["SQ", "activate"]
 - !private ["SQ", "anchor"]
 - !private ["SQ", "deactivate"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "layoutSubtreeIfNeeded"]
 - !private ["SQ", "origin"]
 - !private ["SQ", "size"]
+- !private ["SQ", "subviews"]
 - !private ["SQ", "superview"]
 - !private ["SQ", "updateAnchor"]
 - !private ["SQ", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["SQ", "updateSize"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
@@ -131,11 +157,17 @@ depends-member:
 - !private ["SH", "activate"]
 - !private ["SH", "anchor"]
 - !private ["SH", "deactivate"]
+- !private ["SH", "forEach"]
+- !private ["SH", "layoutSubtreeIfNeeded"]
 - !private ["SH", "size"]
+- !private ["SH", "subviews"]
 - !private ["SH", "superview"]
 - !private ["SH", "updateAnchor"]
 - !private ["SH", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["SH", "updateSize"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
 - ["So22NSAccessibilityElementP", "Alignment"]
 - ["So22NSAccessibilityElementP", "CGFloat"]
 - ["So22NSAccessibilityElementP", "CGPoint"]
@@ -150,7 +182,9 @@ depends-member:
 - ["So22NSAccessibilityElementP", "VerticalAlign"]
 - ["So22NSAccessibilityElementP", "Void"]
 - !private ["So22NSAccessibilityElementP", "anchor"]
+- !private ["So22NSAccessibilityElementP", "layoutSubtreeIfNeeded"]
 - !private ["So22NSAccessibilityElementP", "size"]
+- !private ["So22NSAccessibilityElementP", "subviews"]
 - !private ["So22NSAccessibilityElementP", "superview"]
 - !private ["So22NSAccessibilityElementP", "updateAnchor"]
 - !private ["So22NSAccessibilityElementP", "updateConstraintsForSubtreeIfNeeded"]
@@ -169,7 +203,9 @@ depends-member:
 - ["So15NSAccessibilityP", "VerticalAlign"]
 - ["So15NSAccessibilityP", "Void"]
 - !private ["So15NSAccessibilityP", "anchor"]
+- !private ["So15NSAccessibilityP", "layoutSubtreeIfNeeded"]
 - !private ["So15NSAccessibilityP", "size"]
+- !private ["So15NSAccessibilityP", "subviews"]
 - !private ["So15NSAccessibilityP", "superview"]
 - !private ["So15NSAccessibilityP", "updateAnchor"]
 - !private ["So15NSAccessibilityP", "updateConstraintsForSubtreeIfNeeded"]
@@ -190,7 +226,9 @@ depends-member:
 - !private ["So29NSAnimatablePropertyContainerP", "activate"]
 - !private ["So29NSAnimatablePropertyContainerP", "anchor"]
 - !private ["So29NSAnimatablePropertyContainerP", "deactivate"]
+- !private ["So29NSAnimatablePropertyContainerP", "layoutSubtreeIfNeeded"]
 - !private ["So29NSAnimatablePropertyContainerP", "size"]
+- !private ["So29NSAnimatablePropertyContainerP", "subviews"]
 - !private ["So29NSAnimatablePropertyContainerP", "superview"]
 - !private ["So29NSAnimatablePropertyContainerP", "updateAnchor"]
 - !private ["So29NSAnimatablePropertyContainerP", "updateConstraintsForSubtreeIfNeeded"]
@@ -209,7 +247,9 @@ depends-member:
 - ["So25NSAppearanceCustomizationP", "VerticalAlign"]
 - ["So25NSAppearanceCustomizationP", "Void"]
 - !private ["So25NSAppearanceCustomizationP", "anchor"]
+- !private ["So25NSAppearanceCustomizationP", "layoutSubtreeIfNeeded"]
 - !private ["So25NSAppearanceCustomizationP", "size"]
+- !private ["So25NSAppearanceCustomizationP", "subviews"]
 - !private ["So25NSAppearanceCustomizationP", "superview"]
 - !private ["So25NSAppearanceCustomizationP", "updateAnchor"]
 - !private ["So25NSAppearanceCustomizationP", "updateConstraintsForSubtreeIfNeeded"]
@@ -229,7 +269,9 @@ depends-member:
 - ["So8NSCodingP", "Void"]
 - !private ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "anchor"]
+- !private ["So8NSCodingP", "layoutSubtreeIfNeeded"]
 - !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "subviews"]
 - !private ["So8NSCodingP", "superview"]
 - !private ["So8NSCodingP", "updateAnchor"]
 - !private ["So8NSCodingP", "updateConstraintsForSubtreeIfNeeded"]
@@ -248,7 +290,9 @@ depends-member:
 - ["So21NSDraggingDestinationP", "VerticalAlign"]
 - ["So21NSDraggingDestinationP", "Void"]
 - !private ["So21NSDraggingDestinationP", "anchor"]
+- !private ["So21NSDraggingDestinationP", "layoutSubtreeIfNeeded"]
 - !private ["So21NSDraggingDestinationP", "size"]
+- !private ["So21NSDraggingDestinationP", "subviews"]
 - !private ["So21NSDraggingDestinationP", "superview"]
 - !private ["So21NSDraggingDestinationP", "updateAnchor"]
 - !private ["So21NSDraggingDestinationP", "updateConstraintsForSubtreeIfNeeded"]
@@ -277,7 +321,9 @@ depends-member:
 - !private ["So8NSObjectC", "anchor"]
 - !private ["So8NSObjectC", "deactivate"]
 - !private ["So8NSObjectC", "deactivateConstraints"]
+- !private ["So8NSObjectC", "layoutSubtreeIfNeeded"]
 - !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "subviews"]
 - !private ["So8NSObjectC", "superview"]
 - !private ["So8NSObjectC", "updateAnchor"]
 - !private ["So8NSObjectC", "updateConstraintsForSubtreeIfNeeded"]
@@ -301,7 +347,9 @@ depends-member:
 - !private ["So8NSObjectP", "anchor"]
 - !private ["So8NSObjectP", "deactivate"]
 - !private ["So8NSObjectP", "deactivateConstraints"]
+- !private ["So8NSObjectP", "layoutSubtreeIfNeeded"]
 - !private ["So8NSObjectP", "size"]
+- !private ["So8NSObjectP", "subviews"]
 - !private ["So8NSObjectP", "superview"]
 - !private ["So8NSObjectP", "updateAnchor"]
 - !private ["So8NSObjectP", "updateConstraintsForSubtreeIfNeeded"]
@@ -324,7 +372,9 @@ depends-member:
 - ["So11NSResponderC", "Void"]
 - ["So11NSResponderC", ""]
 - !private ["So11NSResponderC", "anchor"]
+- !private ["So11NSResponderC", "layoutSubtreeIfNeeded"]
 - !private ["So11NSResponderC", "size"]
+- !private ["So11NSResponderC", "subviews"]
 - !private ["So11NSResponderC", "superview"]
 - !private ["So11NSResponderC", "updateAnchor"]
 - !private ["So11NSResponderC", "updateConstraintsForSubtreeIfNeeded"]
@@ -344,7 +394,9 @@ depends-member:
 - ["So30NSStandardKeyBindingRespondingP", "Void"]
 - !private ["So30NSStandardKeyBindingRespondingP", ""]
 - !private ["So30NSStandardKeyBindingRespondingP", "anchor"]
+- !private ["So30NSStandardKeyBindingRespondingP", "layoutSubtreeIfNeeded"]
 - !private ["So30NSStandardKeyBindingRespondingP", "size"]
+- !private ["So30NSStandardKeyBindingRespondingP", "subviews"]
 - !private ["So30NSStandardKeyBindingRespondingP", "superview"]
 - !private ["So30NSStandardKeyBindingRespondingP", "updateAnchor"]
 - !private ["So30NSStandardKeyBindingRespondingP", "updateConstraintsForSubtreeIfNeeded"]
@@ -364,7 +416,9 @@ depends-member:
 - ["So18NSTouchBarProviderP", "Void"]
 - !private ["So18NSTouchBarProviderP", ""]
 - !private ["So18NSTouchBarProviderP", "anchor"]
+- !private ["So18NSTouchBarProviderP", "layoutSubtreeIfNeeded"]
 - !private ["So18NSTouchBarProviderP", "size"]
+- !private ["So18NSTouchBarProviderP", "subviews"]
 - !private ["So18NSTouchBarProviderP", "superview"]
 - !private ["So18NSTouchBarProviderP", "updateAnchor"]
 - !private ["So18NSTouchBarProviderP", "updateConstraintsForSubtreeIfNeeded"]
@@ -384,7 +438,9 @@ depends-member:
 - ["So23NSUserActivityRestoringP", "Void"]
 - !private ["So23NSUserActivityRestoringP", ""]
 - !private ["So23NSUserActivityRestoringP", "anchor"]
+- !private ["So23NSUserActivityRestoringP", "layoutSubtreeIfNeeded"]
 - !private ["So23NSUserActivityRestoringP", "size"]
+- !private ["So23NSUserActivityRestoringP", "subviews"]
 - !private ["So23NSUserActivityRestoringP", "superview"]
 - !private ["So23NSUserActivityRestoringP", "updateAnchor"]
 - !private ["So23NSUserActivityRestoringP", "updateConstraintsForSubtreeIfNeeded"]
@@ -403,7 +459,9 @@ depends-member:
 - ["So33NSUserInterfaceItemIdentificationP", "VerticalAlign"]
 - ["So33NSUserInterfaceItemIdentificationP", "Void"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "anchor"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "layoutSubtreeIfNeeded"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "size"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "subviews"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "superview"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "updateAnchor"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "updateConstraintsForSubtreeIfNeeded"]
@@ -425,24 +483,38 @@ depends-member:
 - ["So6NSViewC", "View"]
 - ["So6NSViewC", "Void"]
 - !private ["So6NSViewC", "anchor"]
+- !private ["So6NSViewC", "layoutSubtreeIfNeeded"]
 - !private ["So6NSViewC", "size"]
+- !private ["So6NSViewC", "subviews"]
 - !private ["So6NSViewC", "superview"]
 - !private ["So6NSViewC", "updateAnchor"]
 - !private ["So6NSViewC", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["So6NSViewC", "updateSize"]
 - !private ["Sj", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["ST", ""]
+- !private ["ST", "forEach"]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
+- !private ["s14_ArrayProtocolP", "forEach"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Constraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Swift"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "anchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "deactivate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubtreeIfNeeded"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviews"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateConstraintsForSubtreeIfNeeded"]
@@ -453,32 +525,43 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "anchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deactivate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubtreeIfNeeded"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "size"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subviews"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateSize"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "origin"]
 - !private ["s21_ObjectiveCBridgeableP", "size"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Constraint"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Swift"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "anchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubtreeIfNeeded"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "size"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "subviews"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateAnchor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateConstraintsForSubtreeIfNeeded"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateSize"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
 - !private "So6CGRectV"
+- !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
+- !private "Sl"
 - !private "SL"
 - !private "7Spatial10ConstraintC"
 - "7Spatial14ConstraintKindP"
+- !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SE"
 - !private "SQ"
@@ -487,6 +570,8 @@ depends-nominal:
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "SF"
 - !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So22NSAccessibilityElementP"
 - "So15NSAccessibilityP"
 - "So29NSAnimatablePropertyContainerP"
@@ -503,10 +588,17 @@ depends-nominal:
 - "So33NSUserInterfaceItemIdentificationP"
 - "So6NSViewC"
 - !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
+- !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -526,6 +618,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"

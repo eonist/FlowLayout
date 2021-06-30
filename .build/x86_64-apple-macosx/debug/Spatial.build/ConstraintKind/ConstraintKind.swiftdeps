@@ -5,16 +5,27 @@ provides-nominal:
 - "7Spatial14ConstraintKindP"
 provides-member:
 - ["7Spatial14ConstraintKindP", ""]
+- ["7Spatial14ConstraintKindP", "anchor"]
+- ["7Spatial14ConstraintKindP", "size"]
+- ["7Spatial14ConstraintKindP", "anchorAndSize"]
 provides-dynamic-lookup:
 depends-top-level:
+- "AnchorAndSize"
 - "AnchorConstraint"
 - "AnyObject"
+- "AssignmentPrecedence"
 - "ConstraintKind"
 - "SizeConstraint"
+- !private "anchor"
+- !private "anchorAndSize"
+- !private "size"
 depends-member:
+- ["7Spatial14ConstraintKindP", "AnchorAndSize"]
 - ["7Spatial14ConstraintKindP", "AnchorConstraint"]
 - ["7Spatial14ConstraintKindP", "SizeConstraint"]
+- ["7Spatial14ConstraintKindP", ""]
 - ["7Spatial14ConstraintKindP", "anchor"]
+- ["7Spatial14ConstraintKindP", "anchorAndSize"]
 - ["7Spatial14ConstraintKindP", "size"]
 depends-nominal:
 - "7Spatial14ConstraintKindP"
@@ -33,6 +44,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -64,4 +76,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "47f759c867e3927d89f097a84d360b7b"
+interface-hash: "60c385c3258e824ac46666959bfe2567"

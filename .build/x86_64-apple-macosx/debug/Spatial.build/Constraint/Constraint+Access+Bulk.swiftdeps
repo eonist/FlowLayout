@@ -11,6 +11,7 @@ depends-top-level:
 - "Array"
 - "Axis"
 - "CGFloat"
+- "CGPoint"
 - "CGSize"
 - "Constraint"
 - "Element"
@@ -21,11 +22,18 @@ depends-top-level:
 - "View"
 - "fatalError"
 depends-member:
+- ["s18AdditiveArithmeticP", "+"]
+- ["s18AdditiveArithmeticP", "+="]
+- ["s18AdditiveArithmeticP", "-"]
+- ["s18AdditiveArithmeticP", "-="]
+- !private ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "zero"]
 - !private ["7Spatial9AlignmentO", "topLeft"]
 - ["Sa", "Alignment"]
 - !private ["Sa", "AnchorConstraint"]
 - ["Sa", "Axis"]
 - ["Sa", "CGFloat"]
+- ["Sa", "CGPoint"]
 - ["Sa", "CGSize"]
 - !private ["Sa", "Constraint"]
 - !private ["Sa", "SizeConstraint"]
@@ -42,6 +50,9 @@ depends-member:
 - !private ["SK", "activateAnchorsAndSizes"]
 - !private ["SK", "fatalError"]
 - !private ["SK", "map"]
+- !private ["SB", "zero"]
+- !private ["12CoreGraphics7CGFloatV", "zero"]
+- !private ["So7CGPointV", "zero"]
 - !private ["So6CGSizeV", "init"]
 - !private ["So6CGSizeV", "zero"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "Constraint"]
@@ -49,16 +60,19 @@ depends-member:
 - !private ["8CloudKit21CKRecordValueProtocolP", "fatalError"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "map"]
 - !private ["s7CVarArgP", "Constraint"]
+- !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "activateAnchorsAndSizes"]
 - !private ["s7CVarArgP", "fatalError"]
 - !private ["s7CVarArgP", "map"]
 - !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "zero"]
 - !private ["Sl", "Constraint"]
 - !private ["Sl", ""]
 - !private ["Sl", "activateAnchorsAndSizes"]
 - !private ["Sl", "fatalError"]
 - !private ["Sl", "map"]
 - !private ["SL", ""]
+- !private ["SL", "zero"]
 - !private ["7Spatial10ConstraintC", "distribute"]
 - !private ["7Spatial10ConstraintC", "size"]
 - !private ["10Foundation15ContiguousBytesP", "Constraint"]
@@ -84,6 +98,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "fatalError"]
 - !private ["s23CustomStringConvertibleP", "map"]
 - !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "zero"]
 - !private ["10Foundation12DataProtocolP", "Constraint"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "activateAnchorsAndSizes"]
@@ -118,11 +133,15 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "fatalError"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "zero"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- !private ["SF", "zero"]
 - !private ["SH", "Constraint"]
 - !private ["SH", ""]
 - !private ["SH", "activateAnchorsAndSizes"]
@@ -132,6 +151,7 @@ depends-member:
 - !private ["SH", "superview"]
 - !private ["SH", "topLeft"]
 - !private ["SH", "ver"]
+- !private ["SH", "zero"]
 - !private ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", "Constraint"]
 - !private ["SM", ""]
@@ -163,6 +183,8 @@ depends-member:
 - !private ["So23NSUserActivityRestoringP", "superview"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "superview"]
 - !private ["So6NSViewC", "superview"]
+- !private ["Sj", ""]
+- !private ["Sj", "zero"]
 - !private ["Sk", "Constraint"]
 - !private ["Sk", ""]
 - !private ["Sk", "activateAnchorsAndSizes"]
@@ -181,12 +203,18 @@ depends-member:
 - !private ["ST", "activateAnchorsAndSizes"]
 - !private ["ST", "fatalError"]
 - !private ["ST", "map"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "zero"]
+- !private ["Sx", ""]
+- !private ["Sx", "zero"]
 - !private ["s16TextOutputStreamP", ""]
 - !private ["s20TextOutputStreamableP", ""]
 - !private ["s14_ArrayProtocolP", "Constraint"]
 - !private ["s14_ArrayProtocolP", "activateAnchorsAndSizes"]
 - !private ["s14_ArrayProtocolP", "fatalError"]
 - !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "zero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "zero"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s24_DestructorSafeContainerP", "Constraint"]
@@ -215,10 +243,14 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
 depends-nominal:
+- "s18AdditiveArithmeticP"
 - !private "7Spatial9AlignmentO"
 - "Sa"
 - !private "7Spatial4AxisO"
 - !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
 - !private "So6CGSizeV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
@@ -235,10 +267,12 @@ depends-nominal:
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s27ExpressibleByIntegerLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
 - !private "SH"
 - !private "s25LosslessStringConvertibleP"
 - !private "SM"
@@ -257,13 +291,18 @@ depends-nominal:
 - !private "So23NSUserActivityRestoringP"
 - !private "So33NSUserInterfaceItemIdentificationP"
 - !private "So6NSViewC"
+- !private "Sj"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
 - !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -282,12 +321,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -319,4 +362,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "04170f581820604425e8584ba18a42a3"
+interface-hash: "de60105ae4837a78eb764225859f17b5"

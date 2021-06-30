@@ -18,10 +18,11 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Axis"
 - "CGFloat"
+- "CGPoint"
 - "Constraint"
-- "FloatLiteralType"
+- !private "FloatLiteralType"
 - "HorizontalAlign"
-- "IntegerLiteralType"
+- !private "IntegerLiteralType"
 - "NSLayoutConstraint"
 - "StringLiteralType"
 - "TernaryPrecedence"
@@ -31,6 +32,8 @@ depends-top-level:
 - "fatalError"
 - !private "zip"
 depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "zero"]
 - !private ["7Spatial9AlignmentO", "horAlign"]
 - !private ["7Spatial9AlignmentO", "topLeft"]
 - !private ["7Spatial9AlignmentO", "verAlign"]
@@ -47,28 +50,38 @@ depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "map"]
 - !private ["SK", "reversed"]
+- !private ["SB", "zero"]
+- !private ["12CoreGraphics7CGFloatV", "zero"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So7CGPointV", "zero"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "append"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "enumerated"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "init"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "map"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "reversed"]
+- !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "enumerated"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "map"]
 - !private ["s7CVarArgP", "reversed"]
 - !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "zero"]
 - !private ["Sl", ""]
 - !private ["Sl", "append"]
 - !private ["Sl", "enumerated"]
 - !private ["Sl", "init"]
 - !private ["Sl", "map"]
 - !private ["Sl", "reversed"]
+- !private ["SL", ""]
+- !private ["SL", "zero"]
 - ["7Spatial10ConstraintC", "Alignment"]
 - ["7Spatial10ConstraintC", "AnchorConstraint"]
 - !private ["7Spatial10ConstraintC", "Array"]
 - ["7Spatial10ConstraintC", "Axis"]
 - ["7Spatial10ConstraintC", "CGFloat"]
+- ["7Spatial10ConstraintC", "CGPoint"]
 - !private ["7Spatial10ConstraintC", "Constraint"]
 - !private ["7Spatial10ConstraintC", "HorizontalAlign"]
 - ["7Spatial10ConstraintC", "NSLayoutConstraint"]
@@ -90,11 +103,17 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "reversed"]
 - !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "enumerated"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "map"]
 - !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s17CustomReflectableP", "zero"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
@@ -103,6 +122,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "map"]
 - !private ["s23CustomStringConvertibleP", "reversed"]
 - !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "zero"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "enumerated"]
@@ -114,6 +134,9 @@ depends-member:
 - !private ["Se", "init"]
 - !private ["Se", "map"]
 - !private ["Se", "reversed"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- !private ["Se", "zero"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "append"]
@@ -121,6 +144,9 @@ depends-member:
 - !private ["SE", "init"]
 - !private ["SE", "map"]
 - !private ["SE", "reversed"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SE", "zero"]
 - !private ["s18EnumeratedSequenceV", "forEach"]
 - ["SQ", ""]
 - !private ["SQ", "append"]
@@ -138,17 +164,27 @@ depends-member:
 - !private ["SQ", "topLeft"]
 - ["SQ", "ver"]
 - !private ["SQ", "verAlign"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "zero"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s25ExpressibleByArrayLiteralP", "reversed"]
-- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "zero"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SF", ""]
+- !private ["SF", "zero"]
+- !private ["SH", ""]
 - !private ["SH", "append"]
 - ["SH", "bottom"]
 - !private ["SH", "enumerated"]
@@ -164,6 +200,7 @@ depends-member:
 - !private ["SH", "topLeft"]
 - ["SH", "ver"]
 - !private ["SH", "verAlign"]
+- !private ["SH", "zero"]
 - ["7Spatial15HorizontalAlignO", "left"]
 - ["7Spatial15HorizontalAlignO", "right"]
 - !private ["SM", ""]
@@ -195,6 +232,8 @@ depends-member:
 - !private ["So23NSUserActivityRestoringP", "superview"]
 - !private ["So33NSUserInterfaceItemIdentificationP", "superview"]
 - !private ["So6NSViewC", "superview"]
+- !private ["Sj", ""]
+- !private ["Sj", "zero"]
 - !private ["Sk", ""]
 - !private ["Sk", "append"]
 - !private ["Sk", "enumerated"]
@@ -226,6 +265,10 @@ depends-member:
 - !private ["ST", "makeIterator"]
 - !private ["ST", "map"]
 - !private ["ST", "reversed"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "zero"]
+- !private ["Sx", ""]
+- !private ["Sx", "zero"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
@@ -238,12 +281,17 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "map"]
 - !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s15_CVarArgAlignedP", "zero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "zero"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "x"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "map"]
 - !private ["s24_DestructorSafeContainerP", "reversed"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "enumerated"]
@@ -262,15 +310,23 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - !private "7Spatial9AlignmentO"
 - !private "Sa"
 - "7Spatial4AxisO"
 - !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
 - !private "Sl"
+- !private "SL"
 - "7Spatial10ConstraintC"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -283,9 +339,11 @@ depends-nominal:
 - !private "s18EnumeratedSequenceV"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s27ExpressibleByIntegerLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
+- !private "SF"
 - "SH"
 - "7Spatial15HorizontalAlignO"
 - !private "SM"
@@ -304,16 +362,22 @@ depends-nominal:
 - !private "So23NSUserActivityRestoringP"
 - !private "So33NSUserInterfaceItemIdentificationP"
 - !private "So6NSViewC"
+- !private "Sj"
 - !private "Sk"
 - !private "Sm"
 - "SY"
 - !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
 - "7Spatial13VerticalAlignO"
 - !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -336,6 +400,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -367,4 +432,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5a902b41f190508f61ee8285fd3d5aa0"
+interface-hash: "9e4c3f57f925643721e591ea2ffcc6c1"

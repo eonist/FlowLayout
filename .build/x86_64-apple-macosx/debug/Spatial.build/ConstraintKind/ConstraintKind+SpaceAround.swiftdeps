@@ -286,7 +286,6 @@ depends-member:
 - !private ["So25NSAppearanceCustomizationP", "anchor"]
 - !private ["So25NSAppearanceCustomizationP", "bounds"]
 - !private ["So25NSAppearanceCustomizationP", "size"]
-- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "activateConstraint"]
 - !private ["So8NSCodingP", "anchor"]
 - !private ["So8NSCodingP", "bounds"]
@@ -297,34 +296,31 @@ depends-member:
 - !private ["So21NSDraggingDestinationP", "size"]
 - !private ["So12NSEdgeInsetsV", "init"]
 - !private ["So18NSLayoutConstraintC", "constant"]
-- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "activateConstraint"]
 - !private ["So8NSObjectC", "anchor"]
 - !private ["So8NSObjectC", "bounds"]
 - !private ["So8NSObjectC", "constant"]
 - !private ["So8NSObjectC", "size"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activateConstraint"]
 - !private ["So8NSObjectP", "anchor"]
 - !private ["So8NSObjectP", "bounds"]
 - !private ["So8NSObjectP", "constant"]
 - !private ["So8NSObjectP", "size"]
-- ["So11NSResponderC", ""]
+- !private ["So11NSResponderC", ""]
 - !private ["So11NSResponderC", "activateConstraint"]
 - !private ["So11NSResponderC", "anchor"]
 - !private ["So11NSResponderC", "bounds"]
 - !private ["So11NSResponderC", "size"]
-- !private ["So30NSStandardKeyBindingRespondingP", ""]
 - !private ["So30NSStandardKeyBindingRespondingP", "activateConstraint"]
 - !private ["So30NSStandardKeyBindingRespondingP", "anchor"]
 - !private ["So30NSStandardKeyBindingRespondingP", "bounds"]
 - !private ["So30NSStandardKeyBindingRespondingP", "size"]
-- !private ["So18NSTouchBarProviderP", ""]
 - !private ["So18NSTouchBarProviderP", "activateConstraint"]
 - !private ["So18NSTouchBarProviderP", "anchor"]
 - !private ["So18NSTouchBarProviderP", "bounds"]
 - !private ["So18NSTouchBarProviderP", "size"]
-- !private ["So23NSUserActivityRestoringP", ""]
 - !private ["So23NSUserActivityRestoringP", "activateConstraint"]
 - !private ["So23NSUserActivityRestoringP", "anchor"]
 - !private ["So23NSUserActivityRestoringP", "bounds"]
@@ -456,13 +452,13 @@ depends-nominal:
 - !private "So15NSAccessibilityP"
 - !private "So29NSAnimatablePropertyContainerP"
 - !private "So25NSAppearanceCustomizationP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - !private "So21NSDraggingDestinationP"
 - !private "So12NSEdgeInsetsV"
 - !private "So18NSLayoutConstraintC"
-- "So8NSObjectC"
-- "So8NSObjectP"
-- "So11NSResponderC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So11NSResponderC"
 - !private "So30NSStandardKeyBindingRespondingP"
 - !private "So18NSTouchBarProviderP"
 - !private "So23NSUserActivityRestoringP"
@@ -494,12 +490,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"

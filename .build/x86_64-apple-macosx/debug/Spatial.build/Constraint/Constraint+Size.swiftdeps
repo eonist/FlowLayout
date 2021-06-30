@@ -31,12 +31,16 @@ depends-top-level:
 - "TernaryPrecedence"
 - "View"
 depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "zero"]
 - !private ["So17NSLayoutAttributeV", "height"]
 - !private ["So17NSLayoutAttributeV", "notAnAttribute"]
 - !private ["So17NSLayoutAttributeV", "width"]
 - !private ["7Spatial4AxisO", "RawValue"]
 - !private ["7Spatial4AxisO", ""]
 - !private ["7Spatial4AxisO", "hor"]
+- !private ["SB", "zero"]
+- !private ["12CoreGraphics7CGFloatV", "zero"]
 - !private ["So7CGPointV", "init"]
 - !private ["So7CGPointV", "x"]
 - !private ["So7CGPointV", "y"]
@@ -46,7 +50,11 @@ depends-member:
 - !private ["So6CGSizeV", "zero"]
 - !private ["s7CVarArgP", "Attribute"]
 - ["s7CVarArgP", "Relation"]
+- !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "zero"]
+- !private ["SL", ""]
+- !private ["SL", "zero"]
 - ["7Spatial10ConstraintC", "Axis"]
 - ["7Spatial10ConstraintC", "CGFloat"]
 - ["7Spatial10ConstraintC", "CGPoint"]
@@ -77,6 +85,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Attribute"]
 - ["s23CustomStringConvertibleP", "Relation"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "zero"]
 - !private ["Se", "height"]
 - ["Se", "init"]
 - !private ["Se", "width"]
@@ -102,16 +111,24 @@ depends-member:
 - !private ["SQ", "x"]
 - !private ["SQ", "y"]
 - !private ["SQ", "zero"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "zero"]
+- !private ["SF", ""]
+- !private ["SF", "zero"]
 - !private ["SH", "Attribute"]
 - ["SH", "Relation"]
+- !private ["SH", ""]
 - !private ["SH", "equal"]
 - !private ["SH", "height"]
 - !private ["SH", "hor"]
 - !private ["SH", "init"]
 - !private ["SH", "notAnAttribute"]
 - !private ["SH", "width"]
+- !private ["SH", "zero"]
 - !private ["So29NSAnimatablePropertyContainerP", "Attribute"]
 - ["So29NSAnimatablePropertyContainerP", "Relation"]
 - !private ["So29NSAnimatablePropertyContainerP", "init"]
@@ -125,12 +142,20 @@ depends-member:
 - !private ["So8NSObjectP", "Attribute"]
 - ["So8NSObjectP", "Relation"]
 - !private ["So8NSObjectP", "init"]
+- !private ["Sj", ""]
+- !private ["Sj", "zero"]
 - !private ["SY", "equal"]
 - !private ["SY", "height"]
 - !private ["SY", "hor"]
 - !private ["SY", "notAnAttribute"]
 - !private ["SY", "width"]
 - !private ["So16NSLayoutRelationV", "equal"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "zero"]
+- !private ["Sx", ""]
+- !private ["Sx", "zero"]
+- !private ["s15_CVarArgAlignedP", "zero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "zero"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "height"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "width"]
@@ -151,11 +176,15 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - !private "So17NSLayoutAttributeV"
 - !private "7Spatial4AxisO"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
 - !private "So7CGPointV"
 - !private "So6CGSizeV"
 - "s7CVarArgP"
+- !private "SL"
 - "7Spatial10ConstraintC"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -163,14 +192,21 @@ depends-nominal:
 - "Se"
 - !private "SE"
 - "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
 - "SH"
 - "So29NSAnimatablePropertyContainerP"
 - "So18NSLayoutConstraintC"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sj"
 - !private "SY"
 - !private "So16NSLayoutRelationV"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -191,6 +227,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -222,4 +259,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "121392103da806722bf7372c64fe5d9c"
+interface-hash: "7e3aa8e7029f0dd812995b531ca833b8"

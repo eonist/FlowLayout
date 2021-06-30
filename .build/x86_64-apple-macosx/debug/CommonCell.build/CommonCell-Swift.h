@@ -188,6 +188,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AppKit;
+@import CoreGraphics;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -204,6 +207,122 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="CommonCell",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSCoder;
+
+/// <ul>
+///   <li>
+///     Note I guess the @objc purpouse of this class is to avoid adding the required init in subClasses?
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC10CommonCell8BaseCell")
+@interface BaseCell : NSTableCellView
+/// Init
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Boilerplate
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(NSRect)frameRect SWIFT_UNAVAILABLE;
+@end
+
+
+/// ActionCell is a cell that has a universal callback action that the table can listen for
+/// <ul>
+///   <li>
+///     Fixme: ⚠️️ Add ActionCell to CommonCell kit
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC10CommonCell10ActionCell")
+@interface ActionCell : BaseCell
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface ActionCell (SWIFT_EXTENSION(CommonCell))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat height;)
++ (CGFloat)height SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface BaseCell (SWIFT_EXTENSION(CommonCell))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull defaultReuseIdentifier;)
++ (NSString * _Nonnull)defaultReuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface BaseCell (SWIFT_EXTENSION(CommonCell))
+/// When apperance change, this is redrawn
+- (void)drawRect:(NSRect)dirtyRect;
+/// When layout change, update background
+- (void)layout;
+@end
+
+
+/// <ul>
+///   <li>
+///     Fixme: ⚠️️ Move to MUI? could be useful in other apps, the onScroll part is pretty custom, maybe make BasicTable and move that?
+///   </li>
+///   <li>
+///     Fixme: ⚠️️ Make BasicTable? 🏀 rename this to SrollTable or StickyTable
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC10CommonCell10BasicTable")
+@interface BasicTable : NSScrollView <NSTableViewDataSource, NSTableViewDelegate>
+/// note:
+/// This table is only cell based, it doesn’t use sections. Because we want to use the same structure for macOS, and macOS doesnt have sections
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+/// Boilerplate
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+@end
+
+@class NSTableView;
+
+@interface BasicTable (SWIFT_EXTENSION(CommonCell))
+/// Table (config and add table to NSScrollView)
+- (NSTableView * _Nonnull)createTable SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface BasicTable (SWIFT_EXTENSION(CommonCell))
+/// Config table
+/// note:
+/// ⚠️️ The content offset might also be solved like this: https://stackoverflow.com/questions/10016475/create-nsscrollview-programmatically-in-an-nsview-cocoa
+- (void)config;
+@end
+
+
+@class NSTableColumn;
+@class NSView;
+
+@interface BasicTable (SWIFT_EXTENSION(CommonCell))
+/// note:
+/// We dequeue based on cell class types stored in the sections array
+- (NSView * _Nullable)tableView:(NSTableView * _Nonnull)tableView viewForTableColumn:(NSTableColumn * _Nullable)tableColumn row:(NSInteger)row SWIFT_WARN_UNUSED_RESULT;
+/// Returns row count in a section
+- (NSInteger)numberOfRowsInTableView:(NSTableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+/// Row-height (the height of each cell)
+- (CGFloat)tableView:(NSTableView * _Nonnull)tableView heightOfRow:(NSInteger)row SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+/// StickyTable
+/// <ul>
+///   <li>
+///     Fixme: ⚠️️ move stickytable to CommonCell?
+///   </li>
+/// </ul>
+SWIFT_CLASS("_TtC10CommonCell11StickyTable")
+@interface StickyTable : BasicTable
+/// note:
+/// This table is only cell based, it doesn’t use sections. because we want to use the same structure for macOS, and macOS doesnt have sections
+/// \param frame needed, sometimes we use frame and not autolayout
+///
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

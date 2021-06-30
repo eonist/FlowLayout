@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "7a367b4a531c61aa2cfc007350e614d8"
-build_time: [1625092799, 61426000]
+build_time: [1625093585, 448497000]
 inputs:
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSON+Extension.swift": [1625092781, 688850144]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONAsserter.swift": [1625092781, 688997359]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONParser.swift": [1625092781, 716021055]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONType.swift": [1625092781, 689246260]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONUtils.swift": [1625092781, 689379954]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/common/DecodingHelpers.swift": [1625092781, 689648377]
-  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/common/Extensions.swift": [1625092781, 689909854]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSON+Extension.swift": [1625093213, 442802890]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONAsserter.swift": [1625093213, 443009102]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONParser.swift": [1625093213, 443217688]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONType.swift": [1625093213, 443425315]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/JSONUtils.swift": [1625093213, 443664959]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/common/DecodingHelpers.swift": [1625093213, 444076931]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/JSONSugar/Sources/JSONSugar/common/Extensions.swift": [1625093213, 444319899]
