@@ -80,6 +80,8 @@
 		F14965EF24323B22008C1847 /* ImageSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F14965EE24323B22008C1847 /* ImageSugar */; };
 		F14965F224323D2B008C1847 /* CommonCell in Frameworks */ = {isa = PBXBuildFile; productRef = F14965F124323D2B008C1847 /* CommonCell */; };
 		F14965F524323D7B008C1847 /* NetworkSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F14965F424323D7B008C1847 /* NetworkSugar */; };
+		F15CB292268D262D00C5C303 /* Spatial in Frameworks */ = {isa = PBXBuildFile; productRef = F15CB291268D262D00C5C303 /* Spatial */; };
+		F15CB295268D265200C5C303 /* With in Frameworks */ = {isa = PBXBuildFile; productRef = F15CB294268D265200C5C303 /* With */; };
 		F1FB41582443556000A433E2 /* HorView+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB41572443556000A433E2 /* HorView+Event.swift */; };
 		F1FB415A2443599600A433E2 /* Slider+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB41592443599600A433E2 /* Slider+Const.swift */; };
 /* End PBXBuildFile section */
@@ -178,8 +180,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15CB295268D265200C5C303 /* With in Frameworks */,
 				F14965F524323D7B008C1847 /* NetworkSugar in Frameworks */,
 				F14965F224323D2B008C1847 /* CommonCell in Frameworks */,
+				F15CB292268D262D00C5C303 /* Spatial in Frameworks */,
 				F14965EC24323B0A008C1847 /* JSONSugar in Frameworks */,
 				F14965EF24323B22008C1847 /* ImageSugar in Frameworks */,
 			);
@@ -514,6 +518,8 @@
 				F14965EE24323B22008C1847 /* ImageSugar */,
 				F14965F124323D2B008C1847 /* CommonCell */,
 				F14965F424323D7B008C1847 /* NetworkSugar */,
+				F15CB291268D262D00C5C303 /* Spatial */,
+				F15CB294268D265200C5C303 /* With */,
 			);
 			productName = FlowLayout;
 			productReference = F116EBD3211046B40091439E /* FlowLayout.app */;
@@ -549,6 +555,8 @@
 				F14965ED24323B22008C1847 /* XCRemoteSwiftPackageReference "ImageSugar" */,
 				F14965F024323D2B008C1847 /* XCRemoteSwiftPackageReference "CommonCell" */,
 				F14965F324323D7B008C1847 /* XCRemoteSwiftPackageReference "NetworkSugar" */,
+				F15CB290268D262D00C5C303 /* XCRemoteSwiftPackageReference "Spatial" */,
+				F15CB293268D265200C5C303 /* XCRemoteSwiftPackageReference "with" */,
 			);
 			productRefGroup = F116EBD4211046B40091439E /* Products */;
 			projectDirPath = "";
@@ -734,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -789,7 +797,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -894,6 +902,22 @@
 				kind = branch;
 			};
 		};
+		F15CB290268D262D00C5C303 /* XCRemoteSwiftPackageReference "Spatial" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eonist/Spatial.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F15CB293268D265200C5C303 /* XCRemoteSwiftPackageReference "with" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eonist/with";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -916,6 +940,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F14965F324323D7B008C1847 /* XCRemoteSwiftPackageReference "NetworkSugar" */;
 			productName = NetworkSugar;
+		};
+		F15CB291268D262D00C5C303 /* Spatial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F15CB290268D262D00C5C303 /* XCRemoteSwiftPackageReference "Spatial" */;
+			productName = Spatial;
+		};
+		F15CB294268D265200C5C303 /* With */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F15CB293268D265200C5C303 /* XCRemoteSwiftPackageReference "with" */;
+			productName = With;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

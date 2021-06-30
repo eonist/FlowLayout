@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/eonist/CommonCell.git",
         "state": {
           "branch": "master",
-          "revision": "438804db831364ccfd14130c1a83c6b771e6154f",
+          "revision": "e226a1520deb37374884463fca12118bae00c7c9",
           "version": null
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/eonist/FileSugar.git",
         "state": {
           "branch": "master",
-          "revision": "60e86f2514d5d26c51e782075e8ae3815df13dc5",
+          "revision": "523b7325aa211c34d2622c365915969122ed02bc",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/eonist/ImageSugar.git",
         "state": {
           "branch": "master",
-          "revision": "5d5d601d2c9791ce711ae250cefe14be6383bd32",
+          "revision": "badf21a795fd627f4a44c55c57c6f3626261662e",
           "version": null
         }
       },
@@ -33,7 +33,7 @@
         "repositoryURL": "https://github.com/eonist/JSONSugar.git",
         "state": {
           "branch": "master",
-          "revision": "94cf3ea0063afd987e180c3b2781ee69ac98efb7",
+          "revision": "f6ebe7fde5cbe574ae9516c73962ccd01e7208b1",
           "version": null
         }
       },
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/eonist/NetworkSugar.git",
         "state": {
           "branch": "master",
-          "revision": "97a90a3d09e449046b0fb457010cba6c689ef05b",
+          "revision": "4da36c5b8fa9c2c1ac3784cbb2474ee66e51b6ff",
           "version": null
         }
       },
@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/eonist/ReusableCell.git",
         "state": {
           "branch": "master",
-          "revision": "1892afdc517e4c8fc74e1f97c92b29030f8292bb",
+          "revision": "26413744c41ddcfaffaeb561c904449d784ef1d0",
           "version": null
         }
       },
@@ -60,16 +60,16 @@
         "repositoryURL": "https://github.com/eonist/Spatial.git",
         "state": {
           "branch": "master",
-          "revision": "810bb78b8d6e7f95c8b661eca40873f81e6eeb32",
+          "revision": "d5db4874deba1ac3adb50124367870105ff46132",
           "version": null
         }
       },
       {
         "package": "With",
-        "repositoryURL": "https://github.com/eonist/With.git",
+        "repositoryURL": "https://github.com/eonist/with",
         "state": {
           "branch": "master",
-          "revision": "140cd19586482e8f14a5ce971c675c69f1e4f916",
+          "revision": "db0935ecba9577470664105c25cf2c29481ec0fb",
           "version": null
         }
       }
