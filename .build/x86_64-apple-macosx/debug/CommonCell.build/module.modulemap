@@ -1,0 +1,4 @@
+module CommonCell {
+    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/CommonCell-Swift.h"
+    requires objc
+}

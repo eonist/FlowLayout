@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 
@@ -16,3 +17,5 @@ final class SliderBar: UIView, ConstraintKind {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

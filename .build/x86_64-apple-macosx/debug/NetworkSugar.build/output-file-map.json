@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/master.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/asserter/NetworkAsserter.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/asserter/NetworkAsserter.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/asserter/NetworkAsserter.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/asserter/NetworkAsserter~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/asserter/NetworkAsserter.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Data.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Data.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Data.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Data.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Default+Data.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+Data.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+Data.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+Data.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Default+String.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+String.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+String.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+String~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Default+String.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Error.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Error.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Error.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Error.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+String.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+String.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+String.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+String~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+String.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Type.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Type.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Type.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Type~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/NetworkParser+Type.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/deprecated/DEPRECATED.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/deprecated/DEPRECATED.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/deprecated/DEPRECATED.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/deprecated/DEPRECATED~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/parser/deprecated/DEPRECATED.swiftdeps"
+  }
+}

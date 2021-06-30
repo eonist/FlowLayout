@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Const
@@ -5,3 +6,5 @@ import UIKit
 extension SecondaryHorCell {
    @objc override class var id: String { "\(SecondaryHorCell.self)" }
 }
+
+#endif

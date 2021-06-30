@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 import With
@@ -57,3 +58,5 @@ extension Header {
       }
    }
 }
+
+#endif

@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "205c67f9a44538cf3577c0a718b89baa"
+build_time: [1625092799, 204718000]
+inputs:
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/BaseCell.swift": [1625092781, 379959261]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/CommonCell.swift": [1625092781, 380070973]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/data/CellDataKind.swift": [1625092781, 380238652]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell+Constant.swift": [1625092781, 380446219]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell+Create.swift": [1625092781, 380594624]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/TextCell.swift": [1625092781, 380713182]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/CommonCell/Sources/CommonCell/text/data/TextCellData.swift": [1625092781, 380889640]

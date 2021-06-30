@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/master.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/NibLoadableView.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/NibLoadableView.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/NibLoadableView.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/NibLoadableView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/NibLoadableView.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/ReusableCell.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCell.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCell.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCell.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/ReusableCellKind+Extension.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind+Extension.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind+Extension.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind+Extension.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/ReusableCellKind.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCellKind.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/ReusableCollectionCell.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCollectionCell.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCollectionCell.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCollectionCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/ReusableCollectionCell.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/UICollectionView+Reusable.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UICollectionView+Reusable.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UICollectionView+Reusable.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UICollectionView+Reusable~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UICollectionView+Reusable.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ReusableCell/Sources/ReusableCell/UITable+Reusable.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UITable+Reusable.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UITable+Reusable.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UITable+Reusable~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/UITable+Reusable.swiftdeps"
+  }
+}

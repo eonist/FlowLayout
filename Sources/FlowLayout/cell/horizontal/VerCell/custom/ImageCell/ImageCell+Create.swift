@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 import Spatial
@@ -23,3 +24,5 @@ extension ImageCell {
       }
    }
 }
+
+#endif

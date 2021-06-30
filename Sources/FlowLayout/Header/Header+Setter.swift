@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 /**
@@ -12,3 +13,5 @@ extension Header {
       headerTitle.text = title
    }
 }
+
+#endif

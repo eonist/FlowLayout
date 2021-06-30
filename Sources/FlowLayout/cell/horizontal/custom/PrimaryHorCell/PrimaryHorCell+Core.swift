@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 /**
@@ -18,7 +19,7 @@ extension PrimaryHorCell {
       guard let cell: PrimaryVerCell = collectionView.dequeueReusableCell(withReuseIdentifier: PrimaryVerCell.id, for: indexPath as IndexPath) as? PrimaryVerCell else { fatalError("err") }
       if let thumbURL: String = primaryCellData?.thumbURLS[indexPath.row] {
          _ = thumbURL
-//         Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
+         //         Swift.print("PrimaryHorCell.dequeCell() thumbURL:  \(thumbURL)")
          //cell.thumbImage = UIImage(url:thumbURL)
          //cell.imgView.setImage(webPath: thumbURL)
       }
@@ -44,3 +45,5 @@ extension PrimaryHorCell {
       }
    }
 }
+
+#endif

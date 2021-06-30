@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * CollectionView related
@@ -22,3 +23,5 @@ extension HorCell: UICollectionViewDataSource, UICollectionViewDelegate, UIColle
       onItemSelect(indexPath)
    }
 }
+
+#endif

@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+6de29c5b26325d0c769c778fff789e2203507f5f refs/heads/Fix-readme
+a96848856faa6b06d83e96908f33795596877f48 refs/heads/Test-hound
+4da36c5b8fa9c2c1ac3784cbb2474ee66e51b6ff refs/heads/master
+c5f72d5bb21e7367c13b39a577565ef313aae1c0 refs/pull/4/head
+0a36d9503e00cf7b0d0df2dc16da5ca0836ac85f refs/pull/5/head
+6de29c5b26325d0c769c778fff789e2203507f5f refs/pull/6/head
+a96848856faa6b06d83e96908f33795596877f48 refs/pull/7/head

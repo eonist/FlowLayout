@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Update
@@ -26,3 +27,5 @@ extension HorView {
       }
    }
 }
+
+#endif

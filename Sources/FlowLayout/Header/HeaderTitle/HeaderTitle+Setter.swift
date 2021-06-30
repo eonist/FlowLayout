@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 
 extension HeaderTitle {
@@ -5,3 +6,5 @@ extension HeaderTitle {
       self.text = text
    }
 }
+
+#endif

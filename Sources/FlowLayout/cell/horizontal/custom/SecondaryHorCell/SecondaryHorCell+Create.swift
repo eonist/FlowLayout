@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 /**
@@ -22,3 +23,5 @@ extension SecondaryHorCell {
       }
    }
 }
+
+#endif

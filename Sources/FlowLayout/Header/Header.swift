@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Header
@@ -25,3 +26,5 @@ open class Header: UIView {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

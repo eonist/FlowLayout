@@ -1,3 +1,4 @@
+#if os(iOS)
 import QuartzCore
 /**
  * Const
@@ -7,3 +8,5 @@ extension HeaderButton {
    static let width: CGFloat = 60
    static let height: CGFloat = 20 // Fixme: combine width and height to size
 }
+
+#endif

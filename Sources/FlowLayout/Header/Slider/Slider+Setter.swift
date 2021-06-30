@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 /**
@@ -28,3 +29,5 @@ extension Slider {
       self.sliderBar.update(offset: to, align: .left, alignTo: .left)
    }
 }
+
+#endif

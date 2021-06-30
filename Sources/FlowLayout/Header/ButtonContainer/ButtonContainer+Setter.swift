@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 extension ButtonContainer {
@@ -18,3 +19,5 @@ extension ButtonContainer {
       buttons.forEach { $0.setActive(isActive: $0 == btn) }
    }
 }
+
+#endif

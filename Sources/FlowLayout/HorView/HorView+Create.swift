@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 import With
@@ -50,3 +51,5 @@ extension HorView {
       }
    }
 }
+
+#endif

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "17909bb1da5d64f6889674c64815735f"
+build_time: [1625092785, 91713000]
+inputs:
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/CGImage/CGImage+Extension.swift": [1625092780, 381881968]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/CIContext+Extension.swift": [1625092780, 382039835]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/NSImage/NSImage+Extension.swift": [1625092780, 382245992]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/NSImage/NSImageView+Extension.swift": [1625092780, 382378201]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/UIImage/UIImage+Extension.swift": [1625092780, 421866768]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/UIImage/UIImage+Network+Type.swift": [1625092780, 382751985]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/UIImage/UIImage+Network.swift": [1625092780, 422076095]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/UIImageView/UIImageView+Network+Type.swift": [1625092780, 383090580]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/ImageSugar/Sources/ImageSugar/UIImageView/UIImageView+Network.swift": [1625092780, 422294071]

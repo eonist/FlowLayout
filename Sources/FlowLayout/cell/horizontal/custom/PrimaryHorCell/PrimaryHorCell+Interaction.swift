@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * Interaction
@@ -13,6 +14,8 @@ extension PrimaryHorCell {
       updateCollectionView()
    }
 }
+#endif
+
 // let itemSize:CGSize = {
 //    let screenWidth:CGFloat = UIScreen.main.bounds.size.width
 //    let width:CGFloat = screenWidth - (SecondaryCell.margin*2)

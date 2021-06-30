@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import ReusableCell
 /**
@@ -45,3 +46,5 @@ extension HorView {
 //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 //        return CGSize(width: self.frame.width, height: self.frame.height - 50)
 //    }
+
+#endif

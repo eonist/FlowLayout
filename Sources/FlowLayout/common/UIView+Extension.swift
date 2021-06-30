@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Controller related
@@ -25,3 +26,5 @@ extension UIView {
       return controller.navigationController
    }
 }
+
+#endif

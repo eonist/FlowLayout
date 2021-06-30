@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * - Fixme: ⚠️️ remove this, use GeomKit via spm instead or?
@@ -48,3 +49,5 @@ internal class CGShapeUtil {
       return circleLayer
    }
 }
+
+#endif

@@ -1,0 +1,756 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7NSImageC", ""]
+- ["So7NSImageC", "init"]
+- ["So7NSImageC", "cgImage"]
+- ["So7NSImageC", "ciImage"]
+- ["So7NSImageC", "resize"]
+- ["So7NSImageC", "image"]
+- ["So7NSImageC", "pngData"]
+provides-dynamic-lookup:
+- "cgImage"
+- "ciImage"
+- "image"
+- "pngData"
+- "resize"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGImage"
+- "CGSize"
+- "CIImage"
+- "CoreImage"
+- "Data"
+- !private "Dictionary"
+- "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "NSBitmapImageRep"
+- "NSCIImageRep"
+- "NSColor"
+- !private "NSCompositingOperation"
+- !private "NSGraphicsContext"
+- "NSImage"
+- !private "NSRect"
+- !private "StringLiteralType"
+- !private "Swift"
+- !private "autoreleasepool"
+- !private "tiffRepresentation"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["SK", ""]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["So7CGPointV", "zero"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
+- !private ["So7CIImageC", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSBitmapImageRep"]
+- !private ["s7CVarArgP", "NSCompositingOperation"]
+- !private ["s7CVarArgP", "NSGraphicsContext"]
+- !private ["s7CVarArgP", "NSRect"]
+- !private ["s7CVarArgP", "Swift"]
+- !private ["s7CVarArgP", "addRepresentation"]
+- !private ["s7CVarArgP", "autoreleasepool"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "drawSwatch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lockFocus"]
+- !private ["s7CVarArgP", "representation"]
+- !private ["s7CVarArgP", "restoreGraphicsState"]
+- !private ["s7CVarArgP", "saveGraphicsState"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "tiffRepresentation"]
+- !private ["s7CVarArgP", "unlockFocus"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSBitmapImageRep"]
+- !private ["s28CustomDebugStringConvertibleP", "NSCompositingOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "NSGraphicsContext"]
+- !private ["s28CustomDebugStringConvertibleP", "NSRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Swift"]
+- !private ["s28CustomDebugStringConvertibleP", "addRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "autoreleasepool"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "drawSwatch"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lockFocus"]
+- !private ["s28CustomDebugStringConvertibleP", "representation"]
+- !private ["s28CustomDebugStringConvertibleP", "restoreGraphicsState"]
+- !private ["s28CustomDebugStringConvertibleP", "saveGraphicsState"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "tiffRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockFocus"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSBitmapImageRep"]
+- !private ["s23CustomStringConvertibleP", "NSCompositingOperation"]
+- !private ["s23CustomStringConvertibleP", "NSGraphicsContext"]
+- !private ["s23CustomStringConvertibleP", "NSRect"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addRepresentation"]
+- !private ["s23CustomStringConvertibleP", "autoreleasepool"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "drawSwatch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lockFocus"]
+- !private ["s23CustomStringConvertibleP", "representation"]
+- !private ["s23CustomStringConvertibleP", "restoreGraphicsState"]
+- !private ["s23CustomStringConvertibleP", "saveGraphicsState"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "tiffRepresentation"]
+- !private ["s23CustomStringConvertibleP", "unlockFocus"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["Se", "zero"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "width"]
+- !private ["SE", "zero"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSBitmapImageRep"]
+- !private ["SQ", "NSCompositingOperation"]
+- !private ["SQ", "NSGraphicsContext"]
+- !private ["SQ", "NSRect"]
+- !private ["SQ", "Swift"]
+- ["SQ", ""]
+- !private ["SQ", "addRepresentation"]
+- !private ["SQ", "autoreleasepool"]
+- !private ["SQ", "calibratedRGB"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cgImage"]
+- !private ["SQ", "copy"]
+- !private ["SQ", "current"]
+- !private ["SQ", "draw"]
+- !private ["SQ", "drawSwatch"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lockFocus"]
+- !private ["SQ", "png"]
+- !private ["SQ", "representation"]
+- !private ["SQ", "restoreGraphicsState"]
+- !private ["SQ", "saveGraphicsState"]
+- !private ["SQ", "size"]
+- !private ["SQ", "tiffRepresentation"]
+- !private ["SQ", "unlockFocus"]
+- !private ["SQ", "width"]
+- !private ["SQ", "zero"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So21NSBitmapImageFileTypeV", "png"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSBitmapImageRep"]
+- !private ["SH", "NSCompositingOperation"]
+- !private ["SH", "NSGraphicsContext"]
+- !private ["SH", "NSRect"]
+- !private ["SH", "Swift"]
+- ["SH", ""]
+- !private ["SH", "addRepresentation"]
+- !private ["SH", "autoreleasepool"]
+- !private ["SH", "calibratedRGB"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "cgImage"]
+- !private ["SH", "copy"]
+- !private ["SH", "current"]
+- !private ["SH", "draw"]
+- !private ["SH", "drawSwatch"]
+- !private ["SH", "init"]
+- !private ["SH", "lockFocus"]
+- !private ["SH", "png"]
+- !private ["SH", "representation"]
+- !private ["SH", "restoreGraphicsState"]
+- !private ["SH", "saveGraphicsState"]
+- !private ["SH", "size"]
+- !private ["SH", "tiffRepresentation"]
+- !private ["SH", "unlockFocus"]
+- !private ["Si", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So11MTLResourceP", ""]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So16NSBitmapImageRepC", "init"]
+- !private ["So16NSBitmapImageRepC", "representation"]
+- !private ["So16NSBitmapImageRepC", "size"]
+- !private ["So12NSCIImageRepC", "init"]
+- !private ["So12NSCIImageRepC", "size"]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", "CGImage"]
+- ["So8NSCodingP", "CGSize"]
+- ["So8NSCodingP", "CIImage"]
+- !private ["So8NSCodingP", "CoreImage"]
+- ["So8NSCodingP", "Data"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSBitmapImageRep"]
+- !private ["So8NSCodingP", "NSCIImageRep"]
+- ["So8NSCodingP", "NSColor"]
+- !private ["So8NSCodingP", "NSCompositingOperation"]
+- !private ["So8NSCodingP", "NSGraphicsContext"]
+- ["So8NSCodingP", "NSImage"]
+- !private ["So8NSCodingP", "NSRect"]
+- !private ["So8NSCodingP", "Swift"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addRepresentation"]
+- !private ["So8NSCodingP", "autoreleasepool"]
+- ["So8NSCodingP", "cgImage"]
+- ["So8NSCodingP", "ciImage"]
+- !private ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "drawSwatch"]
+- ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageRepWithCIImage"]
+- !private ["So8NSCodingP", "imageRepWithData"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lockFocus"]
+- ["So8NSCodingP", "pngData"]
+- !private ["So8NSCodingP", "representation"]
+- !private ["So8NSCodingP", "representationUsingType"]
+- ["So8NSCodingP", "resize"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "tiffRepresentation"]
+- !private ["So8NSCodingP", "unlockFocus"]
+- !private ["So7NSColorC", "drawSwatch"]
+- !private ["So16NSColorSpaceNamea", "calibratedRGB"]
+- !private ["So22NSCompositingOperationV", "copy"]
+- ["So9NSCopyingP", "CGFloat"]
+- ["So9NSCopyingP", "CGImage"]
+- ["So9NSCopyingP", "CGSize"]
+- ["So9NSCopyingP", "CIImage"]
+- !private ["So9NSCopyingP", "CoreImage"]
+- ["So9NSCopyingP", "Data"]
+- !private ["So9NSCopyingP", "Int"]
+- !private ["So9NSCopyingP", "NSBitmapImageRep"]
+- !private ["So9NSCopyingP", "NSCIImageRep"]
+- ["So9NSCopyingP", "NSColor"]
+- !private ["So9NSCopyingP", "NSCompositingOperation"]
+- !private ["So9NSCopyingP", "NSGraphicsContext"]
+- ["So9NSCopyingP", "NSImage"]
+- !private ["So9NSCopyingP", "NSRect"]
+- !private ["So9NSCopyingP", "Swift"]
+- !private ["So9NSCopyingP", "addRepresentation"]
+- !private ["So9NSCopyingP", "autoreleasepool"]
+- ["So9NSCopyingP", "cgImage"]
+- ["So9NSCopyingP", "ciImage"]
+- !private ["So9NSCopyingP", "draw"]
+- !private ["So9NSCopyingP", "drawSwatch"]
+- ["So9NSCopyingP", "image"]
+- !private ["So9NSCopyingP", "imageRepWithCIImage"]
+- !private ["So9NSCopyingP", "imageRepWithData"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lockFocus"]
+- ["So9NSCopyingP", "pngData"]
+- !private ["So9NSCopyingP", "representation"]
+- !private ["So9NSCopyingP", "representationUsingType"]
+- ["So9NSCopyingP", "resize"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So9NSCopyingP", "tiffRepresentation"]
+- !private ["So9NSCopyingP", "unlockFocus"]
+- !private ["So17NSGraphicsContextC", "current"]
+- !private ["So17NSGraphicsContextC", "init"]
+- !private ["So17NSGraphicsContextC", "restoreGraphicsState"]
+- !private ["So17NSGraphicsContextC", "saveGraphicsState"]
+- ["So7NSImageC", "CGFloat"]
+- ["So7NSImageC", "CGImage"]
+- ["So7NSImageC", "CGSize"]
+- ["So7NSImageC", "CIImage"]
+- !private ["So7NSImageC", "CoreImage"]
+- ["So7NSImageC", "Data"]
+- !private ["So7NSImageC", "Int"]
+- !private ["So7NSImageC", "NSBitmapImageRep"]
+- !private ["So7NSImageC", "NSCIImageRep"]
+- ["So7NSImageC", "NSColor"]
+- !private ["So7NSImageC", "NSCompositingOperation"]
+- !private ["So7NSImageC", "NSGraphicsContext"]
+- ["So7NSImageC", "NSImage"]
+- !private ["So7NSImageC", "NSRect"]
+- !private ["So7NSImageC", "Swift"]
+- ["So7NSImageC", ""]
+- !private ["So7NSImageC", "addRepresentation"]
+- !private ["So7NSImageC", "autoreleasepool"]
+- ["So7NSImageC", "cgImage"]
+- ["So7NSImageC", "ciImage"]
+- !private ["So7NSImageC", "draw"]
+- ["So7NSImageC", "image"]
+- ["So7NSImageC", "init"]
+- !private ["So7NSImageC", "lockFocus"]
+- ["So7NSImageC", "pngData"]
+- ["So7NSImageC", "resize"]
+- !private ["So7NSImageC", "tiffRepresentation"]
+- !private ["So7NSImageC", "unlockFocus"]
+- ["So10NSImageRepC", ""]
+- !private ["So10NSImageRepC", "imageRepWithCIImage"]
+- !private ["So10NSImageRepC", "imageRepWithData"]
+- !private ["So10NSImageRepC", "init"]
+- !private ["So10NSImageRepC", "representation"]
+- !private ["So10NSImageRepC", "representationUsingType"]
+- !private ["So10NSImageRepC", "size"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGImage"]
+- ["So8NSObjectC", "CGImageForProposedRect"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "CIImage"]
+- !private ["So8NSObjectC", "CoreImage"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSBitmapImageRep"]
+- !private ["So8NSObjectC", "NSCIImageRep"]
+- ["So8NSObjectC", "NSColor"]
+- !private ["So8NSObjectC", "NSCompositingOperation"]
+- !private ["So8NSObjectC", "NSGraphicsContext"]
+- ["So8NSObjectC", "NSImage"]
+- !private ["So8NSObjectC", "NSRect"]
+- !private ["So8NSObjectC", "Swift"]
+- !private ["So8NSObjectC", "TIFFRepresentationUsingCompression"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addRepresentation"]
+- !private ["So8NSObjectC", "autoreleasepool"]
+- ["So8NSObjectC", "cgImage"]
+- ["So8NSObjectC", "ciImage"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "draw"]
+- !private ["So8NSObjectC", "drawAtPoint"]
+- !private ["So8NSObjectC", "drawInRect"]
+- !private ["So8NSObjectC", "drawSwatch"]
+- !private ["So8NSObjectC", "drawSwatchInRect"]
+- !private ["So8NSObjectC", "graphicsContextWithAttributes"]
+- !private ["So8NSObjectC", "graphicsContextWithBitmapImageRep"]
+- !private ["So8NSObjectC", "graphicsContextWithCGContext"]
+- !private ["So8NSObjectC", "graphicsContextWithGraphicsPort"]
+- !private ["So8NSObjectC", "graphicsContextWithWindow"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageRepWithCIImage"]
+- !private ["So8NSObjectC", "imageRepWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageRepWithContentsOfURL"]
+- !private ["So8NSObjectC", "imageRepWithData"]
+- !private ["So8NSObjectC", "imageRepWithPasteboard"]
+- !private ["So8NSObjectC", "imageWithBitmapData"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCGImageSource"]
+- !private ["So8NSObjectC", "imageWithCGLayer"]
+- !private ["So8NSObjectC", "imageWithCVImageBuffer"]
+- !private ["So8NSObjectC", "imageWithCVPixelBuffer"]
+- !private ["So8NSObjectC", "imageWithColor"]
+- !private ["So8NSObjectC", "imageWithContentsOfURL"]
+- !private ["So8NSObjectC", "imageWithData"]
+- !private ["So8NSObjectC", "imageWithIOSurface"]
+- !private ["So8NSObjectC", "imageWithImageProvider"]
+- !private ["So8NSObjectC", "imageWithMTLTexture"]
+- ["So8NSObjectC", "imageWithSize"]
+- ["So8NSObjectC", "imageWithSystemSymbolName"]
+- !private ["So8NSObjectC", "imageWithTexture"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lockFocus"]
+- !private ["So8NSObjectC", "lockFocusOnRepresentation"]
+- ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "representation"]
+- !private ["So8NSObjectC", "representationUsingType"]
+- ["So8NSObjectC", "resize"]
+- !private ["So8NSObjectC", "restoreGraphicsState"]
+- !private ["So8NSObjectC", "saveGraphicsState"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "tiffRepresentation"]
+- !private ["So8NSObjectC", "unlockFocus"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "CGImage"]
+- ["So8NSObjectP", "CGImageForProposedRect"]
+- ["So8NSObjectP", "CGSize"]
+- ["So8NSObjectP", "CIImage"]
+- !private ["So8NSObjectP", "CoreImage"]
+- ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSBitmapImageRep"]
+- !private ["So8NSObjectP", "NSCIImageRep"]
+- ["So8NSObjectP", "NSColor"]
+- !private ["So8NSObjectP", "NSCompositingOperation"]
+- !private ["So8NSObjectP", "NSGraphicsContext"]
+- ["So8NSObjectP", "NSImage"]
+- !private ["So8NSObjectP", "NSRect"]
+- !private ["So8NSObjectP", "Swift"]
+- !private ["So8NSObjectP", "TIFFRepresentationUsingCompression"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addRepresentation"]
+- !private ["So8NSObjectP", "autoreleasepool"]
+- ["So8NSObjectP", "cgImage"]
+- ["So8NSObjectP", "ciImage"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "draw"]
+- !private ["So8NSObjectP", "drawAtPoint"]
+- !private ["So8NSObjectP", "drawInRect"]
+- !private ["So8NSObjectP", "drawSwatch"]
+- !private ["So8NSObjectP", "drawSwatchInRect"]
+- !private ["So8NSObjectP", "graphicsContextWithAttributes"]
+- !private ["So8NSObjectP", "graphicsContextWithBitmapImageRep"]
+- !private ["So8NSObjectP", "graphicsContextWithCGContext"]
+- !private ["So8NSObjectP", "graphicsContextWithGraphicsPort"]
+- !private ["So8NSObjectP", "graphicsContextWithWindow"]
+- ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageRepWithCIImage"]
+- !private ["So8NSObjectP", "imageRepWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageRepWithContentsOfURL"]
+- !private ["So8NSObjectP", "imageRepWithData"]
+- !private ["So8NSObjectP", "imageRepWithPasteboard"]
+- !private ["So8NSObjectP", "imageWithBitmapData"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCGImageSource"]
+- !private ["So8NSObjectP", "imageWithCGLayer"]
+- !private ["So8NSObjectP", "imageWithCVImageBuffer"]
+- !private ["So8NSObjectP", "imageWithCVPixelBuffer"]
+- !private ["So8NSObjectP", "imageWithColor"]
+- !private ["So8NSObjectP", "imageWithContentsOfURL"]
+- !private ["So8NSObjectP", "imageWithData"]
+- !private ["So8NSObjectP", "imageWithIOSurface"]
+- !private ["So8NSObjectP", "imageWithImageProvider"]
+- !private ["So8NSObjectP", "imageWithMTLTexture"]
+- ["So8NSObjectP", "imageWithSize"]
+- ["So8NSObjectP", "imageWithSystemSymbolName"]
+- !private ["So8NSObjectP", "imageWithTexture"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lockFocus"]
+- !private ["So8NSObjectP", "lockFocusOnRepresentation"]
+- ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "representation"]
+- !private ["So8NSObjectP", "representationUsingType"]
+- ["So8NSObjectP", "resize"]
+- !private ["So8NSObjectP", "restoreGraphicsState"]
+- !private ["So8NSObjectP", "saveGraphicsState"]
+- !private ["So8NSObjectP", "size"]
+- !private ["So8NSObjectP", "tiffRepresentation"]
+- !private ["So8NSObjectP", "unlockFocus"]
+- ["So19NSPasteboardReadingP", "CGFloat"]
+- ["So19NSPasteboardReadingP", "CGImage"]
+- ["So19NSPasteboardReadingP", "CGSize"]
+- ["So19NSPasteboardReadingP", "CIImage"]
+- !private ["So19NSPasteboardReadingP", "CoreImage"]
+- ["So19NSPasteboardReadingP", "Data"]
+- !private ["So19NSPasteboardReadingP", "Int"]
+- !private ["So19NSPasteboardReadingP", "NSBitmapImageRep"]
+- !private ["So19NSPasteboardReadingP", "NSCIImageRep"]
+- ["So19NSPasteboardReadingP", "NSColor"]
+- !private ["So19NSPasteboardReadingP", "NSCompositingOperation"]
+- !private ["So19NSPasteboardReadingP", "NSGraphicsContext"]
+- ["So19NSPasteboardReadingP", "NSImage"]
+- !private ["So19NSPasteboardReadingP", "NSRect"]
+- !private ["So19NSPasteboardReadingP", "Swift"]
+- !private ["So19NSPasteboardReadingP", "addRepresentation"]
+- !private ["So19NSPasteboardReadingP", "autoreleasepool"]
+- ["So19NSPasteboardReadingP", "cgImage"]
+- ["So19NSPasteboardReadingP", "ciImage"]
+- !private ["So19NSPasteboardReadingP", "draw"]
+- !private ["So19NSPasteboardReadingP", "drawSwatch"]
+- ["So19NSPasteboardReadingP", "image"]
+- ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "lockFocus"]
+- ["So19NSPasteboardReadingP", "pngData"]
+- ["So19NSPasteboardReadingP", "resize"]
+- !private ["So19NSPasteboardReadingP", "tiffRepresentation"]
+- !private ["So19NSPasteboardReadingP", "unlockFocus"]
+- ["So19NSPasteboardWritingP", "CGFloat"]
+- ["So19NSPasteboardWritingP", "CGImage"]
+- ["So19NSPasteboardWritingP", "CGSize"]
+- ["So19NSPasteboardWritingP", "CIImage"]
+- !private ["So19NSPasteboardWritingP", "CoreImage"]
+- ["So19NSPasteboardWritingP", "Data"]
+- !private ["So19NSPasteboardWritingP", "Int"]
+- !private ["So19NSPasteboardWritingP", "NSBitmapImageRep"]
+- !private ["So19NSPasteboardWritingP", "NSCIImageRep"]
+- ["So19NSPasteboardWritingP", "NSColor"]
+- !private ["So19NSPasteboardWritingP", "NSCompositingOperation"]
+- !private ["So19NSPasteboardWritingP", "NSGraphicsContext"]
+- ["So19NSPasteboardWritingP", "NSImage"]
+- !private ["So19NSPasteboardWritingP", "NSRect"]
+- !private ["So19NSPasteboardWritingP", "Swift"]
+- !private ["So19NSPasteboardWritingP", "addRepresentation"]
+- !private ["So19NSPasteboardWritingP", "autoreleasepool"]
+- ["So19NSPasteboardWritingP", "cgImage"]
+- ["So19NSPasteboardWritingP", "ciImage"]
+- !private ["So19NSPasteboardWritingP", "draw"]
+- !private ["So19NSPasteboardWritingP", "drawSwatch"]
+- ["So19NSPasteboardWritingP", "image"]
+- ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "lockFocus"]
+- ["So19NSPasteboardWritingP", "pngData"]
+- ["So19NSPasteboardWritingP", "resize"]
+- !private ["So19NSPasteboardWritingP", "tiffRepresentation"]
+- !private ["So19NSPasteboardWritingP", "unlockFocus"]
+- ["So14NSSecureCodingP", "CGFloat"]
+- ["So14NSSecureCodingP", "CGImage"]
+- ["So14NSSecureCodingP", "CGSize"]
+- ["So14NSSecureCodingP", "CIImage"]
+- !private ["So14NSSecureCodingP", "CoreImage"]
+- ["So14NSSecureCodingP", "Data"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "NSBitmapImageRep"]
+- !private ["So14NSSecureCodingP", "NSCIImageRep"]
+- ["So14NSSecureCodingP", "NSColor"]
+- !private ["So14NSSecureCodingP", "NSCompositingOperation"]
+- !private ["So14NSSecureCodingP", "NSGraphicsContext"]
+- ["So14NSSecureCodingP", "NSImage"]
+- !private ["So14NSSecureCodingP", "NSRect"]
+- !private ["So14NSSecureCodingP", "Swift"]
+- !private ["So14NSSecureCodingP", "addRepresentation"]
+- !private ["So14NSSecureCodingP", "autoreleasepool"]
+- ["So14NSSecureCodingP", "cgImage"]
+- ["So14NSSecureCodingP", "ciImage"]
+- !private ["So14NSSecureCodingP", "draw"]
+- !private ["So14NSSecureCodingP", "drawSwatch"]
+- ["So14NSSecureCodingP", "image"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lockFocus"]
+- ["So14NSSecureCodingP", "pngData"]
+- !private ["So14NSSecureCodingP", "representation"]
+- ["So14NSSecureCodingP", "resize"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So14NSSecureCodingP", "tiffRepresentation"]
+- !private ["So14NSSecureCodingP", "unlockFocus"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "init"]
+- !private ["SY", ""]
+- !private ["SY", "calibratedRGB"]
+- !private ["SY", "copy"]
+- !private ["SY", "png"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", ""]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "drawSwatch"]
+- !private ["s26_ExpressibleByImageLiteralP", "Int"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSBitmapImageRep"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSCompositingOperation"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSGraphicsContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "Swift"]
+- !private ["s26_ExpressibleByImageLiteralP", "addRepresentation"]
+- !private ["s26_ExpressibleByImageLiteralP", "autoreleasepool"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "draw"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "lockFocus"]
+- !private ["s26_ExpressibleByImageLiteralP", "tiffRepresentation"]
+- !private ["s26_ExpressibleByImageLiteralP", "unlockFocus"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "calibratedRGB"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSBitmapImageRep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSCompositingOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSGraphicsContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Swift"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoreleasepool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawSwatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockFocus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "representation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restoreGraphicsState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveGraphicsState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tiffRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockFocus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSBitmapImageRep"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSCompositingOperation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSGraphicsContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Swift"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addRepresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "autoreleasepool"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "draw"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "drawSwatch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lockFocus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "representation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restoreGraphicsState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveGraphicsState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "size"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tiffRepresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlockFocus"]
+- !private ["s21_ObjectiveCBridgeableP", "calibratedRGB"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s20_SwiftNewtypeWrapperP", "calibratedRGB"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "Sz"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "So7CIImageC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So21NSBitmapImageFileTypeV"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- !private "So11MTLResourceP"
+- !private "s10MirrorPathP"
+- !private "So16NSBitmapImageRepC"
+- !private "So12NSCIImageRepC"
+- "So8NSCodingP"
+- !private "So7NSColorC"
+- !private "So16NSColorSpaceNamea"
+- !private "So22NSCompositingOperationV"
+- "So9NSCopyingP"
+- !private "So17NSGraphicsContextC"
+- "So7NSImageC"
+- "So10NSImageRepC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/JSONSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ImageSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FileSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FlowLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c08c2be37ead7bf41eef0866d1706485"

@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 internal class UIColorParser {
@@ -13,3 +14,5 @@ internal class UIColorParser {
       return uiColor
    }
 }
+
+#endif

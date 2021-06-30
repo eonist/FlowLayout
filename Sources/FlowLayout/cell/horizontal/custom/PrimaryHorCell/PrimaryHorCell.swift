@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 /**
@@ -19,3 +20,5 @@ final class PrimaryHorCell: HorCell {
       }
    }
 }
+
+#endif

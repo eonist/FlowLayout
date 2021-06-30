@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * - Abstract: the Horisontal view holds the collectionView for the vertical cells
@@ -26,3 +27,5 @@ open class HorView: UIView, UICollectionViewDataSource, UICollectionViewDelegate
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

@@ -1,0 +1,22 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.CommonCell-debug.module" : "CommonCell",
+    "C.FileSugar-debug.module" : "FileSugar",
+    "C.FlowLayout-debug.module" : "FlowLayout",
+    "C.ImageSugar-debug.module" : "ImageSugar",
+    "C.JSONSugar-debug.module" : "JSONSugar",
+    "C.NetworkSugar-debug.module" : "NetworkSugar",
+    "C.ReusableCell-debug.module" : "ReusableCell",
+    "C.Spatial-debug.module" : "Spatial",
+    "C.With-debug.module" : "With"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

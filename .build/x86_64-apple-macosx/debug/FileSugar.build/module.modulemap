@@ -1,0 +1,4 @@
+module FileSugar {
+    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FileSugar.build/FileSugar-Swift.h"
+    requires objc
+}

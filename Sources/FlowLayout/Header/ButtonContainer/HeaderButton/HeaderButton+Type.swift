@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * Type
@@ -5,3 +6,5 @@ import Foundation
 extension HeaderButton {
    typealias OnTap = () -> Void
 }
+
+#endif

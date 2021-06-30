@@ -1,9 +1,10 @@
+#if os(iOS)
 import UIKit
 import Spatial
 /**
  * - Abstract: The topBar slider that indicates where you are horizontally
  */
-class Slider: UIView {
+final class Slider: UIView {
    lazy var sliderBar: SliderBar = createSliderBar()
    let segmentCount: Int
    let idx: Int
@@ -25,3 +26,5 @@ class Slider: UIView {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

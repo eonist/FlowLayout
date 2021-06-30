@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 import Spatial
@@ -31,3 +32,5 @@ class HorCell: UICollectionViewCell, ReusableCellKind {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

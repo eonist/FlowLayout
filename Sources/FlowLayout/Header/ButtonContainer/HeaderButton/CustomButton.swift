@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import Spatial
 import With
@@ -20,3 +21,5 @@ class CustomButton: UIButton, ConstraintKind {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

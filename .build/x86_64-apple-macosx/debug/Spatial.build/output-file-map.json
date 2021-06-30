@@ -1,0 +1,179 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/master.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Align.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Align.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Align.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Align~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Align.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/AlignType/AlignType+Extension.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType+Extension.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType+Extension.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType+Extension.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/AlignType/AlignType.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/AlignType/AlignType.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Alignment/Alignment+Extension.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment+Extension.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment+Extension.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment+Extension.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Alignment/Alignment.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Alignment/Alignment.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Axis/Axis.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/Axis.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/Axis.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/Axis~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/Axis.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Axis/AxisType.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/AxisType.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/AxisType.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/AxisType~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/AxisType.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Axis/HorizontalAlign.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/HorizontalAlign.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/HorizontalAlign.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/HorizontalAlign~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/HorizontalAlign.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Align/Axis/VerticalAlign.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/VerticalAlign.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/VerticalAlign.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/VerticalAlign~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Align/Axis/VerticalAlign.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Access+Bulk.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access+Bulk.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access+Bulk.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access+Bulk~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access+Bulk.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Access.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Access.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Activate+Bulk.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate+Bulk.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate+Bulk.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate+Bulk~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate+Bulk.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Activate.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Activate.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Anchor.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Anchor.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Anchor.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Anchor~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Anchor.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Distribution.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Distribution.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Distribution.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Distribution~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Distribution.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+Size.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Size.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Size.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Size~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+Size.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/Constraint/Constraint+TypeAlias.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+TypeAlias.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+TypeAlias.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+TypeAlias~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/Constraint/Constraint+TypeAlias.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/Animate/ConstraintKind+Animate.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Animate.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Animate.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Animate~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Animate.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/Animate/ConstraintKind+Update.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Update.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Update.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Update~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/Animate/ConstraintKind+Update.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+Access.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Access.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Access.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Access~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Access.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+Apply.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Apply.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Apply.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Apply~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Apply.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+Bulk+Access.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk+Access.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk+Access.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk+Access~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk+Access.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+Bulk.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+Bulk.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+SpaceAround.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceAround.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceAround.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceAround~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceAround.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+SpaceBetween.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceBetween.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceBetween.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceBetween~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+SpaceBetween.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind+TypeAlias.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+TypeAlias.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+TypeAlias.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+TypeAlias~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind+TypeAlias.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintKind.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintKind.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/ConstraintKind/ConstraintView/ConstraintView.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintView/ConstraintView.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintView/ConstraintView.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintView/ConstraintView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/ConstraintKind/ConstraintView/ConstraintView.swiftdeps"
+  },
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/Spatial/Sources/Spatial/common/Hybrid.swift": {
+    "dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/common/Hybrid.d",
+    "object": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/common/Hybrid.swift.o",
+    "swiftmodule": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/common/Hybrid~partial.swiftmodule",
+    "swift-dependencies": "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/common/Hybrid.swiftdeps"
+  }
+}

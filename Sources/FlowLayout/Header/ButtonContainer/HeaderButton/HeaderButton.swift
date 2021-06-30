@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  *  headerButton
@@ -15,3 +16,5 @@ final class HeaderButton: CustomButton {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

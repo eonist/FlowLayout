@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 import Spatial
@@ -21,3 +22,5 @@ class ButtonContainer: UIView {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

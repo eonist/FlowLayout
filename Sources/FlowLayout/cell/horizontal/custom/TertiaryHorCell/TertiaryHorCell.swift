@@ -1,9 +1,10 @@
+#if os(iOS)
 import UIKit
 
 final class TertiaryHorCell: HorCell {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
+   override init(frame: CGRect) {
+      super.init(frame: frame)
+   }
 }
 /**
  * Const
@@ -11,3 +12,5 @@ final class TertiaryHorCell: HorCell {
 extension TertiaryHorCell {
    @objc override class var id: String { "\(TertiaryHorCell.self)" }
 }
+
+#endif

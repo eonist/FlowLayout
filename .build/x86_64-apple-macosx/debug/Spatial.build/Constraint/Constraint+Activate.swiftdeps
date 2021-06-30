@@ -1,0 +1,364 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6NSViewC", ""]
+- ["So6NSViewC", "activateConstraints"]
+- ["So6NSViewC", "activateConstraint"]
+- ["So6NSViewC", "activateAnchorAndSize"]
+- ["So6NSViewC", "activateAnchor"]
+- ["So6NSViewC", "activateSize"]
+provides-dynamic-lookup:
+- "activateAnchor"
+- "activateAnchorAndSize"
+- "activateConstraint"
+- "activateConstraints"
+- "activateSize"
+depends-top-level:
+- "AnchorAndSize"
+- "AnchorAndSizeClosure"
+- "AnchorClosure"
+- "AnchorConstraint"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ConstraintClosure"
+- "ConstraintsClosure"
+- "NSLayoutConstraint"
+- "SizeClosure"
+- "SizeConstraint"
+- "View"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "NSLayoutConstraint"]
+- ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- !private ["SH", "NSLayoutConstraint"]
+- ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So22NSAccessibilityElementP", "AnchorAndSizeClosure"]
+- ["So22NSAccessibilityElementP", "AnchorClosure"]
+- ["So22NSAccessibilityElementP", "ConstraintClosure"]
+- ["So22NSAccessibilityElementP", "ConstraintsClosure"]
+- !private ["So22NSAccessibilityElementP", "NSLayoutConstraint"]
+- ["So22NSAccessibilityElementP", "SizeClosure"]
+- ["So22NSAccessibilityElementP", "activateAnchor"]
+- ["So22NSAccessibilityElementP", "activateAnchorAndSize"]
+- ["So22NSAccessibilityElementP", "activateConstraint"]
+- ["So22NSAccessibilityElementP", "activateConstraints"]
+- ["So22NSAccessibilityElementP", "activateSize"]
+- !private ["So22NSAccessibilityElementP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15NSAccessibilityP", "AnchorAndSizeClosure"]
+- ["So15NSAccessibilityP", "AnchorClosure"]
+- ["So15NSAccessibilityP", "ConstraintClosure"]
+- ["So15NSAccessibilityP", "ConstraintsClosure"]
+- !private ["So15NSAccessibilityP", "NSLayoutConstraint"]
+- ["So15NSAccessibilityP", "SizeClosure"]
+- ["So15NSAccessibilityP", "activateAnchor"]
+- ["So15NSAccessibilityP", "activateAnchorAndSize"]
+- ["So15NSAccessibilityP", "activateConstraint"]
+- ["So15NSAccessibilityP", "activateConstraints"]
+- ["So15NSAccessibilityP", "activateSize"]
+- !private ["So15NSAccessibilityP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29NSAnimatablePropertyContainerP", "AnchorAndSizeClosure"]
+- ["So29NSAnimatablePropertyContainerP", "AnchorClosure"]
+- ["So29NSAnimatablePropertyContainerP", "ConstraintClosure"]
+- ["So29NSAnimatablePropertyContainerP", "ConstraintsClosure"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSLayoutConstraint"]
+- ["So29NSAnimatablePropertyContainerP", "SizeClosure"]
+- !private ["So29NSAnimatablePropertyContainerP", "activate"]
+- ["So29NSAnimatablePropertyContainerP", "activateAnchor"]
+- ["So29NSAnimatablePropertyContainerP", "activateAnchorAndSize"]
+- ["So29NSAnimatablePropertyContainerP", "activateConstraint"]
+- ["So29NSAnimatablePropertyContainerP", "activateConstraints"]
+- ["So29NSAnimatablePropertyContainerP", "activateSize"]
+- !private ["So29NSAnimatablePropertyContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So25NSAppearanceCustomizationP", "AnchorAndSizeClosure"]
+- ["So25NSAppearanceCustomizationP", "AnchorClosure"]
+- ["So25NSAppearanceCustomizationP", "ConstraintClosure"]
+- ["So25NSAppearanceCustomizationP", "ConstraintsClosure"]
+- !private ["So25NSAppearanceCustomizationP", "NSLayoutConstraint"]
+- ["So25NSAppearanceCustomizationP", "SizeClosure"]
+- ["So25NSAppearanceCustomizationP", "activateAnchor"]
+- ["So25NSAppearanceCustomizationP", "activateAnchorAndSize"]
+- ["So25NSAppearanceCustomizationP", "activateConstraint"]
+- ["So25NSAppearanceCustomizationP", "activateConstraints"]
+- ["So25NSAppearanceCustomizationP", "activateSize"]
+- !private ["So25NSAppearanceCustomizationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSCodingP", "AnchorAndSizeClosure"]
+- ["So8NSCodingP", "AnchorClosure"]
+- ["So8NSCodingP", "ConstraintClosure"]
+- ["So8NSCodingP", "ConstraintsClosure"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "SizeClosure"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "activateAnchor"]
+- ["So8NSCodingP", "activateAnchorAndSize"]
+- ["So8NSCodingP", "activateConstraint"]
+- ["So8NSCodingP", "activateConstraints"]
+- ["So8NSCodingP", "activateSize"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21NSDraggingDestinationP", "AnchorAndSizeClosure"]
+- ["So21NSDraggingDestinationP", "AnchorClosure"]
+- ["So21NSDraggingDestinationP", "ConstraintClosure"]
+- ["So21NSDraggingDestinationP", "ConstraintsClosure"]
+- !private ["So21NSDraggingDestinationP", "NSLayoutConstraint"]
+- ["So21NSDraggingDestinationP", "SizeClosure"]
+- ["So21NSDraggingDestinationP", "activateAnchor"]
+- ["So21NSDraggingDestinationP", "activateAnchorAndSize"]
+- ["So21NSDraggingDestinationP", "activateConstraint"]
+- ["So21NSDraggingDestinationP", "activateConstraints"]
+- ["So21NSDraggingDestinationP", "activateSize"]
+- !private ["So21NSDraggingDestinationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So8NSObjectC", "AnchorAndSize"]
+- ["So8NSObjectC", "AnchorAndSizeClosure"]
+- ["So8NSObjectC", "AnchorClosure"]
+- !private ["So8NSObjectC", "AnchorConstraint"]
+- ["So8NSObjectC", "ConstraintClosure"]
+- ["So8NSObjectC", "ConstraintsClosure"]
+- !private ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "SizeClosure"]
+- !private ["So8NSObjectC", "SizeConstraint"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "activateAnchor"]
+- ["So8NSObjectC", "activateAnchorAndSize"]
+- ["So8NSObjectC", "activateConstraint"]
+- ["So8NSObjectC", "activateConstraints"]
+- ["So8NSObjectC", "activateSize"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectP", "AnchorAndSizeClosure"]
+- ["So8NSObjectP", "AnchorClosure"]
+- ["So8NSObjectP", "ConstraintClosure"]
+- ["So8NSObjectP", "ConstraintsClosure"]
+- !private ["So8NSObjectP", "NSLayoutConstraint"]
+- ["So8NSObjectP", "SizeClosure"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "activateAnchor"]
+- ["So8NSObjectP", "activateAnchorAndSize"]
+- ["So8NSObjectP", "activateConstraint"]
+- ["So8NSObjectP", "activateConstraints"]
+- ["So8NSObjectP", "activateSize"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11NSResponderC", "AnchorAndSize"]
+- ["So11NSResponderC", "AnchorAndSizeClosure"]
+- ["So11NSResponderC", "AnchorClosure"]
+- !private ["So11NSResponderC", "AnchorConstraint"]
+- ["So11NSResponderC", "ConstraintClosure"]
+- ["So11NSResponderC", "ConstraintsClosure"]
+- !private ["So11NSResponderC", "NSLayoutConstraint"]
+- ["So11NSResponderC", "SizeClosure"]
+- !private ["So11NSResponderC", "SizeConstraint"]
+- ["So11NSResponderC", ""]
+- ["So11NSResponderC", "activateAnchor"]
+- ["So11NSResponderC", "activateAnchorAndSize"]
+- ["So11NSResponderC", "activateConstraint"]
+- ["So11NSResponderC", "activateConstraints"]
+- ["So11NSResponderC", "activateSize"]
+- !private ["So11NSResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30NSStandardKeyBindingRespondingP", "AnchorAndSizeClosure"]
+- ["So30NSStandardKeyBindingRespondingP", "AnchorClosure"]
+- ["So30NSStandardKeyBindingRespondingP", "ConstraintClosure"]
+- ["So30NSStandardKeyBindingRespondingP", "ConstraintsClosure"]
+- !private ["So30NSStandardKeyBindingRespondingP", "NSLayoutConstraint"]
+- ["So30NSStandardKeyBindingRespondingP", "SizeClosure"]
+- !private ["So30NSStandardKeyBindingRespondingP", ""]
+- ["So30NSStandardKeyBindingRespondingP", "activateAnchor"]
+- ["So30NSStandardKeyBindingRespondingP", "activateAnchorAndSize"]
+- ["So30NSStandardKeyBindingRespondingP", "activateConstraint"]
+- ["So30NSStandardKeyBindingRespondingP", "activateConstraints"]
+- ["So30NSStandardKeyBindingRespondingP", "activateSize"]
+- !private ["So30NSStandardKeyBindingRespondingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18NSTouchBarProviderP", "AnchorAndSizeClosure"]
+- ["So18NSTouchBarProviderP", "AnchorClosure"]
+- ["So18NSTouchBarProviderP", "ConstraintClosure"]
+- ["So18NSTouchBarProviderP", "ConstraintsClosure"]
+- !private ["So18NSTouchBarProviderP", "NSLayoutConstraint"]
+- ["So18NSTouchBarProviderP", "SizeClosure"]
+- !private ["So18NSTouchBarProviderP", ""]
+- ["So18NSTouchBarProviderP", "activateAnchor"]
+- ["So18NSTouchBarProviderP", "activateAnchorAndSize"]
+- ["So18NSTouchBarProviderP", "activateConstraint"]
+- ["So18NSTouchBarProviderP", "activateConstraints"]
+- ["So18NSTouchBarProviderP", "activateSize"]
+- !private ["So18NSTouchBarProviderP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So23NSUserActivityRestoringP", "AnchorAndSizeClosure"]
+- ["So23NSUserActivityRestoringP", "AnchorClosure"]
+- ["So23NSUserActivityRestoringP", "ConstraintClosure"]
+- ["So23NSUserActivityRestoringP", "ConstraintsClosure"]
+- !private ["So23NSUserActivityRestoringP", "NSLayoutConstraint"]
+- ["So23NSUserActivityRestoringP", "SizeClosure"]
+- !private ["So23NSUserActivityRestoringP", ""]
+- ["So23NSUserActivityRestoringP", "activateAnchor"]
+- ["So23NSUserActivityRestoringP", "activateAnchorAndSize"]
+- ["So23NSUserActivityRestoringP", "activateConstraint"]
+- ["So23NSUserActivityRestoringP", "activateConstraints"]
+- ["So23NSUserActivityRestoringP", "activateSize"]
+- !private ["So23NSUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So33NSUserInterfaceItemIdentificationP", "AnchorAndSizeClosure"]
+- ["So33NSUserInterfaceItemIdentificationP", "AnchorClosure"]
+- ["So33NSUserInterfaceItemIdentificationP", "ConstraintClosure"]
+- ["So33NSUserInterfaceItemIdentificationP", "ConstraintsClosure"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSLayoutConstraint"]
+- ["So33NSUserInterfaceItemIdentificationP", "SizeClosure"]
+- ["So33NSUserInterfaceItemIdentificationP", "activateAnchor"]
+- ["So33NSUserInterfaceItemIdentificationP", "activateAnchorAndSize"]
+- ["So33NSUserInterfaceItemIdentificationP", "activateConstraint"]
+- ["So33NSUserInterfaceItemIdentificationP", "activateConstraints"]
+- ["So33NSUserInterfaceItemIdentificationP", "activateSize"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6NSViewC", "AnchorAndSize"]
+- ["So6NSViewC", "AnchorAndSizeClosure"]
+- ["So6NSViewC", "AnchorClosure"]
+- !private ["So6NSViewC", "AnchorConstraint"]
+- ["So6NSViewC", "ConstraintClosure"]
+- ["So6NSViewC", "ConstraintsClosure"]
+- !private ["So6NSViewC", "NSLayoutConstraint"]
+- ["So6NSViewC", "SizeClosure"]
+- !private ["So6NSViewC", "SizeConstraint"]
+- ["So6NSViewC", ""]
+- ["So6NSViewC", "activateAnchor"]
+- ["So6NSViewC", "activateAnchorAndSize"]
+- ["So6NSViewC", "activateConstraint"]
+- ["So6NSViewC", "activateConstraints"]
+- ["So6NSViewC", "activateSize"]
+- !private ["So6NSViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sj", ""]
+- ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So22NSAccessibilityElementP"
+- "So15NSAccessibilityP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- "So8NSCodingP"
+- "So21NSDraggingDestinationP"
+- !private "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSResponderC"
+- "So30NSStandardKeyBindingRespondingP"
+- "So18NSTouchBarProviderP"
+- "So23NSUserActivityRestoringP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So6NSViewC"
+- !private "Sj"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/JSONSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ImageSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FileSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FlowLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8c55d9a02a6c3559d14aa6f7fca8b059"

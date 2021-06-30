@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 /**
@@ -10,3 +11,5 @@ class PrimaryVerCell: VerCell {
       self.backgroundColor = .clear
    }
 }
+
+#endif

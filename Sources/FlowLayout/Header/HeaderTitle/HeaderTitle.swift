@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 final class HeaderTitle: UILabel {
@@ -15,3 +16,5 @@ final class HeaderTitle: UILabel {
       fatalError("init(coder:) has not been implemented")
    }
 }
+
+#endif

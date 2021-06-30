@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * CellType
@@ -12,3 +13,5 @@ enum ColumnCellType: String, CaseIterable {
 extension ColumnCellType {
    var idx: Int? { ColumnCellType.allCases.firstIndex(of: self) }
 }
+
+#endif

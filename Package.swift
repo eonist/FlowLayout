@@ -24,6 +24,6 @@ let package = Package(
     targets: [
         .target(
             name: "FlowLayout",
-            dependencies: ["CommonCell", "ImageSugar", "NetworkSugar", "JSONSugar"])
+            dependencies: ["CommonCell", "ImageSugar", "NetworkSugar", "JSONSugar", "With", "Spatial"])
     ]
 )

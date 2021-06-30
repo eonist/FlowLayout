@@ -1,3 +1,4 @@
+#if os(iOS)
 import QuartzCore
 
 extension HorView {
@@ -10,3 +11,5 @@ extension HorView {
       return .init(round(x / w))
    }
 }
+
+#endif

@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import ReusableCell
 /**
@@ -12,3 +13,5 @@ extension HorView {
       collectionView.register([PrimaryHorCell.self, SecondaryHorCell.self, TertiaryHorCell.self].map { $0 as HorCell.Type }) // Register Cells with ease
    }
 }
+
+#endif

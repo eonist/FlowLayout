@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 
 extension HorView {
@@ -19,3 +20,5 @@ extension HorView {
       collectionView.layoutIfNeeded() // ⚠️️ might not be needed
    }
 }
+
+#endif

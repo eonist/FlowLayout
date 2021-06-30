@@ -1,0 +1,4 @@
+module ImageSugar {
+    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ImageSugar.build/ImageSugar-Swift.h"
+    requires objc
+}

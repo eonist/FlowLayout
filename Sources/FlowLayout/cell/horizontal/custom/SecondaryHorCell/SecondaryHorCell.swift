@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 final class SecondaryHorCell: HorCell {
@@ -5,3 +6,5 @@ final class SecondaryHorCell: HorCell {
       super.init(frame: frame)
    }
 }
+
+#endif

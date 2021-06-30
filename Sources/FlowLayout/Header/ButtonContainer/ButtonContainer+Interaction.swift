@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Handler
@@ -12,3 +13,5 @@ extension ButtonContainer {
       }
    }
 }
+
+#endif

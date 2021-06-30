@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 import With
 /**
@@ -26,3 +27,5 @@ extension PrimaryVerCell {
       }
    }
 }
+
+#endif

@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * Callback signature
@@ -5,3 +6,5 @@ import Foundation
 extension ButtonContainer {
    typealias OnButtonTap = (_ buttonTitle: String) -> Void
 }
+
+#endif

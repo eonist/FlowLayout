@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Type
@@ -20,3 +21,5 @@ extension HorView {
    private static let headerButtonStyle: HeaderButtonStyle = (.white, .black, .boldSystemFont(ofSize: 16), .systemFont(ofSize: 16))
    private static let sliderStyle: SliderStyle = (.blue, .white)
 }
+
+#endif

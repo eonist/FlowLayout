@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Core
@@ -21,3 +22,5 @@ extension HorCell {
       return cell
    }
 }
+
+#endif

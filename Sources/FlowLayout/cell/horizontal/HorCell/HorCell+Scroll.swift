@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Scroll
@@ -12,3 +13,5 @@ extension HorCell {
       onScroll(scrollView.contentOffset.y)
    }
 }
+
+#endif

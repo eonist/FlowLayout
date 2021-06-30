@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Event
@@ -19,3 +20,5 @@ extension HorView {
       self.header.frame.origin.y = headerY // - Fixme: ⚠️️ rather use Autolayout to update this
    }
 }
+
+#endif

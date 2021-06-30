@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * Getter
@@ -7,3 +8,5 @@ extension PrimaryHorCell {
    var primaryCellData: PrimaryCellData? { data as? PrimaryCellData }
    override var count: Int { primaryCellData?.thumbURLS.count ?? 0 }
 }
+
+#endif

@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkParser"
+provides-nominal:
+- "12NetworkSugar0A6ParserC"
+provides-member:
+- ["12NetworkSugar0A6ParserC", ""]
+provides-dynamic-lookup:
+- "data"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Data"
+- "HTTPMethodType"
+- "NetworkError"
+- "NetworkParser"
+- "OnDataDownloadComplete"
+- "OnDataDownloadCompleted"
+- "String"
+- "URL"
+- "URLRequest"
+- "URLSession"
+- "URLSessionTask"
+- !private "data"
+- "defaultOnDataComplete"
+- "defaultOnDataCompleted"
+depends-member:
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "get"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "init"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "success"]
+- !private ["s5ErrorP", "dataIsNil"]
+- !private ["s5ErrorP", "errorGettingDataFromURL"]
+- !private ["s5ErrorP", "invalidWebPath"]
+- !private ["s5ErrorP", "responseIsNil"]
+- !private ["12NetworkSugar0A6ParserC14HTTPMethodTypeO", "RawValue"]
+- !private ["12NetworkSugar0A6ParserC14HTTPMethodTypeO", ""]
+- !private ["12NetworkSugar0A6ParserC14HTTPMethodTypeO", "get"]
+- !private ["12NetworkSugar0A6ParserC14HTTPMethodTypeO", "rawValue"]
+- !private ["SH", ""]
+- !private ["SH", "dataTask"]
+- !private ["SH", "failure"]
+- !private ["SH", "get"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "init"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "success"]
+- !private ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "resume"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "dataTaskWithRequest"]
+- !private ["So8NSObjectC", "dataTaskWithURL"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "dataTaskWithRequest"]
+- !private ["So8NSObjectP", "dataTaskWithURL"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- ["12NetworkSugar0A6ParserC0A5ErrorO", ""]
+- !private ["12NetworkSugar0A6ParserC0A5ErrorO", "dataIsNil"]
+- !private ["12NetworkSugar0A6ParserC0A5ErrorO", "errorGettingDataFromURL"]
+- !private ["12NetworkSugar0A6ParserC0A5ErrorO", "invalidWebPath"]
+- !private ["12NetworkSugar0A6ParserC0A5ErrorO", "responseIsNil"]
+- ["12NetworkSugar0A6ParserC", "Data"]
+- ["12NetworkSugar0A6ParserC", "HTTPMethodType"]
+- !private ["12NetworkSugar0A6ParserC", "NetworkError"]
+- ["12NetworkSugar0A6ParserC", "OnDataDownloadComplete"]
+- ["12NetworkSugar0A6ParserC", "OnDataDownloadCompleted"]
+- ["12NetworkSugar0A6ParserC", "String"]
+- ["12NetworkSugar0A6ParserC", "URL"]
+- ["12NetworkSugar0A6ParserC", "URLRequest"]
+- !private ["12NetworkSugar0A6ParserC", "URLSession"]
+- !private ["12NetworkSugar0A6ParserC", "URLSessionTask"]
+- ["12NetworkSugar0A6ParserC", "data"]
+- !private ["12NetworkSugar0A6ParserC", "defaultOnDataComplete"]
+- !private ["12NetworkSugar0A6ParserC", "defaultOnDataCompleted"]
+- ["12NetworkSugar0A6ParserC", "deinit"]
+- ["12NetworkSugar0A6ParserC", "init"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["SY", "get"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "12NetworkSugar0A6ParserC14HTTPMethodTypeO"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "12NetworkSugar0A6ParserC0A5ErrorO"
+- "12NetworkSugar0A6ParserC"
+- !private "So19NSProgressReportingP"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- "So16NSURLSessionTaskC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/Spatial.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ReusableCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/CommonCell.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/JSONSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/ImageSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FileSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/module.modulemap"
+- "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FlowLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "955ac8d0dd7112d2d1880c551a968f89"

@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Animation
@@ -17,3 +18,5 @@ extension Slider {
       }, onComplete: onComplete)
    }
 }
+
+#endif

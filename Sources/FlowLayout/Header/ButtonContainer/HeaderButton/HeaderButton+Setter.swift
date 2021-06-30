@@ -1,3 +1,4 @@
+#if os(iOS)
 import Foundation
 /**
  * Setter
@@ -16,3 +17,5 @@ extension HeaderButton {
       }
    }
 }
+
+#endif

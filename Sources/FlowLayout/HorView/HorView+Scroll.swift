@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 /**
  * Scrolling
@@ -23,3 +24,5 @@ extension HorView {
       header.slider.setProgress(progress: currentProgress) // Moves the slider left and right
    }
 }
+
+#endif

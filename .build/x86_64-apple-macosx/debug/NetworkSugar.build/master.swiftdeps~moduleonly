@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "9970e02537b67b3d452fc0c047ca1fe8"
+build_time: [1625092785, 91268000]
+inputs:
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/asserter/NetworkAsserter.swift": [1625092780, 616471880]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Data.swift": [1625092780, 616864680]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Default+Data.swift": [1625092780, 617111920]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Default+String.swift": [1625092780, 617300379]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Error.swift": [1625092780, 617496992]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+String.swift": [1625092780, 617745330]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/NetworkParser+Type.swift": [1625092780, 617959157]
+  "/Users/eon/Documents/dev/FlowLayout/.build/checkouts/NetworkSugar/Sources/NetworkSugar/parser/deprecated/DEPRECATED.swift": [1625092780, 618187446]
