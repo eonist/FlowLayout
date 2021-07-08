@@ -22,5 +22,4 @@ extension HorCell {
       return cell
    }
 }
-
 #endif

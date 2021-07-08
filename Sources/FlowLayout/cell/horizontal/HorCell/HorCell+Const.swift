@@ -9,5 +9,4 @@ extension HorCell {
    static let defaultOnItemSelect: OnItemSelect = { indexPath in Swift.print("indexPath: \(indexPath)") }
    static let defaultOnScroll: OnScroll = { _ in Swift.print("HorCell.scroll - no callback attached") }
 }
-
 #endif

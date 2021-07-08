@@ -9,7 +9,7 @@ open class Header: UIView {
    lazy var headerTitle: UILabel = self.createHeaderTitle()
    lazy var buttonContainer: ButtonContainer = self.createButtonContainer()
    lazy var slider: Slider = self.createSlider()
-   override public init(frame: CGRect) {
+   override public init(frame: CGRect = .zero) {
       super.init(frame: frame)
       self.backgroundColor = HorView.style.header.backgroundColor
       _ = createBackgroundFix()

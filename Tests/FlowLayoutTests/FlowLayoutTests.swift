@@ -5,5 +5,4 @@ final class FlowLayoutTests: XCTestCase {
     func testExample() {
         _ = {}()
     }
-
 }
