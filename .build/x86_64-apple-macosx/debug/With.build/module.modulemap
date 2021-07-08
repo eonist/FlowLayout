@@ -1,4 +1,0 @@
-module With {
-    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/With.build/With-Swift.h"
-    requires objc
-}

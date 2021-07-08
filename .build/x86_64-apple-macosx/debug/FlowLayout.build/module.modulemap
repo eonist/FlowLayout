@@ -1,4 +1,0 @@
-module FlowLayout {
-    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/FlowLayout.build/FlowLayout-Swift.h"
-    requires objc
-}

@@ -1,4 +1,0 @@
-module NetworkSugar {
-    header "/Users/eon/Documents/dev/FlowLayout/.build/x86_64-apple-macosx/debug/NetworkSugar.build/NetworkSugar-Swift.h"
-    requires objc
-}
