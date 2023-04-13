@@ -2,7 +2,7 @@
 ![Lang](https://img.shields.io/badge/Language-Swift%205.0-orange.svg)
 [![version badge](https://img.shields.io/badge/Version-1.0-blue.svg?longCache=true)](https://img.shields.io/badge/SDK-0.1-blue.svg?longCache=true) 
 ![platform](https://img.shields.io/badge/Platform-iOS_12.2-blue.svg)
-[![codebeat badge](https://codebeat.co/badges/260a8988-ffb0-4964-a917-b0a51ae8f0fa)](https://codebeat.co/projects/github-com-eonist-flowlayout-master)
+[![codebeat badge](https://codebeat.co/badges/8139ef2c-3fcb-449d-bfa0-190b99b6f6a0)](https://codebeat.co/projects/github-com-eonist-flowlayout-master)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift)
 [![codebeat badge](https://img.shields.io/badge/%235%20Producthunt-Aug--05--2018-red.svg)](https://www.producthunt.com/posts/flowlayout)
 [![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre) [![Tests](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml)
