@@ -7,6 +7,8 @@
 [![codebeat badge](https://img.shields.io/badge/%235%20Producthunt-Aug--05--2018-red.svg)](https://www.producthunt.com/posts/flowlayout)
 [![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre) [![Tests](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/FlowLayout/actions/workflows/Tests.yml)
 
+<a href="https://www.producthunt.com/posts/flowlayout?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flowlayout" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=132318&theme=dark" alt="FlowLayout - A&#0032;bi&#0045;directional&#0032;layout&#0032;framework&#0032;for&#0032;iOS | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 <img width="416" alt="img" src="https://rawgit.com/stylekit/img/master/short.gif">
 
 ### Description
