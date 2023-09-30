@@ -23,7 +23,7 @@ The idea is to give aspiring app developers a dead simple "vanilla" swift librar
 - Constraint animation 📐
 - Works on all iPhone/iPad models 📱
 - View based (no ViewController) 🖼
-- Vanilla swift 🍦🔸
+- Vanilla swift 🍦
 - 0% syntactic sugar 🍭
 - Mostly off the shelf components 🤯
 
